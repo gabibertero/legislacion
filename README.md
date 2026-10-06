@@ -12,6 +12,7 @@ Página para estudiar la **Unidad 1 (El Derecho)** para el parcial. No incluye *
 - **Parcial anterior**: las preguntas del último parcial con respuesta modelo y autocorrección por puntos clave.
 - **Simulacro**: opción múltiple con puntaje, o preguntas de desarrollo al azar estilo parcial.
 - Parcial y Simulacro tienen un temporizador de 60 minutos.
+- **IA**: en cada pregunta a desarrollar hay un botón "Corregir mi respuesta con IA" (te pone nota según el material). En cada tema del resumen, en las tarjetas y en cada choice hay "Explicámelo con IA" / "Preguntale a la IA por qué" para una explicación personalizada. Copia la consulta con el material del tema y abre ChatGPT o Gemini.
 
 Temas que entraron en el último parcial: reformas constitucionales (y la de 1994), soberanía / autonomía / autarquía, fuentes del derecho y supremacía constitucional.
 
