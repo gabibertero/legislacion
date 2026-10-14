@@ -1,0 +1,21 @@
+---
+// Mapa de la materia: unidades de la config agrupadas por instancia de evaluación.
+import { instancias, ESTADOS, unidadTitulo } from '../lib/sitio.js';
+const base = import.meta.env.BASE_URL;
+---
+<div class="mapa">
+  {instancias.map((g) => (
+    <section class="mapa-g" data-g={g.id} data-estado={g.estado} aria-labelledby={`mg-${g.id}`}>
+      <header>
+        <h3 id={`mg-${g.id}`}>{g.disponible ? <a href={`${base}${g.ruta}/`}>{g.titulo}</a> : g.titulo}</h3>
+        <span class="mapa-rango">{g.rango}</span>
+        <span class="mapa-estado">{ESTADOS[g.estado]}</span>
+      </header>
+      <ol>
+        {g.unidades.map((u) => (
+          <li data-unidad={u}><b>{u}</b><span>{unidadTitulo(u)}</span></li>
+        ))}
+      </ol>
+    </section>
+  ))}
+</div>

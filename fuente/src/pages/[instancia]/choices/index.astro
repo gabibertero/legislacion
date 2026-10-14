@@ -1,0 +1,89 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import IA from '../../../components/IA.astro';
+import { conSeccion } from '../../../lib/sitio.js';
+import { choicesDe, temasDe } from '../../../lib/datos.js';
+
+export function getStaticPaths() {
+  return conSeccion('teoria').map((inst) => ({ params: { instancia: inst.ruta }, props: { inst } }));
+}
+const { inst } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const items = choicesDe(inst.unidades);
+const temas = temasDe(inst.unidades).filter((t) => items.some((c) => c.tema === t.id));
+const tituloTema = Object.fromEntries(temas.map((t) => [t.id, t.titulo]));
+const datos = JSON.stringify({ items, temas }).replace(/</g, '\\u003c'); // seguro dentro de <script>
+const NIV = { facil: 'Fácil', media: 'Media', dificil: 'Difícil' };
+---
+<Layout titulo={`Choices · ${inst.titulo}`} descripcion={`Preguntas de opción múltiple de ${inst.unidades.join(", ")} con explicación y corrección inmediata.`}>
+  <p class="eyebrow"><a href={`${base}${inst.ruta}/`}>{inst.titulo}</a> · Choices</p>
+  <h1>Choices</h1>
+  <p class="lead">Preguntas de opción múltiple de {inst.unidades.join(', ')}. Algunas tienen más de una correcta: se acierta solo si marcás exactamente todas. Las que fallás quedan guardadas en este navegador.</p>
+
+  {items.length === 0 && <p class="suave">Todavía no hay choices cargados.</p>}
+
+  <form class="ch-config" data-config data-js hidden aria-labelledby="ch-conf-t">
+    <h2 id="ch-conf-t">Armá tu práctica</h2>
+    <fieldset>
+      <legend>Nivel</legend>
+      {Object.entries(NIV).map(([v, n]) => <label class="ch-op"><input type="checkbox" name="nivel" value={v} checked /> {n}</label>)}
+    </fieldset>
+    <fieldset>
+      <legend>Temas</legend>
+      {temas.map((t) => <label class="ch-op"><input type="checkbox" name="tema" value={t.id} checked /> {t.titulo}</label>)}
+    </fieldset>
+    <div class="ch-fila">
+      <label>Cantidad
+        <select name="cantidad">
+          <option value="5">5</option><option value="10" selected>10</option><option value="20">20</option><option value="0">Todas</option>
+        </select>
+      </label>
+      <fieldset class="ch-inline">
+        <legend>Corrección</legend>
+        <label class="ch-op"><input type="radio" name="modo" value="inmediata" checked /> Inmediata</label>
+        <label class="ch-op"><input type="radio" name="modo" value="final" /> Al final</label>
+      </fieldset>
+    </div>
+    <label class="ch-op"><input type="checkbox" name="falladas" /> Solo las que fallé (<span data-n-falladas>0</span>)</label>
+    <p class="ch-aviso" data-aviso role="status"></p>
+    <button type="submit" class="btn-primario">Empezar</button>
+  </form>
+
+  <section class="ch-juego" data-juego hidden aria-label="Práctica de choices"></section>
+
+  <section data-estatico>
+    <h2>Todas las preguntas</h2>
+    {items.map((c) => (
+      <article class="tarjeta ch-est">
+        <p><span class="chip">{tituloTema[c.tema] ?? c.tema}</span> <span class="chip">{NIV[c.nivel] ?? c.nivel}</span></p>
+        <h3>{c.pregunta}</h3>
+        <ul>{c.opciones.map((o) => <li>{o}</li>)}</ul>
+        <details><summary>Ver respuesta</summary>
+          <p><strong>Correcta{c.correctas.length > 1 ? 's' : ''}:</strong> {c.correctas.map((i) => c.opciones[i]).join(' · ')}</p>
+          <p>{c.explicacion}</p>
+          {c.fuente && <p class="suave">Fuente: {c.fuente}</p>}
+        </details>
+      </article>
+    ))}
+  </section>
+
+  <template data-tpl-ia><IA modo="explicar" /></template>
+  <script type="application/json" id="ch-datos" set:html={datos}></script>
+</Layout>
+
+<script>
+  import '../../../scripts/choices.js';
+</script>
+
+<style>
+  .ch-config { border: 2px dashed var(--borde-fuerte); border-radius: var(--r); padding: 6px 18px 18px; background: var(--sup2); margin-bottom: 1.5rem; min-width: 0; }
+  .ch-config fieldset { border: 0; padding: 0; margin: .6rem 0; min-width: 0; }
+  .ch-config legend { font-weight: 700; padding: 0; margin-bottom: 4px; }
+  .ch-op { display: flex; align-items: center; gap: 8px; min-height: 36px; font-weight: 500; }
+  .ch-op input { width: 20px; height: 20px; flex: none; }
+  .ch-fila { display: flex; flex-wrap: wrap; gap: 8px 28px; align-items: flex-end; }
+  .ch-fila select { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--borde-fuerte); background: var(--sup); color: var(--texto); margin-left: 6px; }
+  .ch-inline { display: flex; gap: 6px 18px; flex-wrap: wrap; align-items: center; }
+  .ch-aviso { color: var(--suave); font-weight: 600; min-height: 1.4em; margin: .4rem 0; }
+  .ch-est { margin-bottom: 1rem; }
+</style>

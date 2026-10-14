@@ -1,0 +1,75 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import { conSeccion } from '../../../lib/sitio.js';
+
+export function getStaticPaths() {
+  return conSeccion('teoria').map((inst) => ({ params: { instancia: inst.ruta }, props: { inst } }));
+}
+const { inst } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const entradas = (await getCollection('preguntas')).filter((e) => inst.unidades.includes(e.data.unidad)).sort((a, b) => a.data.orden - b.data.orden);
+const grupos = await Promise.all(entradas.map(async (e) => ({ e, Content: (await render(e)).Content })));
+const haySim = entradas.some((e) => /\bsim="/.test(e.body));
+---
+<Layout titulo={`Preguntero teórico · ${inst.titulo}`} descripcion={`Preguntero teórico y simulacro de desarrollo de ${inst.unidades.join(", ")} con cronómetro.`}>
+  <p class="eyebrow"><a href={`${base}${inst.ruta}/`}>{inst.titulo}</a> · Teoría</p>
+  <h1>Preguntero teórico</h1>
+  <p class="lead">Preguntas de {inst.unidades.join(', ')} con respuesta tipo examen. Las respuestas están ocultas hasta que las pidas. Marcá <strong>La sé</strong> o <strong>Repasar</strong>: queda guardado en este navegador.</p>
+
+  <section class="pg-barra" aria-label="Filtros" data-js hidden>
+    <div class="pg-filtros" role="group" aria-label="Filtrar por unidad">
+      <button type="button" data-filtro="todas" aria-pressed="true">Todas</button>
+      {inst.unidades.map((u) => <button type="button" data-filtro={u} data-unidad={u} aria-pressed="false">{u}</button>)}
+      <button type="button" data-filtro="repasar" aria-pressed="false">Para repasar</button>
+    </div>
+    <p class="pg-cuenta" data-contador aria-live="polite"></p>
+  </section>
+
+  {haySim && (
+    <section class="pg-sim" id="simulacro" data-simulacro data-js hidden aria-labelledby="sim-t">
+      <h2 id="sim-t">Simulacro teórico</h2>
+      <p class="suave">Arma un parcial con una pregunta al azar de cada grupo (A–E, 5 en total). Escribí tu respuesta en cada una, pedí la corrección con IA y, al terminar, mirá las respuestas modelo.</p>
+      <div class="pg-sim-ctl">
+        <button type="button" class="btn-primario" data-armar>Armar simulacro</button>
+        <label class="pg-crono"><input type="checkbox" data-crono checked /> Cronómetro</label>
+        <label class="pg-crono">Minutos <select data-minutos aria-label="Minutos del cronómetro"><option>30</option><option>45</option><option selected>60</option><option>90</option></select></label>
+        <span class="pg-reloj" data-reloj role="timer" aria-live="off" hidden>00:00</span>
+      </div>
+      <div class="pg-sim-lista" data-sim-lista></div>
+      <button type="button" class="btn-primario" data-ver-resp hidden>Ver respuestas modelo</button>
+      <p class="sr-only" role="status" data-sim-aviso></p>
+    </section>
+  )}
+
+  {grupos.map(({ e, Content }) => (
+    <section class="pg-unidad" data-seccion={e.data.unidad} aria-labelledby={`h-${e.id}`}>
+      <h2 id={`h-${e.id}`}><span class="chip chip-u chip-lg" data-unidad={e.data.unidad}>{e.data.unidad}</span> {e.data.titulo}</h2>
+      <Content />
+    </section>
+  ))}
+  <p class="pg-vacio suave" data-vacio hidden>No hay preguntas con ese filtro.</p>
+</Layout>
+
+<script>
+  import '../../../scripts/preguntero.js';
+</script>
+
+<style>
+  .pg-barra { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 1rem 0; }
+  .pg-filtros { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pg-filtros button { min-height: 40px; padding: 6px 16px; border-radius: 999px; border: 1px solid var(--borde-fuerte); background: var(--sup); color: var(--texto); font: inherit; font-weight: 600; cursor: pointer; }
+  .pg-filtros button[aria-pressed='true'] { background: var(--acento); color: var(--sobre-acento); border-color: var(--acento); }
+  .pg-filtros button:focus-visible, .pg-sim button:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+  .pg-cuenta { margin: 0; font-weight: 600; color: var(--suave); }
+  .pg-sim { border: 2px dashed var(--borde-fuerte); border-radius: var(--r); padding: 6px 18px 16px; margin: 0 0 2rem; background: var(--sup2); min-width: 0; }
+  .pg-sim h2 { margin-top: .6rem; }
+  .pg-sim-ctl { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+  .pg-sim-ctl .btn-primario { min-height: 44px; padding: 8px 20px; border-radius: 999px; border: 0; background: var(--acento); color: var(--sobre-acento); font: inherit; font-weight: 700; cursor: pointer; }
+  .pg-crono { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+  .pg-crono select { font: inherit; padding: 4px 6px; border-radius: 8px; border: 1px solid var(--borde-fuerte); background: var(--sup); color: var(--texto); }
+  .pg-reloj { font-family: var(--f-ed); font-size: 1.6rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .pg-reloj[data-fin] { color: var(--pendiente); }
+  .pg-sim-lista { margin-top: 1rem; }
+  .pg-unidad h2 { margin: 2rem 0 .8rem; }
+</style>

@@ -1,0 +1,62 @@
+---
+interface Props {
+  id: string;
+  numero: number | string;
+  fuente: string;
+  pagina: number | string;
+  unidad: string;
+  tema: string;
+  puntos?: number; // puntaje oficial; si falta, el modo examen reparte igual
+  criterios?: { bien: string; medias: string; mal: string }; // se muestran solo tras entregar (dentro de data-autocorr)
+}
+const { id, numero, fuente, pagina, unidad, tema, puntos, criterios } = Astro.props;
+const archivo = fuente.split('/').pop();
+import IA from './IA.astro';
+const ayudas = `ayudas-${id.replace(/\W/g, '-')}`;
+const base = import.meta.env.BASE_URL;
+const estados = [['pendiente', 'Pendiente'], ['en-curso', 'En curso'], ['resuelto', 'Resuelto']];
+---
+<section class="ejercicio" id={`ej-${numero}`} data-ejercicio data-id={id} data-unidad={unidad} data-puntos={puntos} data-ia-ctx>
+  <header class="ej-cab">
+    <span class="ej-num" aria-hidden="true">{numero}</span>
+    <div>
+      <h2>Ejercicio {numero}</h2>
+      <p class="meta">
+        <span class="chip chip-u" data-unidad={unidad}>{unidad}</span>
+        <span class="chip" data-ia-tit>{tema}</span>
+        <span class="ej-fuente">{archivo}, p.{pagina}</span>
+      </p>
+    </div>
+  </header>
+  <fieldset class="estado">
+    <legend>Estado</legend>
+    <span class="seg">
+    {estados.map(([valor, texto]) => (
+      <label><input type="radio" name={`estado-${id}`} value={valor} checked={valor === 'pendiente'} />{texto}</label>
+    ))}
+    </span>
+  </fieldset>
+  <div id={ayudas} aria-live="polite"><slot /></div>
+  <div class="acciones">
+    <button type="button" data-accion="pista" aria-expanded="false" aria-controls={ayudas}>Ver pista</button>
+    <button type="button" data-accion="paso" aria-expanded="false" aria-controls={ayudas}>Siguiente paso</button>
+    <button type="button" data-accion="solucion" aria-expanded="false" aria-controls={ayudas}>Ver solución completa</button>
+    <button type="button" data-accion="ocultar">Ocultar todo</button>
+  </div>
+  <IA modo="corregir" />
+  <div class="autocorr" data-autocorr hidden role="group" aria-label={`Autocorrección del ejercicio ${numero}`}>
+    <p class="autocorr-t">Autocorrección</p>
+    {criterios && (
+      <dl class="criterios" data-criterios>
+        <dt>Bien (100%)</dt><dd>{criterios.bien}</dd>
+        <dt>A medias (50%, estimación de estudio)</dt><dd>{criterios.medias}</dd>
+        <dt>Mal (0%)</dt><dd>{criterios.mal}</dd>
+      </dl>
+    )}
+    <div class="autocorr-b">
+      <button type="button" data-nota="1" aria-pressed="false">Bien</button>
+      <button type="button" data-nota="0.5" aria-pressed="false">A medias</button>
+      <button type="button" data-nota="0" aria-pressed="false">Mal</button>
+    </div>
+  </div>
+</section>

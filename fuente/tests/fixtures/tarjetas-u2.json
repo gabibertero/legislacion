@@ -1,0 +1,58 @@
+[
+ {
+  "id": "fx-tj-1",
+  "tema": "existencia",
+  "frente": "Frente 1",
+  "dorso": "Dorso 1",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-2",
+  "tema": "fin",
+  "frente": "Frente 2",
+  "dorso": "Dorso 2",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-3",
+  "tema": "atributos",
+  "frente": "Frente 3",
+  "dorso": "Dorso 3",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-4",
+  "tema": "nombre",
+  "frente": "Frente 4",
+  "dorso": "Dorso 4",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-5",
+  "tema": "estado",
+  "frente": "Frente 5",
+  "dorso": "Dorso 5",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-6",
+  "tema": "domicilio",
+  "frente": "Frente 6",
+  "dorso": "Dorso 6",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-7",
+  "tema": "capacidad",
+  "frente": "Frente 7",
+  "dorso": "Dorso 7",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-tj-8",
+  "tema": "patrimonio",
+  "frente": "Frente 8",
+  "dorso": "Dorso 8",
+  "fuente": "CCyC art. 19"
+ }
+]

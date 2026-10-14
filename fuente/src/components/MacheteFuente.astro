@@ -1,0 +1,8 @@
+---
+// Cita inline de fuente: <MacheteFuente f="U1 p.5" />. Los códigos salen de `archivos` en sitio.config.mjs (leyenda en la página del machete).
+const { f } = Astro.props;
+---
+<span class="fte-m">[{f}]</span>
+<style is:global>
+  .fte-m { font-size: .75rem; font-weight: 600; color: var(--suave); white-space: nowrap; vertical-align: .1em; padding: 0 3px; }
+</style>

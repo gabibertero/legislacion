@@ -1,0 +1,45 @@
+---
+// Figura del hero: balanza de la justicia. El astil se mece apenas y los platos se mantienen colgando (CSS; se apaga con prefers-reduced-motion).
+---
+<div class="hero-fig">
+  <slot>
+    <svg class="balanza" viewBox="0 0 320 300" role="img" aria-label="Dibujo decorativo: una balanza de la justicia">
+      <ellipse class="b-halo" cx="160" cy="150" rx="140" ry="140" />
+      <g class="b-poste">
+        <rect x="100" y="272" width="120" height="10" rx="5" />
+        <rect x="124" y="260" width="72" height="12" rx="4" />
+        <path d="M154 258 L156 80 H164 L166 258 Z" />
+      </g>
+      <g class="b-astil">
+        <path class="b-viga" d="M36 78 Q160 58 284 78" fill="none" stroke-width="7" stroke-linecap="round" />
+        <circle class="b-oro" cx="36" cy="78" r="7" /><circle class="b-oro" cx="284" cy="78" r="7" />
+        <g class="b-plato b-pl-i">
+          <path class="b-cadena" d="M36 84 L8 178 M36 84 L64 178 M36 84 V190" fill="none" stroke-width="1.8" />
+          <path class="b-cuenco" d="M0 178 H72 Q70 206 36 208 Q2 206 0 178 Z" />
+        </g>
+        <g class="b-plato b-pl-d">
+          <path class="b-cadena" d="M284 84 L256 178 M284 84 L312 178 M284 84 V190" fill="none" stroke-width="1.8" />
+          <path class="b-cuenco" d="M248 178 H320 Q318 206 284 208 Q250 206 248 178 Z" />
+        </g>
+      </g>
+      <circle class="b-oro" cx="160" cy="70" r="11" /><circle class="b-centro" cx="160" cy="70" r="4" />
+      <path class="b-oro" d="M160 38 L166 52 H154 Z" />
+    </svg>
+  </slot>
+</div>
+<style>
+  .balanza { width: 100%; height: auto; max-height: 340px; overflow: visible; }
+  .b-halo { fill: color-mix(in srgb, var(--acento) 8%, transparent); }
+  .b-poste rect, .b-poste path { fill: var(--texto); }
+  .b-viga { stroke: var(--texto); }
+  .b-oro { fill: var(--acento2); }
+  .b-centro { fill: var(--fondo); }
+  .b-cadena { stroke: var(--suave); }
+  .b-cuenco { fill: var(--acento); }
+  .b-astil { transform-origin: 160px 70px; animation: b-mecer 6s ease-in-out infinite alternate; }
+  .b-pl-i { transform-origin: 36px 84px; animation: b-contra-i 6s ease-in-out infinite alternate; }
+  .b-pl-d { transform-origin: 284px 84px; animation: b-contra-d 6s ease-in-out infinite alternate; }
+  @keyframes b-mecer { from { transform: rotate(-2.5deg); } to { transform: rotate(2.5deg); } }
+  @keyframes b-contra-i { from { transform: rotate(2.5deg); } to { transform: rotate(-2.5deg); } }
+  @keyframes b-contra-d { from { transform: rotate(2.5deg); } to { transform: rotate(-2.5deg); } }
+</style>

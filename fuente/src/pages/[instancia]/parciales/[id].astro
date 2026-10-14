@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import { idsDeEjercicios } from '../../../scripts/ids.js';
+import Layout from '../../../layouts/Layout.astro';
+import cfg, { conSeccion } from '../../../lib/sitio.js';
+
+export async function getStaticPaths() {
+  const todos = (await getCollection('parciales')).sort((a, b) => a.data.orden - b.data.orden);
+  return conSeccion('parciales').flatMap((inst) => {
+    const delaInst = todos.filter((p) => p.data.instancia === inst.id);
+    return delaInst.map((entry) => ({ params: { instancia: inst.ruta, id: entry.id }, props: { entry, delaInst, inst } }));
+  });
+}
+const { entry, delaInst, inst } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const raiz = `${base}${inst.ruta}/`;
+const d = entry.data;
+---
+<Layout titulo={d.titulo}>
+  <ul class="tabs" aria-label="Exámenes">
+    {delaInst.map((t) => (
+      <li><a href={`${raiz}parciales/${t.id}/`} aria-current={t.id === entry.id ? 'page' : undefined}>{t.data.titulo}</a></li>
+    ))}
+  </ul>
+  <div class="examen-cab tarjeta">
+    <h1>{d.titulo}</h1>
+    <p class="meta">{d.fecha && `${d.fecha} · `}{d.tipo}{d.tema && ` · Tema ${d.tema}`} · Unidades: {d.unidades.map((u) => <span class="chip chip-u" data-unidad={u}>{u}</span>)}</p>
+    <p class="meta">Fuente: {d.fuente} (enunciado p.{d.paginasEnunciado}{d.paginasResolucion ? `, resolución p.${d.paginasResolucion}` : "; sin resolución oficial"})</p>
+    <span class="barra" aria-hidden="true" data-barra data-ids={idsDeEjercicios(entry.body).join(',')}></span>
+  </div>
+  <section class="tarjeta examen-panel" data-examen-panel data-examen-id={entry.id} hidden aria-labelledby="ex-t">
+    <h2 id="ex-t" tabindex="-1">Modo examen</h2>
+    <p class="meta" data-en="reposo"><span data-ex="ultimo"></span> Solo enunciados, con cronómetro; al entregar se revelan las soluciones y te autocorregís.</p>
+    <div class="ex-fila">
+      <button type="button" data-ex="abrir" data-en="reposo">Modo examen</button>
+      <label data-en="listo">Minutos <input type="number" data-ex="minutos" value={cfg.examen?.minutos ?? 120} min="1" max="600" inputmode="numeric" /></label>
+      <button type="button" data-ex="empezar" data-en="listo">Empezar</button>
+      <output class="ex-reloj" data-ex="reloj" data-en="corriendo" role="timer" aria-label="Tiempo restante"></output>
+      <button type="button" data-ex="pausa" data-en="corriendo" aria-pressed="false">Pausar</button>
+      <button type="button" data-ex="entregar" data-en="corriendo">Entregar</button>
+      <button type="button" data-ex="salir" data-en="listo corriendo entregado">Salir del modo examen</button>
+    </div>
+    <p class="ex-aviso" data-ex="aviso" role="alert" hidden>Se terminó el tiempo. Podés seguir, pero ya pasó el límite.</p>
+    <div data-en="entregado" aria-live="polite">
+      <p class="ex-nota">Nota: <strong data-ex="nota"></strong>/100 · Tiempo usado: <span data-ex="usado"></span></p>
+      <p class="meta" data-ex="detalle"></p>
+      <p class="meta" data-ex="oficial" hidden>Puntajes no oficiales: reparto igual.</p>
+    </div>
+  </section>
+  <div class="examen-grid">
+    <nav class="indice" aria-label="Ejercicios del examen" data-indice><p class="indice-t">Ejercicios</p><ol></ol></nav>
+    <div class="examen-cont"><Content /></div>
+  </div>
+</Layout>

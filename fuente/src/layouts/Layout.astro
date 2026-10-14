@@ -1,0 +1,87 @@
+---
+import 'katex/dist/katex.min.css';
+import '@fontsource/instrument-sans/latin-400.css';
+import '@fontsource/instrument-sans/latin-500.css';
+import '@fontsource/instrument-sans/latin-600.css';
+import '@fontsource/instrument-sans/latin-700.css';
+import '@fontsource/newsreader/latin-500.css';
+import '@fontsource/newsreader/latin-600.css';
+import '@fontsource/newsreader/latin-700.css';
+import '@fontsource/newsreader/latin-400-italic.css';
+import '../styles/global.css';
+import cfg, { disponibles, cssTema } from '../lib/sitio.js';
+
+const { titulo, descripcion } = Astro.props;
+const { corto, largo, facultad, icono } = cfg.materia;
+const base = import.meta.env.BASE_URL;
+const nav = [['Inicio', base], ...disponibles.map((i) => [i.titulo, `${base}${i.ruta}/`])];
+const actual = Astro.url.pathname;
+const prefijo = cfg.prefijo;
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo} · {corto}</title>
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
+    <meta name="theme-color" content="#fffaee" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#171311" media="(prefers-color-scheme: dark)" />
+    <meta name="description" content={descripcion ?? cfg.materia.lead} />
+    <meta name="color-scheme" content="light dark" />
+    <style is:inline set:html={cssTema()}></style>
+    <script is:inline define:vars={{ prefijo }}>
+      // Tema guardado, antes de pintar (evita el flash). Sin elección: manda prefers-color-scheme.
+      try { var t = localStorage.getItem(prefijo + 'tema'); if (t === 'light' || t === 'dark') document.documentElement.dataset.tema = t; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+    <header class="sitio">
+      <div class="sitio-in">
+        <a class="marca" href={base}><span aria-hidden="true">{icono}</span> {corto} {largo !== corto && <span class="marca-sub">· {largo}</span>}</a>
+        <nav aria-label="Principal">
+          <ul>
+            {nav.map(([texto, href]) => (
+              <li><a href={href} aria-current={(href === base ? actual === href : actual.startsWith(href)) ? 'page' : undefined}>{texto}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <button type="button" class="tema" data-tema-toggle hidden aria-pressed="false" aria-label="Modo oscuro"><span aria-hidden="true" class="tema-ico"></span></button>
+      </div>
+    </header>
+    <main id="contenido"><slot /></main>
+    <footer class="pie">
+      <div class="pie-in">
+        <p><strong>{corto} · {facultad}</strong><br />{cfg.footer.nota}</p>
+        <p><strong>Fuentes</strong><br />{cfg.footer.fuentes}</p>
+        <p>
+          <a href={cfg.repo}>Código en GitHub</a>
+          {cfg.footer.links.map((l) => <><br /><a href={l.href}>{l.texto}</a></>)}
+        </p>
+      </div>
+    </footer>
+    <script>
+      import '../scripts/progreso.js';
+      import '../ui.js';
+      import '../scripts/examen.js';
+      import '../scripts/ia.js';
+      import { guardar } from '../scripts/progreso.js';
+
+      // Toggle de tema: la elección se guarda; sin elección manda el sistema.
+      const raiz = document.documentElement;
+      const oscuro = () => (raiz.dataset.tema ? raiz.dataset.tema === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches);
+      const btn = document.querySelector('[data-tema-toggle]');
+      const pintarTema = () => btn.setAttribute('aria-pressed', String(oscuro()));
+      btn.onclick = () => { raiz.dataset.tema = oscuro() ? 'light' : 'dark'; guardar('tema', raiz.dataset.tema); pintarTema(); };
+      pintarTema();
+      btn.hidden = false; // sin JS no se muestra
+
+      // Último parcial visitado, para "Seguir donde dejaste" en el Inicio.
+      if (/\/parciales\/[^/]+\/?$/.test(location.pathname)) {
+        guardar('ultimo', JSON.stringify({ href: location.pathname, t: document.querySelector('h1')?.textContent?.trim() || document.title, at: Date.now() }));
+      }
+    </script>
+  </body>
+</html>

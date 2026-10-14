@@ -1,0 +1,16 @@
+---
+const { examen, fuente, paginas } = Astro.props;
+const [a, b] = String(paginas).split(/[–-]/).map((n) => parseInt(n, 10));
+const nums = Array.from({ length: (b ?? a) - a + 1 }, (_, i) => a + i);
+const base = `${import.meta.env.BASE_URL}escaneos/${examen}`;
+---
+<div class="capa oficial" data-solucion hidden>
+  <p class="rotulo">Resolución oficial (escaneo del profe)</p>
+  {examen && nums.map((n) => (
+    <figure>
+      <img src={`${base}/p${n}.webp`} alt={`Resolución oficial escaneada, página ${n}`} loading="lazy" style="max-width:100%;height:auto" />
+      <figcaption><a href={`${base}/p${n}.webp`} target="_blank" rel="noopener">abrir en tamaño completo</a></figcaption>
+    </figure>
+  ))}
+  {!examen && <p class="cita">{fuente} p.{paginas}</p>}
+</div>

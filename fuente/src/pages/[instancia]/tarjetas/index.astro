@@ -1,0 +1,70 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import IA from '../../../components/IA.astro';
+import { conSeccion } from '../../../lib/sitio.js';
+import { tarjetasDe, temasDe } from '../../../lib/datos.js';
+
+export function getStaticPaths() {
+  return conSeccion('teoria').map((inst) => ({ params: { instancia: inst.ruta }, props: { inst } }));
+}
+const { inst } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const items = tarjetasDe(inst.unidades);
+const temas = temasDe(inst.unidades).filter((t) => items.some((c) => c.tema === t.id));
+const tituloTema = Object.fromEntries(temas.map((t) => [t.id, t.titulo]));
+const datos = JSON.stringify({ items, temas }).replace(/</g, '\\u003c'); // seguro dentro de <script>
+---
+<Layout titulo={`Tarjetas · ${inst.titulo}`} descripcion={`Tarjetas de repaso espaciado en 3 cajas de ${inst.unidades.join(", ")}.`}>
+  <p class="eyebrow"><a href={`${base}${inst.ruta}/`}>{inst.titulo}</a> · Tarjetas</p>
+  <h1>Tarjetas</h1>
+  <p class="lead">Repaso espaciado en 3 cajas. Las que marcás «No la sabía» vuelven a la caja 1 y reaparecen enseguida; las que sabés suben de caja. Atajos: <kbd>Espacio</kbd> da vuelta, <kbd>1</kbd> = no la sabía, <kbd>2</kbd> = la sabía.</p>
+
+  {items.length === 0 && <p class="suave">Todavía no hay tarjetas cargadas.</p>}
+
+  <form class="tj-config" data-config data-js hidden aria-labelledby="tj-conf-t">
+    <h2 id="tj-conf-t">Armá tu sesión</h2>
+    <label>Tema
+      <select name="tema">
+        <option value="">Todos los temas</option>
+        {temas.map((t) => <option value={t.id}>{t.titulo}</option>)}
+      </select>
+    </label>
+    <label class="tj-op"><input type="checkbox" name="dominadas" /> Incluir las ya dominadas (caja 3)</label>
+    <p class="tj-cajas" data-cajas role="status"></p>
+    <p class="tj-cajas" data-aviso role="status"></p>
+    <button type="submit" class="btn-primario">Empezar</button>
+  </form>
+
+  <p class="sr-only" data-vivo role="status"></p>
+  <section class="tj-juego" data-juego hidden aria-label="Sesión de tarjetas"></section>
+
+  <section data-estatico>
+    <h2>Todas las tarjetas</h2>
+    {items.map((t) => (
+      <article class="tarjeta tj-est">
+        <p><span class="chip">{tituloTema[t.tema] ?? t.tema}</span></p>
+        <h3>{t.frente}</h3>
+        <details><summary>Ver dorso</summary><p>{t.dorso}</p>{t.fuente && <p class="suave">Fuente: {t.fuente}</p>}</details>
+      </article>
+    ))}
+  </section>
+
+  <template data-tpl-ia><IA modo="explicar" /></template>
+  <script type="application/json" id="tj-datos" set:html={datos}></script>
+</Layout>
+
+<script>
+  import '../../../scripts/tarjetas.js';
+</script>
+
+<style>
+  .tj-config { border: 2px dashed var(--borde-fuerte); border-radius: var(--r); padding: 6px 18px 18px; background: var(--sup2); margin-bottom: 1.5rem; display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); justify-items: start; min-width: 0; }
+  .tj-config label:not(.tj-op) { display: block; max-width: 100%; }
+  .tj-config label { font-weight: 600; }
+  .tj-config select { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--borde-fuerte); background: var(--sup); color: var(--texto); display: block; margin-top: 6px; width: 100%; max-width: 100%; }
+  .tj-op { display: flex; align-items: center; gap: 8px; }
+  .tj-op input { width: 20px; height: 20px; }
+  .tj-cajas { margin: 0; color: var(--suave); font-weight: 600; }
+  .tj-est { margin-bottom: 1rem; }
+  kbd { font: inherit; font-weight: 700; padding: 0 6px; border: 1px solid var(--borde-fuerte); border-radius: 6px; background: var(--sup2); }
+</style>

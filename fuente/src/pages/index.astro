@@ -1,0 +1,128 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HomeHero from '../components/HomeHero.astro';
+import HomeMapa from '../components/HomeMapa.astro';
+import { getCollection } from 'astro:content';
+import cfg, { disponibles } from '../lib/sitio.js';
+import { accesos } from '../lib/accesos.js';
+import { choicesDe, tarjetasDe, temasDe, preguntasDeMdx } from '../lib/datos.js';
+
+const base = import.meta.env.BASE_URL;
+const { largo, facultad, carrera, lead } = cfg.materia;
+const inst = disponibles[0]; // instancia activa: el 2º parcial
+const FECHA = inst.fecha; // ISO con offset, en sitio.config.mjs
+const fechaTxt = new Date(FECHA).toLocaleDateString('es-AR', { weekday: 'long', day: 'numeric', month: 'numeric', year: 'numeric', timeZone: 'America/Argentina/Buenos_Aires' }) + ', 08:00';
+const machetes = (await getCollection('machetes')).filter((e) => inst.unidades.includes(e.data.unidad));
+const preguntas = (await getCollection('preguntas')).filter((e) => inst.unidades.includes(e.data.unidad))
+  .flatMap((e) => preguntasDeMdx(e.body ?? '')).filter((p) => p.id);
+const choices = choicesDe(inst.unidades), tarjetas = tarjetasDe(inst.unidades);
+const temas = temasDe(inst.unidades);
+const sel = (l) => l.map(({ id, tema }) => ({ id, tema }));
+const datos = JSON.stringify({ fecha: FECHA, temas, items: { preguntas: sel(preguntas), tarjetas: sel(tarjetas), choices: sel(choices) }, inst: inst.ruta }).replace(/</g, '\\u003c');
+const cuantos = (t) => [preguntas, tarjetas, choices].reduce((s, l) => s + l.filter((x) => x.tema === t.id).length, 0);
+const lista = accesos(inst, base, machetes);
+---
+<Layout titulo="Inicio" descripcion={`${largo} · ${facultad}: Top 15 de preguntas probables, resumen, simulacro, choices y tarjetas para el ${inst.titulo}.`}>
+  <section class="hero hero-home" aria-labelledby="titulo-home">
+    <div class="hero-txt">
+      <p class="eyebrow">{facultad} · {carrera}</p>
+      <h1 id="titulo-home"><span class="hero-sigla">{largo}</span> <span class="hero-mat">Guía para el {inst.titulo}</span></h1>
+      <p class="lead">{lead}</p>
+      <div class="hero-acc">
+        <a class="btn btn-primario btn-examen" href={lista[0].href}>Top 15 · {inst.titulo}</a>
+        <a class="btn" href={lista[2].href}>Simulacro</a>
+      </div>
+      <p class="hero-seguir" data-seguir hidden></p>
+    </div>
+    <HomeHero />
+  </section>
+
+  <section class="panel-home" aria-label="Tu panel">
+    <div class="tarjeta pan pan-cuenta" aria-labelledby="h-cuenta">
+      <h2 id="h-cuenta">Cuenta regresiva</h2>
+      <p>{inst.titulo} · {fechaTxt}</p>
+      <p class="cuenta-num" data-cuenta>{fechaTxt}</p>
+    </div>
+
+    <div class="tarjeta pan pan-prog" aria-labelledby="h-prog">
+      <h2 id="h-prog">Tu progreso por tema</h2>
+      <p class="prog-num" data-prog-global>Activá JavaScript para ver tu progreso.</p>
+      <ul class="prog-temas">
+        {temas.map((t) => (
+          <li data-tema={t.id}>
+            <span class="pt-nombre">{t.titulo}</span>
+            <span class="pt-pct suave"><b data-pct>0%</b> · {cuantos(t)} ítems</span>
+            <span class="barra" data-tema-barra role="presentation"></span>
+          </li>
+        ))}
+      </ul>
+      <p class="suave nota">Cuenta: preguntas del preguntero marcadas «La sé», tarjetas en la caja 3 y choices acertados.</p>
+    </div>
+  </section>
+
+  <section class="plan" data-js hidden aria-labelledby="h-plan">
+    <h2 id="h-plan">Plan hasta el parcial</h2>
+    <p class="suave">Calculado desde hoy. Se ajusta solo cada día que pasa.</p>
+    <ol class="plan-lista" data-plan></ol>
+  </section>
+
+  <h2>Por dónde arrancar</h2>
+  <ul class="accesos-home">
+    {lista.map((a) => (
+      <li class:list={['tarjeta', 'acceso', { 'acceso-grande': a.grande }]}>
+        <a href={a.href}><strong>{a.titulo}</strong><span class="suave">{a.desc}</span></a>
+      </li>
+    ))}
+  </ul>
+  <p class="u1-link"><a href={`${base}u1/`}>Guía de la Unidad 1 (1º parcial, versión anterior)</a></p>
+
+  <h2>Mapa de la materia</h2>
+  <p class="suave sec-intro">Las {cfg.unidades.length} unidades del programa, agrupadas por instancia de evaluación.</p>
+  <HomeMapa />
+
+  <h2>Dónde se guarda tu progreso</h2>
+  <p>En tu navegador (localStorage), con claves que empiezan con <code>{cfg.prefijo}</code>. No hay cuentas ni servidor: no se comparte entre dispositivos y se pierde si borrás los datos del navegador.</p>
+  <button type="button" data-reiniciar data-js hidden>Reiniciar progreso</button>
+  <div class="capa generado" data-confirmar hidden role="group" aria-label="Confirmar reinicio">
+    <p><strong>¿Seguro?</strong> Se borran las marcas del preguntero, las tarjetas, los choices y tus borradores. No se puede deshacer.</p>
+    <button type="button" data-si>Sí, borrar todo</button>
+    <button type="button" data-no>Cancelar</button>
+  </div>
+  <p role="status" tabindex="-1" data-resultado></p>
+
+  <script type="application/json" id="home-datos" set:html={datos}></script>
+  <script>
+    import '../scripts/home.js';
+  </script>
+</Layout>
+
+<style>
+  main :global(h2) { margin-top: 48px; }
+  .panel-home { margin-top: 32px; }
+  .pan-cuenta { background: var(--acento); border-color: var(--acento); color: var(--sobre-acento); grid-column: 1 / -1; display: grid !important; grid-template-columns: 1fr auto; align-items: center; gap: 4px 32px; padding: 24px 32px; }
+  .pan-cuenta .cuenta-num { grid-row: 1 / span 2; grid-column: 2; margin: 0; text-align: right; }
+  .pan-cuenta h2, .pan-cuenta p { grid-column: 1; margin: 0; }
+  .prog-temas { grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 16px 32px !important; }
+  .pan-prog { grid-column: 1 / -1; }
+
+  .pan-cuenta h2, .pan-cuenta p { color: inherit; }
+  .pan-cuenta h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; font-family: var(--f-ui); }
+  .cuenta-num { font-family: var(--f-ed); font-size: clamp(2.25rem, 8vw, 3.25rem); line-height: 1.1; font-weight: 700; margin: 12px 0 0; font-variant-numeric: tabular-nums; overflow-wrap: normal; }
+  .prog-temas { list-style: none; padding: 0; margin: 16px 0; display: grid; gap: 16px; }
+  .prog-temas li { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; }
+  .prog-temas .barra { grid-column: 1 / -1; }
+  .pt-nombre { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+  .pt-pct { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .nota { font-size: .9rem; margin-bottom: 0; }
+  .plan-lista { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 12px; }
+  .plan-lista :global(li) { padding: 12px 16px; border: 1px solid var(--borde); border-left: 4px solid var(--borde-fuerte); border-radius: var(--r-s); background: var(--sup); }
+  .plan-lista :global(li)[aria-current='date'] { border-color: var(--acento); border-left-color: var(--acento); box-shadow: var(--sombra); background: var(--sup2); }
+  .plan-lista :global(li)[data-pasado] { opacity: .6; }
+  .plan-lista :global(b)::first-letter { text-transform: uppercase; }
+  .plan-lista :global(b) { display: block; font-family: var(--f-ed); font-size: 1.1rem; }
+  .u1-link { font-size: .95rem; color: var(--suave); }
+  @media (max-width: 720px) {
+    .pan-cuenta { grid-template-columns: 1fr; padding: 16px 24px; }
+    .pan-cuenta .cuenta-num { grid-row: auto; grid-column: 1; text-align: left; margin-top: 8px; }
+  }
+</style>

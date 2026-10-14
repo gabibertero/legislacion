@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import { conSeccion } from '../../../lib/sitio.js';
+
+export function getStaticPaths() {
+  return conSeccion('machetes').map((inst) => ({ params: { instancia: inst.ruta }, props: { inst } }));
+}
+const { inst } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const items = (await getCollection('machetes')).filter((e) => inst.unidades.includes(e.data.unidad)).sort((a, b) => a.data.orden - b.data.orden);
+---
+<Layout titulo={`Machetes · ${inst.titulo}`} descripcion={`Resumen y machete de ${inst.unidades.join(", ")} para el ${inst.titulo}.`}>
+  <p class="eyebrow"><a href={`${base}${inst.ruta}/`}>{inst.titulo}</a> · Machetes</p>
+  <h1>Machetes de teoría</h1>
+  <p class="lead">Fórmulas y recetas en formato «me dan → me piden → hago», con errores comunes. Cada fórmula trae su fuente (archivo y página).</p>
+  <ul class="grilla lista-tarjetas">
+    {items.map((i) => (
+      <li class="tarjeta tarjeta-u" data-unidad={i.data.unidad}>
+        <a class="ec-titulo" href={`${base}${inst.ruta}/machetes/${i.id}/`}><span class="chip chip-u chip-lg" data-unidad={i.data.unidad}>{i.data.unidad}</span> {i.data.titulo}</a>
+        <p class="meta">{i.data.resumen}</p>
+      </li>
+    ))}
+  </ul>
+  <p class="suave">¿Querés practicar? Mirá el <a href={`${base}${inst.ruta}/teoria/`}>preguntero teórico</a>.</p>
+</Layout>

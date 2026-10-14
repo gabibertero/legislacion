@@ -1,0 +1,16 @@
+---
+const { fuente, pagina, examen } = Astro.props;
+const src = examen && `${import.meta.env.BASE_URL}escaneos/${examen}/p${pagina}.webp`;
+---
+<div class="capa oficial" data-ia-enun>
+  <p class="rotulo">Enunciado oficial — tal cual la fuente</p>
+  <slot />
+  <p class="cita">Fuente: {fuente}, p.{pagina}</p>
+  {examen && (
+    <details>
+      <summary>Ver enunciado original escaneado</summary>
+      <img src={src} alt={`Enunciado original escaneado, página ${pagina}`} loading="lazy" style="max-width:100%;height:auto" />
+      <p><a href={src} target="_blank" rel="noopener">abrir en tamaño completo</a></p>
+    </details>
+  )}
+</div>

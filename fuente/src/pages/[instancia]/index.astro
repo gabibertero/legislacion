@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import cfg, { disponibles, unidadTitulo } from '../../lib/sitio.js';
+import { accesos } from '../../lib/accesos.js';
+
+export function getStaticPaths() {
+  return disponibles.map((inst) => ({ params: { instancia: inst.ruta }, props: { inst } }));
+}
+const { inst } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const machetes = (await getCollection('machetes')).filter((e) => inst.unidades.includes(e.data.unidad));
+const lista = inst.secciones.includes('teoria') ? accesos(inst, base, machetes) : [];
+---
+<Layout titulo={inst.titulo} descripcion={`${cfg.materia.corto} · ${inst.titulo}: ${inst.descripcion ?? ""}`}>
+  <section class="hero hero-inst">
+    <p class="eyebrow">{cfg.materia.corto} · {inst.rango}</p>
+    <h1>{inst.titulo}</h1>
+    <p class="lead">{inst.descripcion ?? inst.unidades.map(unidadTitulo).join('; ')}</p>
+  </section>
+
+  {lista.length > 0 && <h2>Estudiar</h2>}
+  <ul class="accesos-grid">
+    {lista.map((a) => (
+      <li class:list={['tarjeta', 'acceso', { 'acceso-grande': a.grande }]}>
+        <a href={a.href}><strong>{a.titulo}</strong><span class="suave">{a.desc}</span></a>
+      </li>
+    ))}
+  </ul>
+</Layout>

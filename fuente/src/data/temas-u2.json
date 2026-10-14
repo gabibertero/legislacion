@@ -1,0 +1,11 @@
+[
+  { "id": "personas", "titulo": "Personas: concepto y clases (humana y jurídica)" },
+  { "id": "existencia", "titulo": "Comienzo de la existencia" },
+  { "id": "fin", "titulo": "Fin de la persona: muerte, ausencia y presunción de fallecimiento" },
+  { "id": "atributos", "titulo": "Atributos de la persona: concepto y caracteres" },
+  { "id": "nombre", "titulo": "El nombre" },
+  { "id": "estado", "titulo": "El estado y el estado civil" },
+  { "id": "domicilio", "titulo": "El domicilio" },
+  { "id": "capacidad", "titulo": "Capacidad e incapacidad" },
+  { "id": "patrimonio", "titulo": "El patrimonio como atributo" }
+]

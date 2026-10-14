@@ -1,0 +1,12 @@
+node_modules
+test-results
+playwright-report
+.astro
+.DS_Store
+
+# copias en conflicto que crea iCloud (Escritorio sincronizado) al reescribir el build
+* [2-9]
+* [2-9].*
+
+# informes y capturas de auditoría (locales)
+docs-audit/

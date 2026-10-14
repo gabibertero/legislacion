@@ -1,0 +1,209 @@
+[
+ {
+  "id": "fx-ch-1",
+  "tema": "existencia",
+  "nivel": "media",
+  "pregunta": "Pregunta choice 1",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 1.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-2",
+  "tema": "fin",
+  "nivel": "dificil",
+  "pregunta": "Pregunta choice 2",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 2.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-3",
+  "tema": "atributos",
+  "nivel": "facil",
+  "pregunta": "Pregunta choice 3",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 3.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-4",
+  "tema": "nombre",
+  "nivel": "media",
+  "pregunta": "Pregunta choice 4",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   0,
+   2
+  ],
+  "explicacion": "Explicación del choice 4.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-5",
+  "tema": "estado",
+  "nivel": "dificil",
+  "pregunta": "Pregunta choice 5",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 5.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-6",
+  "tema": "domicilio",
+  "nivel": "facil",
+  "pregunta": "Pregunta choice 6",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 6.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-7",
+  "tema": "capacidad",
+  "nivel": "media",
+  "pregunta": "Pregunta choice 7",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 7.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-8",
+  "tema": "patrimonio",
+  "nivel": "dificil",
+  "pregunta": "Pregunta choice 8",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   0,
+   2
+  ],
+  "explicacion": "Explicación del choice 8.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-9",
+  "tema": "personas",
+  "nivel": "facil",
+  "pregunta": "Pregunta choice 9",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 9.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-10",
+  "tema": "existencia",
+  "nivel": "media",
+  "pregunta": "Pregunta choice 10",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 10.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-11",
+  "tema": "fin",
+  "nivel": "dificil",
+  "pregunta": "Pregunta choice 11",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   1
+  ],
+  "explicacion": "Explicación del choice 11.",
+  "fuente": "CCyC art. 19"
+ },
+ {
+  "id": "fx-ch-12",
+  "tema": "atributos",
+  "nivel": "facil",
+  "pregunta": "Pregunta choice 12",
+  "opciones": [
+   "Opción A",
+   "Opción B",
+   "Opción C",
+   "Opción D"
+  ],
+  "correctas": [
+   0,
+   2
+  ],
+  "explicacion": "Explicación del choice 12.",
+  "fuente": "CCyC art. 19"
+ }
+]

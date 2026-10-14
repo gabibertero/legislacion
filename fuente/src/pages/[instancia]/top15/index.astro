@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import { conSeccion } from '../../../lib/sitio.js';
+
+export function getStaticPaths() {
+  return conSeccion('teoria').map((inst) => ({ params: { instancia: inst.ruta }, props: { inst } }));
+}
+const { inst } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const entradas = (await getCollection('preguntas')).filter((e) => inst.unidades.includes(e.data.unidad)).sort((a, b) => a.data.orden - b.data.orden);
+const grupos = await Promise.all(entradas.map(async (e) => ({ e, Content: (await render(e)).Content })));
+// Pregunta.astro muestra solo las q="Top N" cuando la página es /top15/ (las ordena con CSS `order` y el script reordena el DOM).
+---
+<Layout titulo={`Top 15 · ${inst.titulo}`} descripcion={`Las 15 preguntas más probables del ${inst.titulo}, de mayor a menor, con respuesta modelo y corrección con IA.`}>
+  <p class="eyebrow"><a href={`${base}${inst.ruta}/`}>{inst.titulo}</a> · Top 15</p>
+  <h1>Top 15: las preguntas más probables</h1>
+  <p class="lead">De mayor a menor probabilidad. Intentá escribir la respuesta antes de mirar la respuesta modelo; después pedí la corrección con IA y marcá <strong>La sé</strong> o <strong>Repasar</strong>.</p>
+
+  <section class="top-prog" data-js hidden aria-label="Tu progreso en el Top 15">
+    <p class="top-prog-txt" data-prog-txt role="status"></p>
+    <span class="barra" data-prog-barra role="presentation"></span>
+  </section>
+
+  <div class="top-lista">
+    {grupos.map(({ Content }) => <Content />)}
+  </div>
+  <p class="suave">¿Querés practicar con tiempo? Andá al <a href={`${base}${inst.ruta}/teoria/#simulacro`}>simulacro</a>.</p>
+</Layout>
+
+<script>
+  import '../../../scripts/preguntero.js';
+</script>
+
+<style>
+  .top-lista { display: flex; flex-direction: column; }
+  .top-prog { background: var(--sup); border: 1px solid var(--borde); border-radius: var(--r-s); padding: 12px 16px; margin: 24px 0; }
+  .top-prog-txt { margin: 0 0 4px; font-weight: 700; }
+</style>

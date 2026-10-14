@@ -1,0 +1,40 @@
+---
+// Un solo botón "… con IA ▾" con desplegable Claude / ChatGPT / Gemini / Solo copiar (lógica en scripts/ia.js).
+// Va dentro de un contenedor con data-ia-ctx que marca data-ia-tit, data-ia-enun y data-ia-modelo (respuesta modelo).
+// modo 'corregir': muestra "Tu respuesta"; escrita → corrección contra la respuesta modelo, vacía → explicación del tema.
+// modo 'explicar': solo explicación (resumen, tarjetas, choices).
+const { modo = 'corregir' } = Astro.props;
+const etiqueta = modo === 'corregir' ? 'Corregir con IA' : 'Explicámelo con IA';
+const ops = [['claude', 'Claude'], ['chatgpt', 'ChatGPT'], ['gemini', 'Gemini'], ['copiar', 'Solo copiar el prompt']];
+---
+<div class="ia" data-ia={modo}>
+  {modo === 'corregir' && (
+    <label class="ia-mia" data-js hidden>Tu respuesta
+      <textarea data-ia-mia rows="5" placeholder="Escribila como en el examen y pedí la corrección. Si la dejás vacía, la IA te explica el tema."></textarea>
+    </label>
+  )}
+  <details class="ia-menu" data-ia-js hidden>
+    <summary><span aria-hidden="true">✨</span> {etiqueta} <span class="ia-flecha" aria-hidden="true">▾</span></summary>
+    <ul class="ia-ops">
+      {ops.map(([d, n]) => <li><button type="button" data-ia-ir={d}>{n}</button></li>)}
+    </ul>
+  </details>
+  <p class="ia-aviso" data-ia-aviso aria-live="polite"></p>
+</div>
+<style is:global>
+  .ia { margin: .6rem 0; }
+  .ia-mia { display: grid; gap: 4px; font-weight: 700; font-size: .9rem; margin-bottom: .5rem; }
+  .ia-mia textarea { width: 100%; min-height: 6.5rem; padding: 10px 12px; border: 1px solid var(--borde-fuerte); border-radius: var(--r-s); background: var(--sup2); color: var(--texto); font: inherit; font-weight: 400; resize: vertical; }
+  .ia-menu { position: relative; display: inline-block; }
+  .ia-menu > summary { list-style: none; cursor: pointer; min-height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 4px 16px; border-radius: 999px; background: var(--sup); border: 1.5px solid var(--acento); color: var(--acento); font-weight: 700; font-size: .95rem; transition: background .15s, color .15s; }
+  .ia-menu > summary:hover, .ia-menu[open] > summary { background: var(--acento); color: var(--sobre-acento, #fff); }
+  .ia-flecha { transition: transform .15s; display: inline-block; }
+  .ia-menu > summary::-webkit-details-marker { display: none; }
+  .ia-menu[open] .ia-flecha { transform: rotate(180deg); }
+  .ia-ops { position: absolute; z-index: 20; left: 0; top: calc(100% + 6px); min-width: 220px; margin: 0; padding: 6px; list-style: none; background: var(--sup); border: 1px solid var(--borde-fuerte); border-radius: var(--r-s); box-shadow: var(--sombra-h); }
+  .ia-ops button { width: 100%; min-height: 44px; padding: 8px 12px; text-align: left; border: 0; border-radius: 6px; background: none; color: var(--texto); font: inherit; font-weight: 600; cursor: pointer; }
+  .ia-ops button:hover { background: var(--sup2); }
+  .ia-menu > summary:focus-visible, .ia-ops button:focus-visible, .ia-mia textarea:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
+  .ia-aviso { margin: .3rem 0 0; font-size: .85rem; color: var(--suave); }
+  .ia-aviso:empty { display: none; }
+</style>
