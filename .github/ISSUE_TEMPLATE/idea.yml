@@ -1,0 +1,11 @@
+name: Idea
+description: Una mejora o función nueva para el sitio.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes: {label: Qué te gustaría que haga el sitio}
+    validations: {required: true}
+  - type: textarea
+    id: para-que
+    attributes: {label: Para qué te serviría}

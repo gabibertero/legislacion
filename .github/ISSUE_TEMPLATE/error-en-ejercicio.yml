@@ -1,0 +1,16 @@
+name: Error en un ejercicio
+description: Una respuesta, choice o tarjeta tiene un error o no coincide con el material.
+labels: [error-contenido]
+body:
+  - type: input
+    id: pagina
+    attributes: {label: Página, placeholder: /parcial-2/top15/}
+    validations: {required: true}
+  - type: input
+    id: item
+    attributes: {label: Pregunta, choice o tarjeta, description: Título o número}
+    validations: {required: true}
+  - type: textarea
+    id: error
+    attributes: {label: Qué está mal y qué dice el material, description: Citá la página del material si podés}
+    validations: {required: true}
