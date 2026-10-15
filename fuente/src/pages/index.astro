@@ -44,21 +44,6 @@ const lista = accesos(inst, base, machetes);
       <p>{inst.titulo} · {fechaTxt}</p>
       <p class="cuenta-num" data-cuenta>{fechaTxt}</p>
     </div>
-
-    <div class="tarjeta pan pan-prog" aria-labelledby="h-prog">
-      <h2 id="h-prog">Tu progreso por tema</h2>
-      <p class="prog-num" data-prog-global>Activá JavaScript para ver tu progreso.</p>
-      <ul class="prog-temas">
-        {temas.map((t) => (
-          <li data-tema={t.id}>
-            <span class="pt-nombre">{t.titulo}</span>
-            <span class="pt-pct suave"><b data-pct>0%</b> · {cuantos(t)} ítems</span>
-            <span class="barra" data-tema-barra role="presentation"></span>
-          </li>
-        ))}
-      </ul>
-      <p class="suave nota">Cuenta: preguntas del preguntero marcadas «La sé», tarjetas en la caja 3 y choices acertados.</p>
-    </div>
   </section>
 
 
@@ -71,6 +56,21 @@ const lista = accesos(inst, base, machetes);
     ))}
   </ul>
   <p class="u1-link">1º parcial (U1, aprobado): <a href={`${base}parcial-1/`}>parcial resuelto, resumen, choices y tarjetas</a> · <a href={`${base}u1/`}>guía anterior</a></p>
+
+  <details class="tarjeta pan pan-prog" aria-labelledby="h-prog">
+    <summary><h2 id="h-prog">Tu progreso por tema</h2><span class="prog-ver" aria-hidden="true"></span></summary>
+    <p class="prog-num" data-prog-global>Activá JavaScript para ver tu progreso.</p>
+    <ul class="prog-temas">
+      {temas.map((t) => (
+        <li data-tema={t.id}>
+          <span class="pt-nombre">{t.titulo}</span>
+          <span class="pt-pct suave"><b data-pct>0%</b> · {cuantos(t)} ítems</span>
+          <span class="barra" data-tema-barra role="presentation"></span>
+        </li>
+      ))}
+    </ul>
+    <p class="suave nota">Cuenta: preguntas del preguntero marcadas «La sé», tarjetas en la caja 3 y choices acertados.</p>
+  </details>
 
   <h2>Mapa de la materia</h2>
   <p class="suave sec-intro">Las {cfg.unidades.length} unidades del programa, agrupadas por instancia de evaluación.</p>
@@ -99,7 +99,14 @@ const lista = accesos(inst, base, machetes);
   .pan-cuenta .cuenta-num { grid-row: 1 / span 2; grid-column: 2; margin: 0; text-align: right; }
   .pan-cuenta h2, .pan-cuenta p { grid-column: 1; margin: 0; }
   .prog-temas { grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 16px 32px !important; }
-  .pan-prog { grid-column: 1 / -1; }
+  .pan-prog { margin-top: 32px; padding: 0; }
+  .pan-prog > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 56px; padding: 8px 24px; }
+  .pan-prog > summary::-webkit-details-marker { display: none; }
+  .pan-prog > summary h2 { margin: 0; font-size: 1.25rem; }
+  .prog-ver::before { content: 'Ver ▾'; font-weight: 600; color: var(--acento); }
+  .pan-prog[open] .prog-ver::before { content: 'Ocultar ▴'; }
+  .pan-prog > :not(summary) { margin-left: 24px; margin-right: 24px; }
+  .pan-prog > :last-child { margin-bottom: 24px; }
 
   .pan-cuenta h2, .pan-cuenta p { color: inherit; }
   .pan-cuenta h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: .08em; font-family: var(--f-ui); }

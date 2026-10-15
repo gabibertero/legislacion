@@ -12,8 +12,8 @@ const items = (await getCollection('machetes')).filter((e) => inst.unidades.incl
 ---
 <Layout titulo={`Machetes · ${inst.titulo}`} descripcion={`Resumen y machete de ${inst.unidades.join(", ")} para el ${inst.titulo}.`}>
   <p class="eyebrow"><a href={`${base}${inst.ruta}/`}>{inst.titulo}</a> · Machetes</p>
-  <h1>Machetes de teoría</h1>
-  <p class="lead">Fórmulas y recetas en formato «me dan → me piden → hago», con errores comunes. Cada fórmula trae su fuente (archivo y página).</p>
+  <h1>Resúmenes y machetes</h1>
+  <p class="lead">Resúmenes y machetes de la unidad: definiciones, cuadros comparativos y artículos, con la fuente de cada dato (archivo y página).</p>
   <ul class="grilla lista-tarjetas">
     {items.map((i) => (
       <li class="tarjeta tarjeta-u" data-unidad={i.data.unidad}>

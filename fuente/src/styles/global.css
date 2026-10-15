@@ -522,3 +522,44 @@ select, .pg-crono select, .ch-fila select, .tj-config select { min-height: 44px;
 .preg-resp > summary, .preg-acc button, .ia-menu > summary, .seg label, .tabs a, .chip-link { min-height: 44px; }
 input[type=checkbox], input[type=radio] { accent-color: var(--acento); }
 .machete-indice { max-width: none; }
+
+/* ===== Ronda 3 ===== */
+/* Paneles de configuración: aire parejo */
+.ch-config, .tj-config, .pg-sim { padding: 24px; }
+.ch-config > h2:first-child, .tj-config > h2:first-child, .pg-sim > h2:first-child { margin-top: 0; }
+.ch-config fieldset { margin: 16px 0; }
+@media (max-width: 520px) { .ch-config, .tj-config, .pg-sim { padding: 16px; } }
+
+/* Accesos: con 5 tarjetas (sin Machete) 1 grande + 2x2, sin huérfana */
+:where(.accesos-home:has(> :nth-child(5):last-child), .accesos-grid:has(> :nth-child(5):last-child)) > .acceso { grid-column: span 3; }
+.accesos-home > .acceso-grande:first-child, .accesos-grid > .acceso-grande:first-child { grid-column: 1 / -1; }
+@media (max-width: 720px) { .accesos-home > .acceso, .accesos-grid > .acceso { grid-column: 1 / -1; } }
+
+/* Tablas: encabezado sin fondo opaco para que se vea la sombra de scroll */
+.lectura th { background: transparent; border-bottom: 2px solid var(--acento); }
+.lectura table { background-image: linear-gradient(to right, var(--sup) 30%, transparent), linear-gradient(to left, var(--sup) 30%, transparent), radial-gradient(farthest-side at 0 50%, rgb(0 0 0 / .3), transparent), radial-gradient(farthest-side at 100% 50%, rgb(0 0 0 / .3), transparent); background-size: 32px 100%, 32px 100%, 16px 100%, 16px 100%; scrollbar-width: thin; scrollbar-color: var(--borde-fuerte) transparent; }
+
+/* Resumen U1: línea de tiempo de reformas y pirámide jurídica (CSS sobre el markdown) */
+.lectura [id='las-reformas-constitucionales'] + blockquote + ul { list-style: none; padding: 0 0 0 24px; margin: 24px 0; border-left: 3px solid var(--borde-fuerte); }
+.lectura [id='las-reformas-constitucionales'] + blockquote + ul > li { position: relative; padding: 0 0 8px 16px; margin: 0 0 16px; }
+.lectura [id='las-reformas-constitucionales'] + blockquote + ul > li::before { content: ''; position: absolute; left: -35px; top: 6px; width: 16px; height: 16px; border-radius: 50%; background: var(--acento); border: 3px solid var(--sup); }
+.lectura [id='las-reformas-constitucionales'] + blockquote + ul > li > strong:first-child { display: block; font: 600 1.125rem/1.3 var(--f-ed); color: var(--acento); margin-bottom: 4px; }
+.lectura [id='la-pirámide-jurídica'] + ol { list-style: none; padding: 0; margin: 16px 0 8px; display: grid; gap: 8px; justify-items: center; counter-reset: pir; }
+.lectura [id='la-pirámide-jurídica'] + ol > li { counter-increment: pir; margin: 0; padding: 12px 16px; text-align: center; border-radius: var(--r-s); background: color-mix(in srgb, var(--acento) 8%, var(--sup)); border: 1px solid color-mix(in srgb, var(--acento) 30%, var(--sup)); max-width: none; }
+.lectura [id='la-pirámide-jurídica'] + ol > li::before { content: counter(pir) '.\00a0'; font-weight: 700; color: var(--acento); }
+.lectura [id='la-pirámide-jurídica'] + ol > li:nth-child(1) { width: 72%; background: var(--acento); color: var(--sobre-acento); font-weight: 600; }
+.lectura [id='la-pirámide-jurídica'] + ol > li:nth-child(1)::before { color: inherit; }
+.lectura [id='la-pirámide-jurídica'] + ol > li:nth-child(2) { width: 80%; background: color-mix(in srgb, var(--acento) 24%, var(--sup)); }
+.lectura [id='la-pirámide-jurídica'] + ol > li:nth-child(3) { width: 88%; background: color-mix(in srgb, var(--acento) 16%, var(--sup)); }
+.lectura [id='la-pirámide-jurídica'] + ol > li:nth-child(4) { width: 94%; }
+.lectura [id='la-pirámide-jurídica'] + ol > li:nth-child(5) { width: 100%; }
+.lectura [id='la-pirámide-jurídica'] + ol + p { text-align: center; color: var(--suave); }
+@media (max-width: 520px) { .lectura [id='la-pirámide-jurídica'] + ol > li { width: 100% !important; } }
+
+/* Táctil >=44px (gana a los estilos de componente) */
+.preg-acc button, .preg-resp > summary, .pg-filtros button, .ia-menu > summary, .ex-fila button, .autocorr-b button { min-height: 44px !important; }
+.pg-filtros button, .preg-acc button { min-width: 44px; }
+.ch-op, .tj-op, .pg-crono { min-height: 44px; padding-block: 8px; }
+.ch-op input, .tj-op input, .pg-crono input, .ch-opcion input { width: 24px; height: 24px; flex: none; accent-color: var(--acento); }
+.ch-opcion input:disabled { opacity: 1; }
+.pg-crono select, select[data-minutos] { min-height: 44px; }
