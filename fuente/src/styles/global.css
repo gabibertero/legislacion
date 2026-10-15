@@ -563,3 +563,10 @@ input[type=checkbox], input[type=radio] { accent-color: var(--acento); }
 .ch-op input, .tj-op input, .pg-crono input, .ch-opcion input { width: 24px; height: 24px; flex: none; accent-color: var(--acento); }
 .ch-opcion input:disabled { opacity: 1; }
 .pg-crono select, select[data-minutos] { min-height: 44px; }
+
+/* 3ª auditoría estética: tablas legibles en celular, menú IA sin tapar la tarjeta siguiente */
+.tabla-pista { margin: .5rem 0 .25rem; font-size: .85rem; font-weight: 600; color: var(--suave); }
+@media (max-width: 600px) {
+  .lectura th, .lectura td, .resp th, .resp td { min-width: 9.5rem; }
+}
+.ia .ia-menu .ia-ops { position: static; margin-top: 6px; } /* se despliega dentro de la tarjeta, empuja el contenido en vez de taparlo */

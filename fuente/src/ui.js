@@ -42,7 +42,11 @@ if (indice) {
 
 // Tablas anchas (display:block + overflow): alcanzables con teclado para desplazarlas a 390px.
 document.querySelectorAll('.lectura table, .resp table').forEach((t) => {
-  if (t.scrollWidth > t.clientWidth) Object.assign(t, { tabIndex: 0 }).setAttribute('aria-label', 'Tabla (desplazable)');
+  if (t.scrollWidth <= t.clientWidth) return;
+  Object.assign(t, { tabIndex: 0 }).setAttribute('aria-label', 'Tabla (desplazable)');
+  const pista = Object.assign(document.createElement('p'), { className: 'tabla-pista', textContent: 'Deslizá la tabla →' });
+  pista.setAttribute('aria-hidden', 'true');
+  t.before(pista);
 });
 
 // Secciones de lectura: "Errores frecuentes", "Ojo con", "Fórmulas clave" pasan a ser cajas.
