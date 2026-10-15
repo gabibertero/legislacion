@@ -1,0 +1,50 @@
+[
+  {
+    "id": "normas",
+    "titulo": "Las normas y sus tipos"
+  },
+  {
+    "id": "moral",
+    "titulo": "Moral y Derecho"
+  },
+  {
+    "id": "natural",
+    "titulo": "Derecho natural y derecho positivo"
+  },
+  {
+    "id": "general",
+    "titulo": "Generalidades, creación y realización del Derecho"
+  },
+  {
+    "id": "fuentes",
+    "titulo": "Fuentes del Derecho"
+  },
+  {
+    "id": "division",
+    "titulo": "División del derecho positivo"
+  },
+  {
+    "id": "juris",
+    "titulo": "La jurisprudencia"
+  },
+  {
+    "id": "const",
+    "titulo": "Derecho constitucional"
+  },
+  {
+    "id": "supremacia",
+    "titulo": "Supremacía constitucional"
+  },
+  {
+    "id": "cn",
+    "titulo": "La Constitución Nacional"
+  },
+  {
+    "id": "reformas",
+    "titulo": "Las reformas constitucionales"
+  },
+  {
+    "id": "soberania",
+    "titulo": "Soberanía, autonomía y autarquía"
+  }
+]

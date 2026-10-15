@@ -2,12 +2,14 @@
 export function accesos(inst, base, machetes = []) {
   const r = `${base}${inst.ruta}/`;
   const m = (re, defecto) => (machetes.find((e) => re.test(e.id)) ? `${r}machetes/${machetes.find((e) => re.test(e.id)).id}/` : defecto);
+  const top = inst.secciones.includes('top15');
   return [
-    { id: 'top15', titulo: 'Top 15', desc: 'Las preguntas más probables, con respuesta modelo', href: `${r}top15/`, grande: true },
+    top && { id: 'top15', titulo: 'Top 15', desc: 'Las preguntas más probables, con respuesta modelo', href: `${r}top15/`, grande: true },
+    !top && { id: 'preguntero', titulo: 'Preguntero', desc: 'El parcial tomado, resuelto, y preguntas de desarrollo', href: `${r}teoria/`, grande: true },
     { id: 'resumen', titulo: 'Resumen', desc: 'La unidad completa, ordenada', href: m(/resumen/, `${r}machetes/`) },
     { id: 'simulacro', titulo: 'Simulacro', desc: '5 preguntas al azar, 60 minutos', href: `${r}teoria/#simulacro`, grande: true },
     { id: 'choices', titulo: 'Choices', desc: 'Preguntas de opción múltiple con explicación', href: `${r}choices/` },
     { id: 'tarjetas', titulo: 'Tarjetas', desc: 'Repaso espaciado en 3 cajas', href: `${r}tarjetas/` },
-    { id: 'machete', titulo: 'Machete', desc: 'Lo esencial en una hoja', href: m(/machete/, `${r}machetes/`) },
-  ];
+    machetes.some((e) => /machete/.test(e.id)) && { id: 'machete', titulo: 'Machete', desc: 'Lo esencial en una hoja', href: m(/machete/, `${r}machetes/`) },
+  ].filter(Boolean);
 }

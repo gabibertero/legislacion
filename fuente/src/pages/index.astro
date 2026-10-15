@@ -11,14 +11,15 @@ const base = import.meta.env.BASE_URL;
 const { largo, facultad, carrera, lead } = cfg.materia;
 const inst = disponibles[0]; // instancia activa: el 2º parcial
 const FECHA = inst.fecha; // ISO con offset, en sitio.config.mjs
-const fechaTxt = new Date(FECHA).toLocaleDateString('es-AR', { weekday: 'long', day: 'numeric', month: 'numeric', year: 'numeric', timeZone: 'America/Argentina/Buenos_Aires' }) + ', 08:00';
+const dia = (f) => new Date(f).toLocaleDateString('es-AR', { day: 'numeric', month: 'numeric', timeZone: 'America/Argentina/Buenos_Aires' });
+const fechaTxt = `${new Date(FECHA).toLocaleDateString('es-AR', { weekday: 'long', timeZone: 'America/Argentina/Buenos_Aires' })} ${dia(FECHA)}${inst.fechaAlt ? ` o ${dia(inst.fechaAlt)} (a confirmar)` : ''}, 08:00`;
 const machetes = (await getCollection('machetes')).filter((e) => inst.unidades.includes(e.data.unidad));
 const preguntas = (await getCollection('preguntas')).filter((e) => inst.unidades.includes(e.data.unidad))
   .flatMap((e) => preguntasDeMdx(e.body ?? '')).filter((p) => p.id);
 const choices = choicesDe(inst.unidades), tarjetas = tarjetasDe(inst.unidades);
 const temas = temasDe(inst.unidades);
 const sel = (l) => l.map(({ id, tema }) => ({ id, tema }));
-const datos = JSON.stringify({ fecha: FECHA, temas, items: { preguntas: sel(preguntas), tarjetas: sel(tarjetas), choices: sel(choices) }, inst: inst.ruta }).replace(/</g, '\\u003c');
+const datos = JSON.stringify({ fecha: FECHA, fechaAlt: inst.fechaAlt, temas, items: { preguntas: sel(preguntas), tarjetas: sel(tarjetas), choices: sel(choices) }, inst: inst.ruta }).replace(/</g, '\\u003c');
 const cuantos = (t) => [preguntas, tarjetas, choices].reduce((s, l) => s + l.filter((x) => x.tema === t.id).length, 0);
 const lista = accesos(inst, base, machetes);
 ---
@@ -60,11 +61,6 @@ const lista = accesos(inst, base, machetes);
     </div>
   </section>
 
-  <section class="plan" data-js hidden aria-labelledby="h-plan">
-    <h2 id="h-plan">Plan hasta el parcial</h2>
-    <p class="suave">Calculado desde hoy. Se ajusta solo cada día que pasa.</p>
-    <ol class="plan-lista" data-plan></ol>
-  </section>
 
   <h2>Por dónde arrancar</h2>
   <ul class="accesos-home">
@@ -74,7 +70,7 @@ const lista = accesos(inst, base, machetes);
       </li>
     ))}
   </ul>
-  <p class="u1-link"><a href={`${base}u1/`}>Guía de la Unidad 1 (1º parcial, versión anterior)</a></p>
+  <p class="u1-link">1º parcial (U1, aprobado): <a href={`${base}parcial-1/`}>parcial resuelto, resumen, choices y tarjetas</a> · <a href={`${base}u1/`}>guía anterior</a></p>
 
   <h2>Mapa de la materia</h2>
   <p class="suave sec-intro">Las {cfg.unidades.length} unidades del programa, agrupadas por instancia de evaluación.</p>
@@ -114,12 +110,6 @@ const lista = accesos(inst, base, machetes);
   .pt-nombre { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
   .pt-pct { font-variant-numeric: tabular-nums; white-space: nowrap; }
   .nota { font-size: .9rem; margin-bottom: 0; }
-  .plan-lista { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 12px; }
-  .plan-lista :global(li) { padding: 12px 16px; border: 1px solid var(--borde); border-left: 4px solid var(--borde-fuerte); border-radius: var(--r-s); background: var(--sup); }
-  .plan-lista :global(li)[aria-current='date'] { border-color: var(--acento); border-left-color: var(--acento); box-shadow: var(--sombra); background: var(--sup2); }
-  .plan-lista :global(li)[data-pasado] { opacity: .6; }
-  .plan-lista :global(b)::first-letter { text-transform: uppercase; }
-  .plan-lista :global(b) { display: block; font-family: var(--f-ed); font-size: 1.1rem; }
   .u1-link { font-size: .95rem; color: var(--suave); }
   @media (max-width: 720px) {
     .pan-cuenta { grid-template-columns: 1fr; padding: 16px 24px; }

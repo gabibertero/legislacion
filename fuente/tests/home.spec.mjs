@@ -30,11 +30,13 @@ test('cuenta regresiva al 21/10/2026 08:00', async ({ page }) => {
   await expect(page.locator('[data-cuenta]')).toHaveText('6 días 23 h 0 min');
 });
 
-test('cuenta regresiva: parcial pasado', async ({ page }) => {
-  await page.clock.install({ time: new Date(2026, 9, 22, 9, 0, 0) });
+test('cuenta regresiva: pasado el 21 sigue al 28 (fecha a confirmar); pasado el 28, terminó', async ({ page }) => {
+  await page.clock.setFixedTime(new Date(2026, 9, 22, 8, 0, 0));
   await page.goto('');
+  await expect(page.locator('[data-cuenta]')).toHaveText('6 días 0 h 0 min');
+  await page.clock.setFixedTime(new Date(2026, 9, 29, 9, 0, 0));
+  await page.reload();
   await expect(page.locator('[data-cuenta]')).toContainText('ya empezó o pasó');
-  await expect(page.locator('[data-plan] li')).toHaveCount(0);
 });
 
 test('progreso por tema: preguntas sabidas + tarjetas caja 3 + choices acertados', async ({ page }) => {
@@ -67,19 +69,6 @@ test('progreso: marcas a medias y datos corruptos no rompen', async ({ page }) =
   expect(errores).toEqual([]);
 });
 
-test('plan sugerido: desde hoy hasta el día del parcial, con hoy marcado', async ({ page }) => {
-  await page.clock.install({ time: new Date(2026, 9, 14, 10, 0, 0) });
-  await page.goto('');
-  const dias = page.locator('[data-plan] li');
-  await expect(dias).toHaveCount(8);
-  await expect(dias.first()).toHaveAttribute('aria-current', 'date');
-  await expect(dias.first()).toContainText('hoy');
-  await expect(dias.nth(6)).toContainText('Simulacro completo');
-  await expect(dias.nth(7)).toContainText('21');
-  const { temas } = await datos(page);
-  const texto = await page.locator('[data-plan]').textContent();
-  for (const t of temas) expect(texto).toContain(t.titulo);
-});
 
 test('seguir donde dejaste aparece tras visitar el Top 15', async ({ page }) => {
   await page.goto('');

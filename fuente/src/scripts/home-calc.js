@@ -25,26 +25,4 @@ export function progresoPorTema(temas, items, estado) {
   return { filas, total, hechos, pct: total ? Math.round((hechos / total) * 100) : 0 };
 }
 
-export const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-const sumar = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
 
-// Plan día a día desde `hoy` hasta el día del parcial (inclusive). Días de calendario, sin horas.
-// Los temas se reparten en orden en todos los días menos los dos últimos (simulacro y día del parcial).
-export function planDias(hoy, parcial, temas) {
-  const h = new Date(hoy.getFullYear(), hoy.getMonth(), hoy.getDate());
-  // Con string ISO el día sale de su parte de fecha (no cambia según la zona del navegador).
-  const [py, pm, pd] = typeof parcial === 'string' ? parcial.slice(0, 10).split('-').map(Number) : [parcial.getFullYear(), parcial.getMonth() + 1, parcial.getDate()];
-  const p = new Date(py, pm - 1, pd);
-  const hasta = Math.round((p - h) / 864e5); // días hasta el parcial
-  if (hasta < 0) return [];
-  const dia = (n, tipo, titulo, temasDia = []) => ({ fecha: iso(sumar(h, n)), tipo, titulo, temas: temasDia.map((t) => t.id), temasTxt: temasDia.map((t) => t.titulo) });
-  const out = [];
-  const estudio = Math.max(hasta - 1, 0); // el día anterior es el simulacro; el último es el parcial
-  for (let j = 0; j < estudio; j++) {
-    const ts = temas.slice(Math.floor((j * temas.length) / estudio), Math.floor(((j + 1) * temas.length) / estudio));
-    out.push(ts.length ? dia(j, 'estudio', 'Estudiar', ts) : dia(j, 'repaso', 'Repasar el Top 15 y las tarjetas de la caja 1'));
-  }
-  if (hasta >= 1) out.push(dia(hasta - 1, 'simulacro', 'Simulacro completo (60 min) y repaso del machete'));
-  out.push(dia(hasta, 'parcial', hasta === 0 ? 'Hoy es el parcial: repasá el machete y a rendir' : 'Parcial'));
-  return out;
-}

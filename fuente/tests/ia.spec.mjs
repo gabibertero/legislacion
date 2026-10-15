@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { TOP, CHOICES, TARJETAS, espiarOpen, abiertas } from './util.mjs';
+import { TOP, TEORIA, CHOICES, TARJETAS, espiarOpen, abiertas } from './util.mjs';
 
 // window.open se intercepta: se comprueba la URL, no se abre nada.
 const pedir = async (page, caja, nombre) => {
@@ -7,9 +7,9 @@ const pedir = async (page, caja, nombre) => {
   await caja.getByRole('button', { name: nombre, exact: true }).click();
 };
 
-test('Top 15: Claude y ChatGPT abren con ?q= (corrección con la respuesta escrita)', async ({ page }) => {
+test('Preguntero: Claude y ChatGPT abren con ?q= (corrección con la respuesta escrita)', async ({ page }) => {
   await espiarOpen(page);
-  await page.goto(TOP);
+  await page.goto(TEORIA);
   const art = page.locator('[data-pregunta]').first();
   await art.getByLabel('Tu respuesta').fill('Respuesta de prueba');
   await pedir(page, art, 'Claude');

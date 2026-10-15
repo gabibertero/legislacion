@@ -69,9 +69,11 @@ export default {
         "U2"
       ],
       "estado": "listo",
-      "descripcion": "Unidad 2 · De las personas. Miércoles 21/10 · desarrollo, 4–5 preguntas, 60 min.",
+      "descripcion": "Unidad 2 · De las personas. Miércoles 21/10 o 28/10 (a confirmar) · desarrollo, 4–5 preguntas, 60 min.",
       "fecha": "2026-10-21T08:00:00-03:00",
+      "fechaAlt": "2026-10-28T08:00:00-03:00",
       "secciones": [
+        "top15",
         "teoria",
         "machetes"
       ]
@@ -82,8 +84,12 @@ export default {
       "unidades": [
         "U1"
       ],
-      "estado": "proximamente",
-      "descripcion": "Aprobado. La guía vieja de la U1 sigue en /u1/; se migra después del 2º parcial."
+      "estado": "listo",
+      "descripcion": "Aprobado (07/10). Unidad 1 · El Derecho: el parcial tomado resuelto, resumen, choices y tarjetas. Sirve para el final.",
+      "secciones": [
+        "teoria",
+        "machetes"
+      ]
     },
     {
       "id": "final",
@@ -106,7 +112,7 @@ export default {
   },
   "footer": {
     "nota": "Sitio de estudio no oficial, armado para preparar la materia.",
-    "fuentes": "Material de cátedra. Material_Legislacion (pp. 42–60). Las respuestas modelo son elaboradas a partir de ese material, no oficiales; el orden del Top 15 es una estimación.",
+    "fuentes": "Material de cátedra. Material_Legislacion de la cátedra. Las respuestas modelo son elaboradas a partir de ese material, no oficiales; el orden del Top 15 es una estimación.",
     "links": []
   }
 };

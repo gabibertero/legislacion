@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "u1c001",
+    "tema": "normas",
+    "nivel": "facil",
+    "pregunta": "¿Qué carácter distingue a la norma jurídica de los demás tipos de normas?",
+    "opciones": [
+      "La coercibilidad",
+      "La interioridad",
+      "La autonomía",
+      "La unilateralidad"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Solo la norma jurídica admite el uso de la fuerza del Estado para que se cumpla.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c002",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "¿Cuántas veces fue reformada la Constitución Nacional?",
+    "opciones": [
+      "7",
+      "5",
+      "9",
+      "4"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "1860, 1866, 1898, 1949, 1957, 1972 y 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c003",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "¿En qué año fue la última reforma constitucional?",
+    "opciones": [
+      "1994",
+      "1957",
+      "1972",
+      "1949"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La de 1994 es la última y la más amplia.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c004",
+    "tema": "cn",
+    "nivel": "facil",
+    "pregunta": "¿Dónde se sancionó la Constitución de 1853?",
+    "opciones": [
+      "Santa Fe",
+      "Buenos Aires",
+      "Tucumán",
+      "Córdoba"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Fue sancionada el 1° de mayo de 1853 en Santa Fe.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c005",
+    "tema": "soberania",
+    "nivel": "facil",
+    "pregunta": "¿Quién tiene soberanía?",
+    "opciones": [
+      "El Estado Nacional",
+      "Las provincias",
+      "Los municipios",
+      "Las universidades nacionales"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La soberanía no admite otro poder por encima: solo la tiene el Estado Nacional.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c006",
+    "tema": "supremacia",
+    "nivel": "facil",
+    "pregunta": "Según la supremacía constitucional, la norma inferior que contradice a la Constitución es:",
+    "opciones": [
+      "Nula",
+      "Válida igual",
+      "Superior a la Constitución",
+      "Optativa"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Cualquier norma posterior y contraria a la suprema provoca la nulidad de la norma inferior.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c007",
+    "tema": "supremacia",
+    "nivel": "facil",
+    "pregunta": "La supremacía constitucional tiene su origen en el precedente:",
+    "opciones": [
+      "Marbury vs. Madison",
+      "Pacto de Olivos",
+      "Acuerdo de San Nicolás",
+      "Pacto de San José de Flores"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Fallo de la Corte de EE.UU. de 1803.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c008",
+    "tema": "normas",
+    "nivel": "facil",
+    "pregunta": "¿Cuáles son tipos de normas según el material?",
+    "opciones": [
+      "Religiosas",
+      "Morales",
+      "De trato social",
+      "Jurídicas",
+      "Económicas"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Son cuatro: religiosas, morales, de trato social y jurídicas.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c009",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "¿Qué reforma incorporó el artículo 14 bis?",
+    "opciones": [
+      "1957",
+      "1949",
+      "1994",
+      "1866"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La Convención de 1957 lo sancionó antes de quedarse sin quórum.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c010",
+    "tema": "fuentes",
+    "nivel": "facil",
+    "pregunta": "La opinión de juristas prestigiosos sobre una materia es:",
+    "opciones": [
+      "La doctrina",
+      "La jurisprudencia",
+      "La costumbre",
+      "La ley"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La doctrina orienta, pero no es fuente formal.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c011",
+    "tema": "juris",
+    "nivel": "facil",
+    "pregunta": "Las reiteradas interpretaciones de las normas que hacen los tribunales se llaman:",
+    "opciones": [
+      "Jurisprudencia",
+      "Doctrina",
+      "Costumbre",
+      "Negocio jurídico"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Conjunto de sentencias que resuelven del mismo modo casos similares.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c012",
+    "tema": "fuentes",
+    "nivel": "facil",
+    "pregunta": "La repetición continua y uniforme de un acto al que se le da valor normativo es:",
+    "opciones": [
+      "La costumbre",
+      "La ley",
+      "La doctrina",
+      "Un tratado"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Es una práctica social arraigada.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c013",
+    "tema": "const",
+    "nivel": "facil",
+    "pregunta": "¿Quién es el titular del poder constituyente?",
+    "opciones": [
+      "El pueblo",
+      "El Presidente",
+      "El Congreso",
+      "La Corte Suprema"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Es la facultad soberana del pueblo de darse su ordenamiento fundamental.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c014",
+    "tema": "division",
+    "nivel": "facil",
+    "pregunta": "El derecho penal pertenece al:",
+    "opciones": [
+      "Derecho público",
+      "Derecho privado",
+      "Derecho social",
+      "Derecho natural"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Determina delitos y penas que impone el Estado.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c015",
+    "tema": "division",
+    "nivel": "facil",
+    "pregunta": "El derecho civil pertenece al:",
+    "opciones": [
+      "Derecho privado",
+      "Derecho público",
+      "Derecho social",
+      "Derecho canónico"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Regula personas, familia, propiedad y sucesiones.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c016",
+    "tema": "division",
+    "nivel": "facil",
+    "pregunta": "El derecho del trabajo (laboral) pertenece al:",
+    "opciones": [
+      "Derecho social",
+      "Derecho privado",
+      "Derecho público",
+      "Derecho canónico"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Busca la justicia social en las relaciones laborales.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c017",
+    "tema": "division",
+    "nivel": "facil",
+    "pregunta": "¿Cuáles son ramas del derecho público?",
+    "opciones": [
+      "Penal",
+      "Constitucional",
+      "Administrativo",
+      "Civil",
+      "Mercantil"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Civil y mercantil son ramas del derecho privado.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c018",
+    "tema": "cn",
+    "nivel": "facil",
+    "pregunta": "¿Cuántos fines enumera el Preámbulo?",
+    "opciones": [
+      "6",
+      "4",
+      "8",
+      "10"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Unión nacional, justicia, paz interior, defensa común, bienestar general y beneficios de la libertad.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c019",
+    "tema": "cn",
+    "nivel": "facil",
+    "pregunta": "¿Cuáles son partes de la Constitución Nacional?",
+    "opciones": [
+      "Preámbulo",
+      "Parte dogmática",
+      "Parte orgánica",
+      "Parte penal"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Preámbulo, primera parte (dogmática) y segunda parte (orgánica).",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c020",
+    "tema": "soberania",
+    "nivel": "facil",
+    "pregunta": "Las provincias tienen:",
+    "opciones": [
+      "Autonomía",
+      "Soberanía",
+      "Solo autarquía",
+      "Ningún poder propio"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Dictan su propia constitución respetando la CN.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c021",
+    "tema": "soberania",
+    "nivel": "facil",
+    "pregunta": "La autarquía es la facultad de:",
+    "opciones": [
+      "Autoadministrarse bajo el control de un poder superior",
+      "Dictar su propia constitución",
+      "Decidir sin ningún poder por encima",
+      "Dictar sentencias"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Ej.: las universidades nacionales (art. 75 inc. 19).",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c022",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "Desde 1994, el mandato presidencial es de:",
+    "opciones": [
+      "4 años con una reelección inmediata",
+      "6 años sin reelección",
+      "4 años sin reelección",
+      "6 años con reelección indefinida"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Se acortó de 6 a 4 años.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c023",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "¿Qué reforma dio autonomía a la Ciudad de Buenos Aires?",
+    "opciones": [
+      "1994",
+      "1860",
+      "1949",
+      "1957"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Es una de las características de la reforma de 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c024",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "¿Qué reforma permitió la incorporación de Buenos Aires?",
+    "opciones": [
+      "1860",
+      "1866",
+      "1898",
+      "1957"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Tras el Pacto de San José de Flores (1859).",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c025",
+    "tema": "moral",
+    "nivel": "facil",
+    "pregunta": "La moral regula conductas:",
+    "opciones": [
+      "Internas",
+      "Externas",
+      "Solo comerciales",
+      "Solo religiosas"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El derecho regula conductas externas.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c026",
+    "tema": "moral",
+    "nivel": "facil",
+    "pregunta": "¿Cuál es el fin del derecho?",
+    "opciones": [
+      "Mantener y desarrollar la vida social",
+      "La perfección individual",
+      "La santidad del hombre",
+      "La bondad del sujeto"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La perfección individual es el fin de la moral.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c027",
+    "tema": "natural",
+    "nivel": "facil",
+    "pregunta": "El derecho natural es:",
+    "opciones": [
+      "Universal e inmutable",
+      "Variable según cada gobierno",
+      "Dictado por el Congreso",
+      "Una costumbre local"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Parte de la naturaleza misma del hombre.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c028",
+    "tema": "normas",
+    "nivel": "facil",
+    "pregunta": "¿Cuál es la sanción de las normas de trato social?",
+    "opciones": [
+      "La reprobación social",
+      "Una multa del Estado",
+      "La condenación eterna",
+      "La prisión"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El grupo rechaza o reprocha la conducta.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c029",
+    "tema": "cn",
+    "nivel": "facil",
+    "pregunta": "Desde 1994, ¿qué tiene jerarquía constitucional?",
+    "opciones": [
+      "Los tratados de derechos humanos del art. 75 inc. 22",
+      "Los decretos del Presidente",
+      "Las leyes provinciales",
+      "Las ordenanzas municipales"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Son 11 instrumentos de derechos humanos.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c030",
+    "tema": "fuentes",
+    "nivel": "facil",
+    "pregunta": "¿Cuáles de estas son fuentes del derecho?",
+    "opciones": [
+      "La Constitución",
+      "La ley",
+      "La costumbre",
+      "La opinión de un vecino"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Las siete fuentes: Constitución, ley, jurisprudencia, costumbre, negocio jurídico, principios generales y doctrina.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c031",
+    "tema": "division",
+    "nivel": "facil",
+    "pregunta": "El derecho que regula las relaciones entre particulares es el:",
+    "opciones": [
+      "Derecho privado",
+      "Derecho público",
+      "Derecho penal",
+      "Derecho constitucional"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "También rige al Estado cuando actúa como persona privada.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c032",
+    "tema": "supremacia",
+    "nivel": "facil",
+    "pregunta": "En la cúspide de la pirámide jurídica está:",
+    "opciones": [
+      "La CN y los tratados de DDHH con jerarquía constitucional",
+      "Las leyes provinciales",
+      "Los decretos",
+      "Las resoluciones ministeriales"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Todas las demás normas deben respetarla.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c033",
+    "tema": "reformas",
+    "nivel": "facil",
+    "pregunta": "¿Quién impulsó la reforma de 1949?",
+    "opciones": [
+      "Perón",
+      "Alfonsín",
+      "Urquiza",
+      "Aramburu"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Incorporó derechos sociales y la reelección indefinida.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c034",
+    "tema": "fuentes",
+    "nivel": "facil",
+    "pregunta": "Un contrato entre dos personas es un ejemplo de:",
+    "opciones": [
+      "Negocio jurídico",
+      "Costumbre",
+      "Jurisprudencia",
+      "Doctrina"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Acto de autonomía privada protegido por el orden jurídico.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c035",
+    "tema": "supremacia",
+    "nivel": "facil",
+    "pregunta": "Si una ley contradice a la Constitución:",
+    "opciones": [
+      "Es inconstitucional y pierde validez",
+      "Prevalece la ley",
+      "Las dos siguen vigentes igual",
+      "Se reforma la Constitución"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La norma inferior contraria es nula.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c036",
+    "tema": "normas",
+    "nivel": "facil",
+    "pregunta": "¿Qué tipo de norma emana de los órganos competentes del Estado?",
+    "opciones": [
+      "La jurídica",
+      "La moral",
+      "La religiosa",
+      "La de trato social"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Además son escritas y coercibles.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c037",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Cuáles de estos NO fueron reformas constitucionales?",
+    "opciones": [
+      "1956 (Proclama de Aramburu)",
+      "1966 (Estatuto de la Revolución Argentina)",
+      "1976 (Proceso de Reorganización Nacional)",
+      "1957",
+      "1972"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Fueron actos de gobiernos de facto, no reformas.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c038",
+    "tema": "normas",
+    "nivel": "media",
+    "pregunta": "¿Cuáles son caracteres de la norma jurídica?",
+    "opciones": [
+      "Coercible",
+      "Heterónoma",
+      "Exterior",
+      "Temporal",
+      "Incoercible"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Además es bilateral: impone deberes y atribuye derechos.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c039",
+    "tema": "normas",
+    "nivel": "media",
+    "pregunta": "Las normas morales son:",
+    "opciones": [
+      "Unilaterales",
+      "Interiores",
+      "Autónomas",
+      "Incoercibles",
+      "Coercibles"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Nacen en la conciencia y no se pueden imponer por la fuerza.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c040",
+    "tema": "normas",
+    "nivel": "media",
+    "pregunta": "Las normas religiosas son:",
+    "opciones": [
+      "Heterónomas",
+      "Unilaterales",
+      "Internas",
+      "Incoercibles",
+      "Bilaterales"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Las impone Dios; su sanción es interna y sobrenatural.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c041",
+    "tema": "normas",
+    "nivel": "media",
+    "pregunta": "Las normas de trato social son:",
+    "opciones": [
+      "Externas",
+      "Heterónomas",
+      "Unilaterales",
+      "Coercibles"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "No son coercibles: su sanción es la reprobación social.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c042",
+    "tema": "moral",
+    "nivel": "media",
+    "pregunta": "¿Qué afirmaciones sobre moral y derecho son correctas?",
+    "opciones": [
+      "La moral solo impone deberes",
+      "El derecho impone deberes y atribuye derechos",
+      "La moral es heterónoma",
+      "El derecho es incoercible"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "La moral es autónoma e incoercible; el derecho, heterónomo y coercible.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c043",
+    "tema": "fuentes",
+    "nivel": "media",
+    "pregunta": "¿Cuál NO es fuente formal del derecho?",
+    "opciones": [
+      "La doctrina",
+      "La ley",
+      "La costumbre",
+      "La jurisprudencia"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Es la opinión de juristas; orienta pero no obliga.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c044",
+    "tema": "natural",
+    "nivel": "media",
+    "pregunta": "¿Dónde se reconoce el derecho natural en nuestra legislación?",
+    "opciones": [
+      "Art. 33 CN",
+      "Art. 16 Código Civil",
+      "Art. 14 bis CN",
+      "Art. 123 CN"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Art. 33: derechos no enumerados. Art. 16 CC: principios generales del derecho.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c045",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué hizo la reforma de 1860?",
+    "opciones": [
+      "“Confederación” pasa a “Nación”",
+      "Elimina la revisión de las constituciones provinciales por el Congreso",
+      "Limita los derechos de exportación",
+      "Crea el Jefe de Gabinete"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El Jefe de Gabinete se creó en 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c046",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué hizo la reforma de 1898?",
+    "opciones": [
+      "Cambió la base de elección de diputados (1 cada 33.000)",
+      "Aumentó los ministerios de 5 a 8",
+      "Creó el ballotage",
+      "Incorporó el art. 14 bis"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Ballotage: 1994. Art. 14 bis: 1957.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c047",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué incorporó la reforma de 1949?",
+    "opciones": [
+      "Derechos sociales (trabajador, ancianidad, niñez, mujer)",
+      "Reelección presidencial indefinida",
+      "Hábeas corpus",
+      "Autonomía de la Ciudad de Buenos Aires"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "La autonomía de CABA es de 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c048",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "La reforma de 1866 tuvo por objeto:",
+    "opciones": [
+      "Eliminar una condición de carácter rentístico (derechos de exportación)",
+      "Incorporar a Buenos Aires",
+      "Crear el Consejo de la Magistratura",
+      "Incorporar derechos sociales"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Quitó la condición fijada en 1860.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c049",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué estableció la reforma de 1972?",
+    "opciones": [
+      "Mandatos de 4 años",
+      "Tercer senador por la minoría",
+      "Elección directa",
+      "El art. 14 bis"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "También permitió la reelección presidencial por una vez.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c050",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué estableció la reforma de 1994 según el material?",
+    "opciones": [
+      "Consejo de la Magistratura",
+      "Tercer senador por la minoría",
+      "Reglamentación de los decretos de necesidad y urgencia",
+      "El art. 14 bis"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El 14 bis es de 1957.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c051",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué acción constitucional reconoció la reforma de 1994?",
+    "opciones": [
+      "Amparo simple y colectivo",
+      "Recurso de casación",
+      "Juicio por jurados",
+      "Juicio político a jueces"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El juicio por jurados estaba en 1853 y nunca se cumplió.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c052",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "¿Qué nuevos derechos incorporó la reforma de 1994?",
+    "opciones": [
+      "Ambiente sano",
+      "Derechos del consumidor y usuario",
+      "Derecho a la información",
+      "Reelección indefinida"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Están en el capítulo de nuevos derechos y garantías (arts. 36 a 43).",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c053",
+    "tema": "reformas",
+    "nivel": "media",
+    "pregunta": "No hay segunda vuelta (ballotage) si el más votado obtiene:",
+    "opciones": [
+      "Más del 45% de los votos válidos",
+      "Al menos 40% y más de 10 puntos sobre el segundo",
+      "Más del 30%",
+      "40% sin importar la diferencia"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Sistema establecido en 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c054",
+    "tema": "soberania",
+    "nivel": "media",
+    "pregunta": "¿Qué artículo reconoce la autonomía municipal?",
+    "opciones": [
+      "Art. 123",
+      "Art. 31",
+      "Art. 75 inc. 22",
+      "Art. 14 bis"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Incorporado en 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c055",
+    "tema": "soberania",
+    "nivel": "media",
+    "pregunta": "¿Qué debe tener un ente autárquico?",
+    "opciones": [
+      "Personalidad jurídica",
+      "Fines y forma pública",
+      "Subordinación al control de un poder superior",
+      "Soberanía propia"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "La soberanía es solo del Estado Nacional.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c056",
+    "tema": "soberania",
+    "nivel": "media",
+    "pregunta": "¿Quiénes tienen autonomía?",
+    "opciones": [
+      "Las provincias",
+      "La Ciudad de Buenos Aires",
+      "Los municipios",
+      "El Banco Central"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El Banco Central es autárquico.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c057",
+    "tema": "division",
+    "nivel": "media",
+    "pregunta": "¿Cuáles son ramas del derecho social?",
+    "opciones": [
+      "Laboral",
+      "Agrario",
+      "Ecológico",
+      "Penal"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El penal es derecho público.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c058",
+    "tema": "division",
+    "nivel": "media",
+    "pregunta": "¿Cuáles son ramas del derecho privado?",
+    "opciones": [
+      "Civil",
+      "Mercantil (comercial)",
+      "Internacional privado",
+      "Procesal"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El procesal es derecho público.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c059",
+    "tema": "const",
+    "nivel": "media",
+    "pregunta": "El poder constituyente derivado es el que:",
+    "opciones": [
+      "Se ejerce al reformar la Constitución",
+      "Sanciona la primera Constitución",
+      "Dicta las leyes comunes",
+      "Aplica la ley a casos concretos"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El originario actúa al sancionarla.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c060",
+    "tema": "const",
+    "nivel": "media",
+    "pregunta": "¿Cuáles son caracteres de la Constitución argentina?",
+    "opciones": [
+      "Escrita y codificada",
+      "Rígida",
+      "Constitución-ley",
+      "Flexible",
+      "Otorgada por un monarca"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Además es fundamental.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c061",
+    "tema": "const",
+    "nivel": "media",
+    "pregunta": "La parte dogmática de la CN abarca:",
+    "opciones": [
+      "Declaraciones, derechos y garantías (arts. 1 a 43)",
+      "Autoridades de la Nación (arts. 44 a 129)",
+      "Solo el Preámbulo",
+      "Los tratados internacionales"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Es el “derecho constitucional de la libertad”.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c062",
+    "tema": "cn",
+    "nivel": "media",
+    "pregunta": "¿Cuáles fueron fuentes de la Constitución de 1853?",
+    "opciones": [
+      "Las “Bases” de Alberdi",
+      "La Constitución de EE.UU.",
+      "Las constituciones anteriores",
+      "El Pacto de Olivos"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El Pacto de Olivos es de 1993.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c063",
+    "tema": "cn",
+    "nivel": "media",
+    "pregunta": "¿Cuáles son pactos preexistentes?",
+    "opciones": [
+      "Tratado del Pilar (1820)",
+      "Tratado del Cuadrilátero (1822)",
+      "Pacto Federal (1831)",
+      "Pacto de Olivos (1993)"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "También el Protocolo de Palermo, el Acuerdo de San Nicolás y el Pacto de San José de Flores.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c064",
+    "tema": "cn",
+    "nivel": "media",
+    "pregunta": "¿Cuáles son fines del Preámbulo?",
+    "opciones": [
+      "Afianzar la justicia",
+      "Consolidar la paz interior",
+      "Promover el bienestar general",
+      "Asegurar la reelección presidencial"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Son seis fines; la reelección no es uno.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c065",
+    "tema": "const",
+    "nivel": "media",
+    "pregunta": "¿Qué criterios se usan cuando dos normas colisionan?",
+    "opciones": [
+      "Jerarquía",
+      "Temporalidad",
+      "Especialidad",
+      "Prelación axiológica",
+      "Antigüedad del juez"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Son los cuatro criterios de colisión normativa.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c066",
+    "tema": "juris",
+    "nivel": "media",
+    "pregunta": "¿En qué sistema la jurisprudencia tiene mayor peso como fuente?",
+    "opciones": [
+      "Anglosajón",
+      "Continental",
+      "Canónico",
+      "Romano-germánico"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Los jueces fundamentan sus sentencias en precedentes.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c067",
+    "tema": "general",
+    "nivel": "media",
+    "pregunta": "La publicación de una norma es:",
+    "opciones": [
+      "Requisito previo de su validez",
+      "Optativa",
+      "Posterior a su aplicación",
+      "Solo necesaria para leyes penales"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Desde la publicación la norma es exigible y obligatoria.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c068",
+    "tema": "general",
+    "nivel": "media",
+    "pregunta": "¿Qué principios dan armonía al sistema jurídico?",
+    "opciones": [
+      "Jerarquía normativa",
+      "La norma especial prevalece sobre la general",
+      "La norma posterior deroga a la anterior",
+      "La norma anterior deroga a la posterior"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Es al revés: la posterior deroga a la anterior.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c069",
+    "tema": "cn",
+    "nivel": "media",
+    "pregunta": "Según Bidart Campos, el Preámbulo:",
+    "opciones": [
+      "No tiene carácter normativo",
+      "Tiene valor interpretativo",
+      "Es la norma más importante",
+      "Fue derogado en 1994"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Es “la síntesis del proyecto político de la Constitución”.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c070",
+    "tema": "natural",
+    "nivel": "media",
+    "pregunta": "Para los iuspositivistas:",
+    "opciones": [
+      "El derecho positivo es el único que existe",
+      "Solo existe el derecho natural",
+      "El derecho natural está por encima de la ley",
+      "No existe ningún derecho"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Niegan la existencia del derecho natural.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c071",
+    "tema": "normas",
+    "nivel": "media",
+    "pregunta": "El derecho canónico regula:",
+    "opciones": [
+      "La estructura de la Iglesia Católica",
+      "Las relaciones laborales",
+      "El comercio exterior",
+      "Los delitos y las penas"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Jerarquía, organización interna y relación con los fieles.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c072",
+    "tema": "soberania",
+    "nivel": "media",
+    "pregunta": "Las universidades nacionales tienen:",
+    "opciones": [
+      "Autonomía",
+      "Autarquía",
+      "Soberanía",
+      "Ninguna de estas"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Autonomía: dictan su estatuto. Autarquía: se autoadministran (art. 75 inc. 19).",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c073",
+    "tema": "soberania",
+    "nivel": "dificil",
+    "pregunta": "¿Qué afirmaciones sobre la soberanía son correctas?",
+    "opciones": [
+      "No admite otro poder por encima, ni interno ni externo",
+      "Es una calidad política",
+      "La tienen también las provincias",
+      "Los municipios la tienen desde 1994"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Solo el Estado Nacional es soberano.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c074",
+    "tema": "soberania",
+    "nivel": "dificil",
+    "pregunta": "¿Qué afirmaciones sobre la autarquía son correctas?",
+    "opciones": [
+      "El ente tiene personalidad jurídica",
+      "Persigue fines públicos",
+      "Está subordinado al control de un poder superior",
+      "Puede dictar su propia constitución"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Dictar su constitución es propio de la autonomía.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c075",
+    "tema": "soberania",
+    "nivel": "dificil",
+    "pregunta": "Sobre la autonomía provincial, es correcto que:",
+    "opciones": [
+      "Las provincias dictan su propia constitución",
+      "Deben respetar la Constitución Nacional (art. 31)",
+      "Las provincias son soberanas",
+      "No tienen ningún límite"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Autonomía no es soberanía: está dentro del marco de la CN.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c076",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "¿Cuántos artículos abarcó la reforma de 1994?",
+    "opciones": [
+      "44",
+      "107",
+      "15",
+      "31"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "107 artículos tenía el texto de 1853; 15 reformó el estatuto de 1972.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c077",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "El estatuto de la reforma de 1972 rigió hasta:",
+    "opciones": [
+      "El 24/5/1981",
+      "El 25/5/1973",
+      "El 10/12/1983",
+      "1994"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Luego quedó automáticamente sin vigencia; casi todo se incorporó en 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c078",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "¿Dónde se reunió la Convención de la reforma de 1898?",
+    "opciones": [
+      "Buenos Aires",
+      "Santa Fe",
+      "Paraná",
+      "Córdoba"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La Convención Reformadora de 1860 fue en Santa Fe.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c079",
+    "tema": "cn",
+    "nivel": "dificil",
+    "pregunta": "Sobre los tratados, el material dice que:",
+    "opciones": [
+      "La reforma de 1994 estableció la preeminencia de los tratados internacionales",
+      "Ciertos tratados de DDHH tienen rango constitucional (art. 75 inc. 22)",
+      "Los tratados están siempre debajo de las leyes provinciales",
+      "Ningún tratado tiene rango constitucional"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Son 11 instrumentos con rango constitucional.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c080",
+    "tema": "cn",
+    "nivel": "dificil",
+    "pregunta": "¿Cuántos instrumentos de DDHH enumera el art. 75 inc. 22?",
+    "opciones": [
+      "11",
+      "7",
+      "4",
+      "22"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Por ejemplo: Convención sobre los Derechos del Niño, Pacto de San José de Costa Rica.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c081",
+    "tema": "cn",
+    "nivel": "dificil",
+    "pregunta": "¿Cuáles tienen jerarquía constitucional?",
+    "opciones": [
+      "Convención sobre los Derechos del Niño",
+      "Convención Americana sobre Derechos Humanos",
+      "Declaración Universal de Derechos Humanos",
+      "Tratado de Asunción (Mercosur)"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El Tratado de Asunción no figura en la lista del art. 75 inc. 22.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c082",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "¿Qué afirmaciones sobre la reforma de 1957 son correctas?",
+    "opciones": [
+      "Se hizo con el peronismo proscripto",
+      "Convalidó la derogación de 1949",
+      "Incorporó el art. 14 bis",
+      "Se quedó sin quórum",
+      "Creó el Jefe de Gabinete"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "El Jefe de Gabinete es de 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c083",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "¿Qué afirmaciones sobre la reforma de 1972 son correctas?",
+    "opciones": [
+      "Fue un estatuto de la Junta de Comandantes",
+      "Reformó 15 artículos",
+      "Rigió hasta 1981",
+      "Casi todo se incorporó en 1994",
+      "Estableció la reelección indefinida"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Permitió la reelección solo por una vez.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c084",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "La Proclama de Aramburu (1956) restableció:",
+    "opciones": [
+      "El texto de 1853 con las reformas de 1860, 1866 y 1898",
+      "La reforma de 1949",
+      "La reforma de 1957",
+      "El Estatuto de 1966"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Anuló la reforma de 1949.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c085",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "Sobre el Estatuto de la Revolución Argentina (1966), es correcto que:",
+    "opciones": [
+      "Tenía 10 artículos y se puso por encima de la CN",
+      "Quedó sin efecto en 1973",
+      "Fue una reforma constitucional válida",
+      "Creó el ballotage"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "No se cuenta entre las reformas.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c086",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "Los instrumentos del Proceso de 1976 quedaron sin efecto:",
+    "opciones": [
+      "El 10/12/1983, con Alfonsín",
+      "En 1994, con la reforma",
+      "En 1957",
+      "En 1973"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Con el regreso de la democracia.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c087",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "Linares Quintana definió:",
+    "opciones": [
+      "El poder constituyente",
+      "La jurisprudencia",
+      "La autarquía",
+      "La costumbre"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "“La facultad soberana del pueblo a darse su ordenamiento jurídico-político fundamental originario”.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c088",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "Según el material, Kelsen sostiene que la Constitución:",
+    "opciones": [
+      "Es la norma que da lógica a todo el sistema",
+      "Es un pacto entre provincias",
+      "No tiene valor normativo",
+      "Debe ser flexible"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El derecho común surge de ella por derivación y aplicación.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c089",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "El grado de rigidez de una constitución depende de:",
+    "opciones": [
+      "El órgano reformador",
+      "Cuántas instituciones deben aprobar la reforma",
+      "Las mayorías exigidas",
+      "La participación del pueblo",
+      "La cantidad de provincias"
+    ],
+    "correctas": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explicacion": "Son los cuatro factores del material.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c090",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "La CN es una “constitución-ley” porque:",
+    "opciones": [
+      "Es un acto unilateral por el cual el pueblo se da su ley",
+      "Fue otorgada por un monarca",
+      "Es un pacto entre el rey y el pueblo",
+      "La dictó el Poder Ejecutivo"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "A través de sus representantes.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c091",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "Aplicar la norma que protege la vida antes que la que protege la propiedad es un ejemplo de:",
+    "opciones": [
+      "Prelación axiológica",
+      "Temporalidad",
+      "Especialidad",
+      "Jerarquía"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Se elige la que protege un valor superior.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c092",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "Una provincia dicta una ley contraria a una ley nacional dictada en consecuencia de la CN. ¿Qué se aplica?",
+    "opciones": [
+      "El criterio de jerarquía",
+      "El art. 31 CN",
+      "El criterio de temporalidad",
+      "El criterio de especialidad"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Las provincias están obligadas a conformarse a la ley suprema de la Nación.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c093",
+    "tema": "moral",
+    "nivel": "dificil",
+    "pregunta": "¿Qué afirmaciones sobre moral y derecho son correctas?",
+    "opciones": [
+      "La moral exige la intención",
+      "El derecho se conforma con el comportamiento externo",
+      "La moral es objetiva y bilateral",
+      "El derecho es subjetivo y unilateral"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Es al revés: la moral es subjetiva y unilateral; el derecho, objetivo y bilateral.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c094",
+    "tema": "natural",
+    "nivel": "dificil",
+    "pregunta": "Sobre la discusión de la “naturaleza humana”, es correcto que:",
+    "opciones": [
+      "Para Calicles era natural que el fuerte se impusiera al débil",
+      "Aristóteles “justificaba” la esclavitud",
+      "Calicles defendía la igualdad de todos",
+      "Aristóteles propuso abolir la esclavitud"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Por eso no hubo acuerdo sobre qué es lo “natural”.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c095",
+    "tema": "juris",
+    "nivel": "dificil",
+    "pregunta": "Sobre la jurisprudencia en el derecho continental, es correcto que:",
+    "opciones": [
+      "Es fuente formal",
+      "Su fuerza vinculante varía según cada país",
+      "En Argentina, los fallos plenarios obligan a los inferiores",
+      "Es siempre obligatoria en todos los países"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "En otros casos solo tiene fuerza orientadora.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c096",
+    "tema": "fuentes",
+    "nivel": "dificil",
+    "pregunta": "Sobre los principios generales del derecho, es correcto que:",
+    "opciones": [
+      "Son enunciados normativos más generales",
+      "Forman parte del ordenamiento aunque no se hayan incorporado formalmente",
+      "Fundamentan a las demás normas",
+      "Son sentencias de la Corte"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El art. 16 del Código Civil remite a ellos.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c097",
+    "tema": "division",
+    "nivel": "dificil",
+    "pregunta": "El Estado alquila un local a un particular actuando como simple persona privada. ¿Qué derecho rige?",
+    "opciones": [
+      "Derecho privado",
+      "Derecho público",
+      "Derecho penal",
+      "Derecho social"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El público rige cuando el Estado actúa como poder soberano.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c098",
+    "tema": "cn",
+    "nivel": "dificil",
+    "pregunta": "Sobre la Constitución de 1853, es correcto que:",
+    "opciones": [
+      "Tenía 107 artículos",
+      "Rigió para 13 provincias",
+      "Buenos Aires no participó",
+      "Incluía el ballotage"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El ballotage es de 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c099",
+    "tema": "cn",
+    "nivel": "dificil",
+    "pregunta": "¿Qué derechos incluía la Constitución de 1853?",
+    "opciones": [
+      "Abolición de la esclavitud (art. 15)",
+      "Igualdad civil de los extranjeros (art. 20)",
+      "Fomento de la inmigración (art. 25)",
+      "Derecho a un ambiente sano"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El ambiente sano se incorporó en 1994.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c100",
+    "tema": "soberania",
+    "nivel": "dificil",
+    "pregunta": "¿Qué artículo garantiza la autonomía y autarquía universitarias?",
+    "opciones": [
+      "Art. 75 inc. 19",
+      "Art. 75 inc. 22",
+      "Art. 123",
+      "Art. 31"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "El 75 inc. 22 es el de los tratados de DDHH.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c101",
+    "tema": "soberania",
+    "nivel": "dificil",
+    "pregunta": "“Soberanía nacional e independencia económica son calidades inseparables” (Genovesi) se refiere a:",
+    "opciones": [
+      "La soberanía",
+      "La autonomía",
+      "La autarquía",
+      "La supremacía constitucional"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "La soberanía como real facultad de decidir con independencia.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c102",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "Sobre la reforma de 1972, es correcto que:",
+    "opciones": [
+      "Creó un organismo especial para el juicio político a jueces",
+      "Permitió aprobar leyes directamente en comisiones",
+      "Redujo el quórum para sesionar",
+      "Incorporó el art. 14 bis"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El 14 bis es de 1957.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c103",
+    "tema": "const",
+    "nivel": "dificil",
+    "pregunta": "Sobre el Estado de derecho, es correcto que:",
+    "opciones": [
+      "Toda acción estatal se apoya en la norma",
+      "El poder del Estado se subordina al orden jurídico",
+      "Tiene un sentido formal y uno material",
+      "El gobernante está por encima de la ley"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "Nadie, ni el Estado, está por encima del orden jurídico.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c104",
+    "tema": "supremacia",
+    "nivel": "dificil",
+    "pregunta": "En Argentina, el control de constitucionalidad lo ejercen:",
+    "opciones": [
+      "Los jueces",
+      "El Congreso",
+      "El Presidente",
+      "El Defensor del Pueblo"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Garantiza la supremacía constitucional.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c105",
+    "tema": "division",
+    "nivel": "dificil",
+    "pregunta": "¿Cuáles son ramas del derecho social según el material?",
+    "opciones": [
+      "Económico",
+      "Educativo",
+      "Ecológico",
+      "Internacional privado"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El internacional privado es derecho privado.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c106",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "Sobre la reforma de 1994 y el Poder Ejecutivo, según el material:",
+    "opciones": [
+      "Voto directo",
+      "Reglamentación de los decretos de necesidad y urgencia",
+      "Mandato de 4 años con una reelección",
+      "Reelección indefinida"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "La reelección es solo por una vez.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c107",
+    "tema": "cn",
+    "nivel": "facil",
+    "pregunta": "¿Qué frase agregó la reforma de 1949 al Preámbulo?",
+    "opciones": [
+      "Nación socialmente justa, económicamente libre y políticamente soberana",
+      "Nosotros, el pueblo",
+      "Unión y libertad",
+      "Orden y progreso"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Fue derogada pocos años después.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c108",
+    "tema": "cn",
+    "nivel": "media",
+    "pregunta": "¿Por qué Buenos Aires no participó de la Constitución de 1853?",
+    "opciones": [
+      "No aceptó la igualdad de representación (dos diputados por provincia)",
+      "No aceptó la nacionalización de la aduana",
+      "Porque Urquiza la expulsó",
+      "Porque ya tenía una Constitución nacional"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Se separó de la Confederación el 11 de septiembre.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c109",
+    "tema": "cn",
+    "nivel": "dificil",
+    "pregunta": "¿Qué normas específicas tenía la Constitución de 1853?",
+    "opciones": [
+      "Gratuidad de la educación primaria (art. 5)",
+      "Prohibición de la democracia directa (art. 22)",
+      "Fomento de la inmigración europea (art. 25)",
+      "Voto femenino"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "El sufragio no era secreto ni universal: prohibía el voto femenino.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c110",
+    "tema": "cn",
+    "nivel": "media",
+    "pregunta": "El Preámbulo permite una interpretación:",
+    "opciones": [
+      "Teleológica (según los fines)",
+      "Literal únicamente",
+      "Penal",
+      "Religiosa"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Porque indica los fines del Estado Federal.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c111",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "¿Qué derechos quedaron sin efecto con la Proclama de 1956?",
+    "opciones": [
+      "Derechos de los trabajadores",
+      "Autonomía universitaria",
+      "Voto directo",
+      "Abolición de la esclavitud"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "También la reelección indefinida y el fin social de la propiedad.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c112",
+    "tema": "reformas",
+    "nivel": "dificil",
+    "pregunta": "En la Convención de 1957, la UCR se dividió en:",
+    "opciones": [
+      "UCRI, opuesta a la reforma",
+      "UCRP, partidaria de la reforma",
+      "UCRI, partidaria de la reforma",
+      "UCRP, opuesta a la reforma"
+    ],
+    "correctas": [
+      0,
+      1
+    ],
+    "explicacion": "Los peronistas votaron en blanco y fueron mayoría.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c113",
+    "tema": "juris",
+    "nivel": "media",
+    "pregunta": "Según la jurisprudencia, ¿qué pasa cuando el Poder Judicial choca con otros poderes?",
+    "opciones": [
+      "A veces las sentencias dejan de cumplirse",
+      "Las sentencias se vuelven leyes",
+      "El Congreso se disuelve",
+      "No pasa nada"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Por eso el estudio de sentencias no da la medida exacta del Derecho.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c114",
+    "tema": "const",
+    "nivel": "facil",
+    "pregunta": "¿Qué es la flexibilidad constitucional?",
+    "opciones": [
+      "Cuando la reforma se parece al proceso de una ley común",
+      "Cuando no se puede reformar",
+      "Cuando la reforma la hace un monarca",
+      "Cuando no hay Constitución escrita"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Lo contrario es la rigidez.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c115",
+    "tema": "division",
+    "nivel": "dificil",
+    "pregunta": "¿Qué abarca el derecho del trabajo según el material?",
+    "opciones": [
+      "Derecho sindical",
+      "Derecho colectivo del trabajo",
+      "Derecho procesal del trabajo",
+      "Derecho canónico"
+    ],
+    "correctas": [
+      0,
+      1,
+      2
+    ],
+    "explicacion": "También el derecho individual, la previsión social y la administración laboral.",
+    "fuente": "Guía U1 (1º parcial)"
+  },
+  {
+    "id": "u1c116",
+    "tema": "soberania",
+    "nivel": "media",
+    "pregunta": "¿Qué provincia no adecuó su Constitución al art. 123?",
+    "opciones": [
+      "Buenos Aires",
+      "Santa Fe",
+      "Córdoba",
+      "Mendoza"
+    ],
+    "correctas": [
+      0
+    ],
+    "explicacion": "Su convención de 1994 terminó después de la nacional.",
+    "fuente": "Guía U1 (1º parcial)"
+  }
+]

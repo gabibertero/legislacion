@@ -17,8 +17,9 @@ URL: https://gabibertero.github.io/legislacion/ · Repo: gabibertero/legislacion
 - [x] Top 15 U2 (profe 84 → aplicados los 14 hallazgos; orden reajustado)
 - [x] contenido: 26 preguntas, resumen, machete, 71 choices, 57 tarjetas (profe: resumen 88, machete 80, choices 89, tarjetas 81 → 24 hallazgos aplicados)
 - [x] revision: code-review (0 críticos, 4 altos arreglados), tester (8 fallos, 0 graves, arreglados salvo link de vuelta en u1/), suite 84 Playwright + 25 node --test verde
-- [ ] publicar (online 200)
-- [ ] después del parcial: migrar U1
+- [x] 2026-10-14 (2ª tanda, pedido de Gabi): Top 15 con respuesta a la vista (+ "Explicámelo con IA"); preguntero/simulacro con respuesta oculta; Home sin plan diario; fecha 21/10 o 28/10 (a confirmar, `fechaAlt`: la cuenta pasa sola al 28).
+- [x] U1 migrada a `parcial-1/` con `fuente/scripts/migrar-u1.py` (datos sacados del bundle viejo a `scripts/migracion-u1/`): 5 preguntas del 1º parcial real (literal) + 11 de desarrollo, resumen 12 temas, 116 choices, 71 tarjetas. Contenido copiado tal cual (no re-auditado por profe). Guía vieja sigue en `/u1/`.
+- [ ] publicar: commit 73b0fb9 pusheado; FALTA que Gabi pase Pages a main · /docs; luego verificar online y borrar index.html/favicon viejos de la raíz.
 
 ## Decisiones tomadas
 - 2026-10-14: Gabi quiere TODO hoy (no en días). Tanda 1 en paralelo: redactor (Top 15 + 10 extra → `preguntas/u2.mdx`), redactor (resumen, machete, choices-u2.json, tarjetas-u2.json), web (Top 15, choices, tarjetas, simulacro, Home, tests).

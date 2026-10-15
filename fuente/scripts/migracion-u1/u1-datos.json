@@ -1,0 +1,3447 @@
+{
+ "LEG_TOPICS": [
+  [
+   "normas",
+   "Normas"
+  ],
+  [
+   "moral",
+   "Moral y Derecho"
+  ],
+  [
+   "natural",
+   "Natural y positivo"
+  ],
+  [
+   "general",
+   "Generalidades"
+  ],
+  [
+   "fuentes",
+   "Fuentes"
+  ],
+  [
+   "division",
+   "División del derecho"
+  ],
+  [
+   "juris",
+   "Jurisprudencia"
+  ],
+  [
+   "const",
+   "Derecho constitucional"
+  ],
+  [
+   "supremacia",
+   "Supremacía"
+  ],
+  [
+   "cn",
+   "Constitución Nacional"
+  ],
+  [
+   "reformas",
+   "Reformas"
+  ],
+  [
+   "soberania",
+   "Soberanía / autonomía / autarquía"
+  ]
+ ],
+ "LEG_CARDS": [
+  [
+   "normas",
+   "¿Qué es una norma?",
+   "Toda regla de carácter obligatorio que manda, permite o prohíbe una conducta dentro del grupo social al que se pertenece."
+  ],
+  [
+   "normas",
+   "¿Cuáles son los 4 tipos de normas?",
+   "Religiosas, morales, de trato social y jurídicas."
+  ],
+  [
+   "normas",
+   "Caracteres de la norma religiosa",
+   "Finalidad: la santidad. Heterónoma (la impone Dios), unilateral, interna, incoercible. Sanción interna y sobrenatural (condenación eterna)."
+  ],
+  [
+   "normas",
+   "Caracteres de la norma moral",
+   "Finalidad: la bondad del sujeto. Unilateral, interior, autónoma, incoercible."
+  ],
+  [
+   "normas",
+   "Caracteres de las normas de trato social",
+   "Propias de la vida social, externas, heterónomas (las impone la sociedad), unilaterales; sanción: reprobación social; relativas y cambiantes."
+  ],
+  [
+   "normas",
+   "Caracteres de la norma jurídica (con un ejemplo de coercibilidad)",
+   "Coercible, heterónoma, exterior y temporal. Ej.: si no pagás la contribución inmobiliaria en fecha, recargos y multas."
+  ],
+  [
+   "normas",
+   "¿Qué es el derecho canónico?",
+   "El derecho corporativo que regula la estructura de la Iglesia Católica: jerarquía, organización interna y relación con los fieles."
+  ],
+  [
+   "normas",
+   "¿Qué estudia la axiología?",
+   "La naturaleza de los valores y de los juicios valorativos, positivos y negativos."
+  ],
+  [
+   "moral",
+   "Nombrá las 7 diferencias entre moral y derecho",
+   "1) Interna vs. externa. 2) Intención vs. comportamiento externo. 3) Solo deberes vs. deberes y derechos. 4) Autónoma vs. heterónoma. 5) Incoercible vs. coercible. 6) Subjetiva y unilateral vs. objetiva y bilateral. 7) Perfección individual vs. vida social."
+  ],
+  [
+   "moral",
+   "¿Por qué la moral es autónoma y el derecho heterónomo?",
+   "La moral solo obliga a quien la acepta; el derecho obliga aunque el destinatario no lo acepte."
+  ],
+  [
+   "moral",
+   "¿Cuál es el fin de la moral y cuál el del derecho?",
+   "Moral: la perfección o plenitud vital del individuo (necesidad psicológica). Derecho: mantener y desarrollar la vida social."
+  ],
+  [
+   "natural",
+   "Definí derecho positivo",
+   "Derecho del Estado, elaborado por los órganos legislativos, para una sociedad y un tiempo determinados; normas coercitivamente aplicables por la autoridad pública."
+  ],
+  [
+   "natural",
+   "Definí derecho natural",
+   "Derecho que parte de la naturaleza misma del hombre: siempre igual sin importar país, cultura ni tiempo. Principios rectores anteriores y superiores al hombre (ej.: derecho a la vida)."
+  ],
+  [
+   "natural",
+   "¿Qué relación hay entre derecho natural y positivo?",
+   "El natural orienta al positivo con principios universales e inderogables; el positivo es la concreción del natural para una sociedad y momento."
+  ],
+  [
+   "natural",
+   "¿Dónde se reconoce el derecho natural en nuestra legislación?",
+   "Art. 33 CN (derechos no enumerados) y art. 16 del Código Civil (principios generales del derecho)."
+  ],
+  [
+   "natural",
+   "¿Qué pensaban Calicles y Aristóteles sobre la naturaleza humana?",
+   "Calicles: es natural que el fuerte se imponga al débil. Aristóteles: la razón era casi exclusiva de los griegos; así “justificaba” la esclavitud."
+  ],
+  [
+   "general",
+   "¿Qué es el Derecho según el material?",
+   "Conjunto de normas generales, obligatorias, cuyo incumplimiento acarrea una sanción coactiva o la respuesta del Estado."
+  ],
+  [
+   "general",
+   "¿Por qué en la práctica hay contradicciones y lagunas?",
+   "Porque las normas se dictan en distintos momentos, por distintos órganos y con voluntades políticas distintas."
+  ],
+  [
+   "general",
+   "¿Qué principios dan armonía al sistema?",
+   "Jerarquía normativa (según el órgano que la dicta), prevalencia de la norma especial sobre la general, y la posterior deroga a la anterior."
+  ],
+  [
+   "general",
+   "¿Por qué es importante la publicación?",
+   "Es requisito previo de validez: da a conocer el nacimiento de la norma y la hace exigible y obligatoria."
+  ],
+  [
+   "general",
+   "¿Qué es el principio de legalidad?",
+   "Impide a los órganos inferiores regular diferente o contrario a la norma, o limitar o ampliar su aplicación, salvo que ella lo autorice."
+  ],
+  [
+   "fuentes",
+   "¿Qué son las fuentes del derecho?",
+   "De donde surge el contenido del derecho vigente en un espacio y momento: los “espacios” a los que se acude para saber qué derecho aplicar. Son el “alma” del Derecho."
+  ],
+  [
+   "fuentes",
+   "Enumerá las 7 fuentes (sistema romano-germánico)",
+   "Constitución, ley, jurisprudencia, costumbre, negocio jurídico, principios generales del derecho y doctrina."
+  ],
+  [
+   "fuentes",
+   "¿Qué es la costumbre?",
+   "Práctica social arraigada: repetición continua y uniforme de un acto al que se quiere dar valor normativo."
+  ],
+  [
+   "fuentes",
+   "¿Qué es el negocio jurídico?",
+   "Acto de autonomía privada de contenido preceptivo, reconocido y tutelado por el orden jurídico."
+  ],
+  [
+   "fuentes",
+   "¿Qué son los principios generales del derecho?",
+   "Enunciados normativos más generales que, sin integrarse formalmente, forman parte del ordenamiento porque fundamentan otras normas."
+  ],
+  [
+   "fuentes",
+   "¿Qué es la doctrina y qué la diferencia de las demás fuentes?",
+   "La opinión de juristas prestigiosos; no es fuente formal del Derecho."
+  ],
+  [
+   "division",
+   "Definí derecho público, privado y social",
+   "Público: el Estado como poder soberano. Privado: relaciones entre particulares o con el Estado como persona privada. Social: a favor de los socialmente débiles."
+  ],
+  [
+   "division",
+   "Ramas del derecho público",
+   "Constitucional, procesal, internacional público, penal y administrativo."
+  ],
+  [
+   "division",
+   "Ramas del derecho privado",
+   "Civil, mercantil (comercial) e internacional privado."
+  ],
+  [
+   "division",
+   "Ramas del derecho social",
+   "Del trabajo (laboral), agrario, ecológico, económico y educativo."
+  ],
+  [
+   "division",
+   "¿Qué 3 aspectos estudia el derecho internacional privado?",
+   "Conflicto de leyes entre países, conflicto de jurisdicción y nacionalidad."
+  ],
+  [
+   "juris",
+   "¿Qué es la jurisprudencia?",
+   "El conjunto de sentencias que resolvieron casos iguales o similares de la misma manera."
+  ],
+  [
+   "juris",
+   "Valor de la jurisprudencia en el derecho anglosajón y en el continental",
+   "Anglosajón: fuente de gran importancia (precedentes). Continental: fuente formal, con fuerza vinculante variable según cada país."
+  ],
+  [
+   "juris",
+   "Ejemplo argentino de jurisprudencia que unifica criterios",
+   "Las sentencias (fallos) plenarias."
+  ],
+  [
+   "juris",
+   "¿Cuál es el propósito y cuál el límite de la jurisprudencia?",
+   "Propósito: una interpretación uniforme del derecho. Límite: a veces las sentencias no se cumplen, sobre todo si el Judicial choca con los otros poderes."
+  ],
+  [
+   "const",
+   "¿Qué es la Constitución?",
+   "Texto jurídico-político fruto del poder constituyente que fundamenta todo el ordenamiento y crea los poderes constituidos limitándolos; es norma suprema. Kelsen: la norma que da lógica al sistema."
+  ],
+  [
+   "const",
+   "Poder constituyente: definición, titular y tipos",
+   "Facultad soberana del pueblo de darse su ordenamiento fundamental y revisarlo (Linares Quintana). Titular: el pueblo. Originario (sanción) y derivado (reforma)."
+  ],
+  [
+   "const",
+   "Caracteres de la Constitución argentina",
+   "Escrita y codificada, rígida, constitución-ley y fundamental."
+  ],
+  [
+   "const",
+   "Parte dogmática y parte orgánica",
+   "Dogmática: el hombre frente al Estado, derechos (“derecho constitucional de la libertad”). Orgánica: el poder y sus órganos (“derecho constitucional del poder”)."
+  ],
+  [
+   "const",
+   "¿De qué dependen los grados de rigidez?",
+   "Órgano reformador especial o habitual; número de instituciones que deben consentir; mayorías exigidas; participación del pueblo (directa o indirecta)."
+  ],
+  [
+   "const",
+   "Criterios de colisión normativa",
+   "Jerarquía, temporalidad, especialidad y prelación axiológica."
+  ],
+  [
+   "const",
+   "¿Qué es el Estado de derecho?",
+   "Toda acción social y estatal se sustenta en la norma; el poder del Estado queda subordinado al orden jurídico. Tiene sentido formal y material."
+  ],
+  [
+   "const",
+   "Campos del derecho constitucional",
+   "Teoría del Poder, del Estado, de la Constitución y de los Derechos Humanos."
+  ],
+  [
+   "supremacia",
+   "¿Qué es la supremacía constitucional?",
+   "Estructura del ordenamiento como pirámide con la Constitución en la cúspide; la norma posterior y contraria es nula."
+  ],
+  [
+   "supremacia",
+   "¿De qué precedente proviene la supremacía?",
+   "Marbury vs. Madison."
+  ],
+  [
+   "supremacia",
+   "¿Cómo se garantiza la supremacía?",
+   "Con el control de constitucionalidad: asegurar que los actos de los poderes constituidos no violen la Constitución."
+  ],
+  [
+   "cn",
+   "Partes de la Constitución Nacional",
+   "Preámbulo; primera parte: Declaraciones, Derechos y Garantías (arts. 1–43); segunda parte: Autoridades de la Nación (arts. 44–129)."
+  ],
+  [
+   "cn",
+   "¿Qué valor tiene el Preámbulo según Bidart Campos?",
+   "No es normativo; tiene valor interpretativo (teleológico). Es “la síntesis del proyecto político de la Constitución”."
+  ],
+  [
+   "cn",
+   "Los 6 fines del Preámbulo",
+   "Constituir la unión nacional, afianzar la justicia, consolidar la paz interior, proveer a la defensa común, promover el bienestar general y asegurar los beneficios de la libertad."
+  ],
+  [
+   "cn",
+   "Los 6 pactos preexistentes",
+   "Pilar (1820), Cuadrilátero (1822), Pacto Federal (1831), Protocolo de Palermo (1852), Acuerdo de San Nicolás (1852), Pacto de San José de Flores (1859)."
+  ],
+  [
+   "cn",
+   "¿Por qué Buenos Aires no participó en 1853?",
+   "No aceptó la igualdad de representación (2 diputados por provincia) ni la nacionalización de la aduana; se separó el 11 de septiembre."
+  ],
+  [
+   "cn",
+   "Fuentes de la Constitución de 1853",
+   "Las constituciones anteriores, la Constitución de EE.UU. y las “Bases” de Alberdi."
+  ],
+  [
+   "cn",
+   "Normas específicas de 1853 con su artículo",
+   "Abolición de la esclavitud (15), educación primaria gratuita (5), igualdad civil de extranjeros (20), fomento de la inmigración (25), prohibición de democracia directa (22)."
+  ],
+  [
+   "cn",
+   "¿Qué agregó la reforma de 1949 al Preámbulo?",
+   "“La irrevocable decisión de constituir una Nación socialmente justa, económicamente libre y políticamente soberana”."
+  ],
+  [
+   "reformas",
+   "Enumerá las 7 reformas",
+   "1860, 1866, 1898, 1949, 1957, 1972 y 1994."
+  ],
+  [
+   "reformas",
+   "¿Qué NO son reformas?",
+   "La Proclama de Aramburu (1956), el Estatuto de 1966 y los instrumentos del Proceso (1976)."
+  ],
+  [
+   "reformas",
+   "Reforma de 1860",
+   "Incorpora Buenos Aires (Pacto de San José de Flores): “Confederación” → “Nación”, elimina la aprobación de constituciones provinciales por el Congreso, elimina frases como “ejecuciones a lanza y cuchillo”, limita los derechos de exportación."
+  ],
+  [
+   "reformas",
+   "Reforma de 1866",
+   "Elimina la condición de que las cláusulas rentísticas de 1860 solo pudieran reformarse “pasados diez años”."
+  ],
+  [
+   "reformas",
+   "Reforma de 1898",
+   "Base de elección de diputados (1 cada 33.000) que el Congreso puede elevar; ministerios de 5 a 8."
+  ],
+  [
+   "reformas",
+   "Reforma de 1949",
+   "Gobierno de Perón: derechos sociales (ancianidad, niño, mujer, trabajador), hábeas corpus, Ejecutivo reforzado, reelección indefinida y voto directo."
+  ],
+  [
+   "reformas",
+   "Reforma de 1957",
+   "Peronismo proscripto (voto en blanco mayoritario), UCRI vs. UCRP; convalidó la derogación de 1949 y sancionó el art. 14 bis; después no hubo quórum."
+  ],
+  [
+   "reformas",
+   "Reforma de 1972",
+   "Estatuto de la Junta de Comandantes: 15 artículos; mandatos de 4 años, reelección presidencial por una vez, elección directa, tercer senador; rigió hasta 1981."
+  ],
+  [
+   "reformas",
+   "Características de la reforma de 1994 (al menos 8)",
+   "44 artículos: ambiente, consumidor, información, amparo simple y colectivo, delitos contra la Constitución, preeminencia de tratados, voto directo, reelección por una vez y 4 años, DNU, tercer senador, Consejo de la Magistratura, traslado de Capital, autonomía de CABA, ballotage."
+  ],
+  [
+   "reformas",
+   "¿Cuándo hay ballotage?",
+   "Cuando nadie obtiene más del 45% de los votos válidos, o un mínimo de 40% con más de 10 puntos sobre el segundo."
+  ],
+  [
+   "soberania",
+   "Definí soberanía",
+   "Poder que no admite otro superior, ni interior ni exterior; solo lo tiene el Estado Nacional. Calidad política: real facultad de decisión independiente."
+  ],
+  [
+   "soberania",
+   "Definí autonomía con ejemplos",
+   "Poder de darse sus propias normas organizativas. Provincias (dictan su constitución, art. 5), municipios (art. 123), universidades (art. 75 inc. 19)."
+  ],
+  [
+   "soberania",
+   "Definí autarquía",
+   "Facultad de un órgano estatal de autoadministrarse, con personalidad jurídica, fines y forma pública, bajo control de un poder superior."
+  ],
+  [
+   "soberania",
+   "¿Qué tienen las universidades según el art. 75 inc. 19?",
+   "Autonomía (dictan su estatuto) y autarquía (se autoadministran bajo control)."
+  ],
+  [
+   "soberania",
+   "¿Qué dice el art. 123?",
+   "Cada provincia dicta su constitución asegurando la autonomía municipal en lo institucional, político, administrativo, económico y financiero."
+  ],
+  [
+   "soberania",
+   "Frase de Genovesi",
+   "“Soberanía nacional e independencia económica son calidades inseparables”."
+  ]
+ ],
+ "LEG_BLANK": {
+  "normas": [
+   "Concepto de norma",
+   "Por qué surge el Derecho (convivencia pacífica)",
+   "Los 4 tipos de normas",
+   "Religiosas: santidad, heterónomas, unilaterales, internas, incoercibles",
+   "Sanción religiosa: interna y sobrenatural",
+   "Morales: bondad, unilaterales, interiores, autónomas, incoercibles",
+   "Trato social: externas, heterónomas, unilaterales",
+   "Sanción de trato social: reprobación social",
+   "Jurídicas: emanan del Estado, escritas",
+   "Jurídicas: coercibles, heterónomas, exteriores, temporales",
+   "Un ejemplo (contribución inmobiliaria, ladrón, micro)"
+  ],
+  "moral": [
+   "Interna vs. externa",
+   "Intención vs. comportamiento externo",
+   "Solo deberes vs. deberes y derechos",
+   "Autónoma vs. heterónoma",
+   "Incoercible vs. coercible",
+   "Subjetiva/unilateral vs. objetiva/bilateral",
+   "Fin individual vs. fin social"
+  ],
+  "natural": [
+   "Concepto de derecho positivo",
+   "Para los iuspositivistas es el único",
+   "Concepto de derecho natural (universal, inmutable)",
+   "El natural orienta al positivo",
+   "El positivo es la concreción del natural",
+   "Calicles y Aristóteles",
+   "Art. 33 CN",
+   "Art. 16 Código Civil"
+  ],
+  "general": [
+   "Concepto de Derecho",
+   "Influyen intereses políticos, socioeconómicos y valores",
+   "Todo armónico / sistema",
+   "Contradicciones y lagunas",
+   "Jerarquía, especialidad y temporalidad",
+   "Creación básicamente estatal",
+   "Eficacia normativa, social y material",
+   "Publicidad como requisito de validez",
+   "Principio de legalidad",
+   "Garantías para los derechos"
+  ],
+  "fuentes": [
+   "Concepto de fuentes",
+   "Sistema romano-germánico",
+   "Constitución",
+   "Ley",
+   "Jurisprudencia (según el país)",
+   "Costumbre",
+   "Negocio jurídico",
+   "Principios generales del derecho",
+   "Doctrina (no es fuente formal)"
+  ],
+  "division": [
+   "Las ramas integran un derecho único",
+   "Concepto de derecho público",
+   "Constitucional, procesal, internacional público, penal, administrativo",
+   "Concepto de derecho privado",
+   "Civil, mercantil, internacional privado",
+   "Concepto de derecho social",
+   "Laboral, agrario, ecológico, económico, educativo"
+  ],
+  "juris": [
+   "Concepto de jurisprudencia",
+   "Sirve para ver cómo se aplican las leyes",
+   "Valor en el derecho anglosajón",
+   "Valor en el derecho continental",
+   "Fallos plenarios en Argentina",
+   "Límite: sentencias que no se cumplen",
+   "Propósito: interpretación uniforme"
+  ],
+  "const": [
+   "Concepto de derecho constitucional",
+   "Concepto de Constitución (Kelsen)",
+   "Poder constituyente (Linares Quintana)",
+   "Titular: el pueblo",
+   "Originario y derivado",
+   "Parte dogmática y orgánica",
+   "Escrita, rígida, constitución-ley, fundamental",
+   "Estado de derecho",
+   "Rigidez y sus factores",
+   "Control de constitucionalidad",
+   "Criterios de colisión normativa",
+   "Campos del derecho constitucional"
+  ],
+  "supremacia": [
+   "Pirámide con la Constitución en la cúspide",
+   "Marbury vs. Madison",
+   "Nulidad de la norma inferior contraria",
+   "Control de constitucionalidad"
+  ],
+  "cn": [
+   "Santa Fe, 1853, Urquiza",
+   "Preámbulo y dos partes (arts. 1–43 y 44–129)",
+   "Valor interpretativo del Preámbulo (Bidart Campos)",
+   "Los 6 fines",
+   "Pactos preexistentes",
+   "Tratados del art. 75 inc. 22",
+   "Por qué Buenos Aires no participó",
+   "Fuentes: constituciones anteriores, EE.UU., Alberdi",
+   "107 artículos, derechos de primera generación",
+   "Forma representativa, republicana y federal"
+  ],
+  "reformas": [
+   "1860",
+   "1866",
+   "1898",
+   "1949",
+   "1957",
+   "1972",
+   "1994",
+   "1956, 1966 y 1976 no son reformas",
+   "1994: nuevos derechos (ambiente, consumidor, información)",
+   "1994: amparo y delitos contra la Constitución",
+   "1994: preeminencia de tratados",
+   "1994: 4 años, una reelección, voto directo, ballotage",
+   "1994: DNU, tercer senador, Consejo de la Magistratura",
+   "1994: autonomía de CABA y traslado de Capital"
+  ],
+  "soberania": [
+   "Soberanía: sin poder superior interno ni externo",
+   "Solo el Estado Nacional",
+   "Genovesi",
+   "Autonomía: darse sus propias normas",
+   "Art. 31 y art. 5: provincias",
+   "Art. 123: municipios",
+   "Autarquía: autoadministrarse bajo control",
+   "Universidades: art. 75 inc. 19",
+   "Diferencia explícita entre las tres"
+  ]
+ },
+ "LEG_RES": [
+  {
+   "id": "normas",
+   "title": "Las normas que rigen la actividad humana",
+   "defs": [
+    [
+     "Norma",
+     "Toda regla de carácter obligatorio que manda, permite o prohíbe una determinada conducta o comportamiento al interior del grupo social al que se pertenece."
+    ],
+    [
+     "Norma religiosa",
+     "Prescripción de conducta humana cuya finalidad última es posibilitar la santidad del hombre: las exigencias que debe cumplir para agradar a Dios y alcanzar la eterna bienaventuranza."
+    ],
+    [
+     "Derecho canónico",
+     "Derecho corporativo que regula la estructura de la Iglesia Católica: fija su jerarquía, su organización interna, la relación con los fieles y de ellos entre sí. Sus normas tienen carácter jurídico-eclesiástico religioso."
+    ],
+    [
+     "Moral",
+     "Sistema de normas cuya finalidad es lograr la bondad del sujeto. Es una noción analógica: puede referirse a la ley, las costumbres, las personas o los actos humanos; en sentido estricto solo la conducta puede calificarse de moralmente buena o mala. Ejemplos de normas morales: “no se debe mentir”, “tomate la vida con alegría”."
+    ],
+    [
+     "Axiología",
+     "Rama de la filosofía que estudia la naturaleza de los valores y de los juicios valorativos, tanto positivos como negativos."
+    ],
+    [
+     "Normas de trato social",
+     "Amplio grupo de normas socialmente reconocidas, como la moda, la tradición, los usos y costumbres (formas de vestir, de comer, rituales del saludo). Su incumplimiento no tiene sanción institucionalizada, sino reproche social; no cumplirlas lleva a aislarse de grupos de personas."
+    ],
+    [
+     "Norma jurídica",
+     "Regla o pauta de conducta que emana de los órganos competentes del Estado; está escrita y expresa lo permitido o prohibido. Regula, garantiza y hace posible la vida en un Estado, y supone el uso de la coacción para garantizar su cumplimiento."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "Toda la convivencia social se sustenta en normas: definen derechos y deberes y permiten saber cómo actuar correctamente. Simples acciones cotidianas tienen consecuencias jurídicas: al subirse a un micro nace la obligación de pagar el pasaje y el derecho a que el micro haga su recorrido."
+    },
+    {
+     "t": "p",
+     "text": "El Derecho surge como manifestación de la necesidad de establecer normas que permitan convivir en forma organizada y pacífica, evitando que las personas resuelvan los conflictos por sus propios medios."
+    },
+    {
+     "t": "h",
+     "text": "Caracteres de cada tipo de norma"
+    },
+    {
+     "t": "cards",
+     "items": [
+      {
+       "title": "Religiosas",
+       "sub": "Finalidad: la santidad; acercarse a Dios y lograr la vida eterna.",
+       "lines": [
+        "Heterónomas: su origen es la razón de Dios, que las impone al hombre",
+        "Unilaterales: imponen deberes pero no facultan a exigir su cumplimiento",
+        "Internas: importa la intención; no basta cumplir rituales exteriormente, hay que aceptarlas en conciencia",
+        "Incoercibles: el acto debe realizarse libremente para tener valor religioso",
+        "Sanción interna y sobrenatural: dolor por ofender a Dios y, en último término, la condenación eterna; la aplica Dios"
+       ]
+      },
+      {
+       "title": "Morales",
+       "sub": "Finalidad: la bondad del sujeto (hombre bueno o virtuoso).",
+       "lines": [
+        "Unilaterales: prescriben un deber, pero nadie puede exigir su cumplimiento",
+        "Interiores: se inician en la conciencia, aunque exigen que la intención se manifieste en un acto concreto",
+        "Autónomas: la norma es general y el sujeto la aplica a su circunstancia concreta",
+        "Incoercibles: si se cumple por la fuerza, la moral sigue incumplida, porque reclama la libre voluntad"
+       ]
+      },
+      {
+       "title": "De trato social",
+       "sub": "Ordenan la vida y dan seguridad al hacer previsibles las conductas.",
+       "lines": [
+        "Propias de la vida social",
+        "Externas: importa el acto exterior, no el móvil del sujeto",
+        "Heterónomas: las impone la sociedad",
+        "Unilaterales: establecen solo deberes",
+        "Sanción: reprobación social ejercida por el grupo; se dirige al infractor, no busca ejecutar la obligación",
+        "Relativas y cambiantes según el tiempo y el lugar"
+       ]
+      },
+      {
+       "title": "Jurídicas",
+       "sub": "Emanan de los órganos competentes del Estado; son escritas y obligatorias.",
+       "lines": [
+        "Coercibles: si no se cumplen se puede recurrir a la fuerza (sanción en potencia, elemento persuasivo)",
+        "Heterónomas: impuestas desde afuera y obligatorias",
+        "Exteriores: rigen la actividad externa, sin dejar de considerar la intención",
+        "Temporales: se pueden abolir, modificar o reemplazar"
+       ]
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Ejemplos del material"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Moral autónoma: la norma dice “debe decirse siempre la verdad”; si un ladrón pregunta dónde está el dinero, el sujeto puede dar una respuesta evasiva sin faltar a la verdad.",
+      "Coercibilidad: quien no paga en fecha la contribución inmobiliaria sufrirá recargos y multas.",
+      "Exterioridad: quien comete un delito con intención de dañar es sancionado de manera distinta que quien lo hace sin intención."
+     ]
+    },
+    {
+     "t": "key",
+     "text": "La norma jurídica es la única coercible. Religiosas y morales son internas e incoercibles; las de trato social son externas pero su sanción es solo la reprobación social.",
+     "label": "Clave"
+    }
+   ]
+  },
+  {
+   "id": "moral",
+   "title": "El Derecho y la Moral",
+   "defs": [
+    [
+     "Diferencia central",
+     "La moral busca la perfección o plenitud vital del individuo; el derecho busca el mantenimiento y adecuado desarrollo de la vida social."
+    ],
+    [
+     "Autonomía (moral)",
+     "La norma moral solo obliga a quien acepta y reconoce su fuerza vinculante."
+    ],
+    [
+     "Heteronomía (derecho)",
+     "La norma jurídica obliga con total independencia de la aceptación de sus destinatarios."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "El material enumera siete diferencias principales:"
+    },
+    {
+     "t": "table",
+     "head": [
+      "N°",
+      "Moral",
+      "Derecho"
+     ],
+     "rows": [
+      [
+       "1. Conducta",
+       "Regula solo conductas internas",
+       "Regula conductas externas (aunque no todas)"
+      ],
+      [
+       "2. Intención",
+       "Implica la intencionalidad del sujeto",
+       "Se conforma con el comportamiento externo"
+      ],
+      [
+       "3. Deberes y derechos",
+       "Impone solamente deberes",
+       "Impone deberes y atribuye derechos"
+      ],
+      [
+       "4. Obligatoriedad",
+       "Autónoma: obliga a quien la acepta",
+       "Heterónoma: obliga aunque no se acepte"
+      ],
+      [
+       "5. Fuerza",
+       "No exigible por la fuerza (incoercible)",
+       "Siempre puede recurrir a la coacción (coercible)"
+      ],
+      [
+       "6. Naturaleza",
+       "Subjetiva y unilateral",
+       "Objetiva y bilateral"
+      ],
+      [
+       "7. Fin",
+       "Perfección del individuo; responde a una necesidad psicológica",
+       "Mantenimiento y desarrollo de la vida social"
+      ]
+     ]
+    },
+    {
+     "t": "key",
+     "text": "La moral mira hacia adentro (conciencia, intención, perfección personal); el derecho mira hacia afuera (conducta, convivencia, fuerza del Estado).",
+     "label": "Para recordar"
+    }
+   ]
+  },
+  {
+   "id": "natural",
+   "title": "Derecho natural y derecho positivo",
+   "defs": [
+    [
+     "Derecho positivo",
+     "Derecho del Estado, elaborado a través de los órganos legislativos, que corresponde a una sociedad y un tiempo determinados. Es el conjunto de normas coercitivamente aplicables por la autoridad pública; lo crea y modifica el hombre. Su vinculación obligatoria le da carácter vigente."
+    ],
+    [
+     "Derecho natural",
+     "Derecho que parte de la misma naturaleza del hombre y por eso es siempre igual, sin importar países, culturas ni el paso del tiempo. Son principios rectores, anteriores y superiores a la voluntad del hombre y comunes a toda la sociedad (ej.: el derecho a la vida)."
+    ],
+    [
+     "Iuspositivismo",
+     "Corriente para la cual el derecho positivo es el único derecho que existe."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "El derecho natural orienta al positivo, estableciéndole principios universales e inderogables a los que debe ajustarse. El derecho positivo es la concreción del derecho natural: su adopción a un momento determinado para una sociedad concreta."
+    },
+    {
+     "t": "h",
+     "text": "El problema de la “naturaleza humana”"
+    },
+    {
+     "t": "p",
+     "text": "Los autores no coincidieron sobre qué es la naturaleza humana. Para el griego Calicles, la naturaleza era la salud, fuerza y vigor de unos y la debilidad de otros: era natural que los fuertes se impusieran y el derecho natural debía expresar al más fuerte. Aristóteles pensaba que la naturaleza del hombre era racional y que ese atributo era casi exclusivo de los griegos, con lo que “justificaba” la esclavitud. El material plantea la pregunta: ¿hay que renunciar a definir el derecho natural y quedarse solo con el positivo?"
+    },
+    {
+     "t": "h",
+     "text": "Reconocimiento en nuestra legislación"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Art. 33 CN",
+       "v": "Las declaraciones, derechos y garantías que enumera la Constitución no serán entendidos como negación de otros derechos y garantías no enumerados."
+      },
+      {
+       "k": "Art. 16 Código Civil",
+       "v": "Si una cuestión civil no puede resolverse ni por las palabras ni por el espíritu de la ley, se atenderá a los principios generales del derecho."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "general",
+   "title": "Generalidades, creación y realización del Derecho",
+   "defs": [
+    [
+     "Derecho",
+     "Conjunto de normas de carácter general, dictadas para regir sobre toda la sociedad o sobre sectores preestablecidos, que se imponen en forma obligatoria y cuyo incumplimiento acarrea una sanción coactiva o la respuesta del Estado."
+    ],
+    [
+     "Sistema",
+     "El Derecho debe considerarse como un todo, un conjunto armónico; durante mucho tiempo se lo vio como un sistema hermético donde las soluciones se buscan en las propias normas."
+    ],
+    [
+     "Lagunas",
+     "Vacíos normativos: esferas o situaciones que quedan sin regular, por ejemplo en procesos de modificación o derogación."
+    ],
+    [
+     "Publicidad",
+     "Requisito previo de validez normativa: la publicación da a conocer el nacimiento de la norma y declara su exigibilidad y obligatoriedad."
+    ],
+    [
+     "Principio de legalidad",
+     "Impide a los órganos inferiores regular diferente o contrario a la norma, o limitar o ampliar su aplicación, salvo que la propia disposición lo autorice."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "Las normas no son resultado solo de la razón: en su formación inciden intereses políticos y socioeconómicos y los valores y exigencias sociales predominantes, que condicionan una voluntad política y jurídica."
+    },
+    {
+     "t": "p",
+     "text": "La armonía interna depende de esa voluntad política: en sociedades plurales, de la coincidencia de intereses de los partidos predominantes en el legislativo y el ejecutivo y de su continuidad; en sociedades monopartidistas es más factible, aunque menos democrática. En la práctica la unidad formal es imposible: las normas se dictan en distintos momentos, por distintos órganos y según las necesidades del momento, y por eso aparecen contradicciones y lagunas."
+    },
+    {
+     "t": "h",
+     "text": "Principios técnicos que dan armonía"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Jerarquía normativa: no por el rango formal de la norma, sino por la jerarquía del órgano facultado para dictarla.",
+      "Prevalencia de la norma especial sobre la general: pueden convivir leyes generales y específicas, ambas con fuerza obligatoria.",
+      "Derogación de la norma anterior por la posterior."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Creación del Derecho"
+    },
+    {
+     "t": "p",
+     "text": "La producción del Derecho es básicamente estatal, y eso le da coherencia. Solo aceptándolo serán efectivos la prevalencia de la Constitución, la sumisión del Estado a la ley y la seguridad jurídica. Por eso las lagunas son un sinsentido: el operador jurídico o el juez debe encontrar la solución dentro del sistema. La expresión de intereses aporta unidad a la normativa."
+    },
+    {
+     "t": "h",
+     "text": "Realización del Derecho"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Para que una norma sea eficaz hay que crear los medios e instituciones que permitan realizarla.",
+      "La eficacia no es solo normativa: también social y material (correspondencia entre la norma y la realidad). Así la norma logra el consenso activo y se acata sin presión coercitiva.",
+      "La publicación es vital: salvo que diga lo contrario, la norma rige desde su publicación.",
+      "Las normas deben surgir de un análisis previo de los hechos, sus causas y efectos, cumplir requisitos formales y tener claro su objetivo.",
+      "Nacida la norma, deben respetarla ciudadanos e instituciones, en especial los órganos inferiores (principio de legalidad).",
+      "El destinatario de las normas es el dueño del poder (el pueblo, que otorga mandato por el voto): se necesitan garantías para ejercer y defender los derechos. Orden, defensa de los derechos y legalidad van de la mano."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fuentes",
+   "exam": true,
+   "title": "Fuentes del Derecho",
+   "defs": [
+    [
+     "Fuentes del derecho",
+     "Conceptos de donde surge el contenido del derecho vigente en un espacio y momento determinados: los “espacios” a los que se acude para establecer el derecho aplicable a una situación concreta. Son el “alma” del Derecho: fundamentos e ideas que lo ayudan a realizar su fin."
+    ],
+    [
+     "La Constitución",
+     "Norma fundamental, escrita o no, de un Estado soberano, establecida o aceptada para regirlo."
+    ],
+    [
+     "La ley",
+     "Norma jurídica dictada por el legislador: precepto de la autoridad competente que manda o prohíbe algo en consonancia con la justicia y para el bien de los gobernados."
+    ],
+    [
+     "La jurisprudencia",
+     "Reiteradas interpretaciones que de las normas jurídicas hacen los tribunales en sus resoluciones. Puede constituir fuente según el país."
+    ],
+    [
+     "La costumbre",
+     "Práctica social arraigada: repetición continua y uniforme de un acto al que se quiere otorgar valor normativo."
+    ],
+    [
+     "El negocio jurídico",
+     "Acto de autonomía privada de contenido preceptivo, con reconocimiento y tutela del orden jurídico."
+    ],
+    [
+     "Principios generales del derecho",
+     "Enunciados normativos más generales que, sin haber sido integrados formalmente, forman parte del ordenamiento porque fundamentan otros enunciados particulares o recogen en abstracto el contenido de un grupo de ellos."
+    ],
+    [
+     "La doctrina",
+     "Opinión de los juristas prestigiosos sobre una materia concreta. No es fuente formal del Derecho."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "El material las ubica en el Derecho occidental: el sistema romano-germánico o derecho continental, que es el nuestro."
+    },
+    {
+     "t": "key",
+     "text": "Para el parcial: definí qué son las fuentes, enumerá las siete con una línea cada una y aclará que la doctrina no es fuente formal y que el valor de la jurisprudencia depende de cada país."
+    }
+   ]
+  },
+  {
+   "id": "division",
+   "title": "El derecho positivo y su división",
+   "defs": [
+    [
+     "Ramas del derecho",
+     "Agrupación de las diferentes disciplinas que regula el Derecho. No son derechos distintos: integran el concepto único de derecho como ordenamiento jurídico de una sociedad."
+    ],
+    [
+     "Derecho público",
+     "Normas que rigen la actividad y organización del Estado y las relaciones entre particulares y Estado cuando este actúa como poder soberano."
+    ],
+    [
+     "Derecho privado",
+     "Normas que regulan las relaciones de los particulares entre sí, o con el Estado cuando actúa como simple persona privada."
+    ],
+    [
+     "Derecho social",
+     "Normas que establecen principios y procedimientos a favor de los individuos socialmente débiles, para lograr su convivencia con otras clases sociales dentro de un orden jurídico."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "h",
+     "text": "Ramas del derecho público"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Constitucional",
+       "v": "Leyes fundamentales que definen un Estado: forma de Estado y de gobierno, derechos fundamentales, regulación de los poderes públicos y sus relaciones con los ciudadanos."
+      },
+      {
+       "k": "Procesal",
+       "v": "Reglas para aplicar el derecho a casos particulares y concretos: esclarecer una situación dudosa, que los jueces declaren una obligación y, si hace falta, ordenen hacerla efectiva."
+      },
+      {
+       "k": "Internacional público",
+       "v": "Regula la conducta de los Estados, sus relaciones y la conducción de los organismos internacionales (ej.: la ONU), con tratados y organismos bilaterales y multilaterales."
+      },
+      {
+       "k": "Penal",
+       "v": "Determina los delitos, las penas que el Estado impone y las medidas de seguridad para prevenir la criminalidad."
+      },
+      {
+       "k": "Administrativo",
+       "v": "Tiene por objeto la administración pública, mediante la cual el Estado y sus órganos auxiliares satisfacen los intereses colectivos."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Ramas del derecho privado"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Civil",
+       "v": "Primera rama del derecho privado: relaciones de la vida ordinaria de la persona (familia, matrimonio, patria potestad, registro civil, propiedad, usufructo, sucesiones y testamentos). Documento fundamental: el acta de nacimiento."
+      },
+      {
+       "k": "Mercantil (comercial)",
+       "v": "Regula los actos de comercio, los comerciantes, las cosas mercantiles y la empresa comercial. Comercio: actividad lucrativa de intercambio de bienes y servicios."
+      },
+      {
+       "k": "Internacional privado",
+       "v": "Reglas para los individuos en sus relaciones internacionales. Abarca: conflicto de leyes entre países, conflicto de jurisdicción y nacionalidad."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Ramas del derecho social"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Del trabajo o laboral",
+       "v": "Principios que buscan la justicia social en las relaciones laborales sindicales e individuales. Abarca: derecho individual del trabajo, previsión social, derecho sindical, administración laboral, derecho procesal del trabajo y derecho colectivo del trabajo. Las juntas regulan las relaciones entre patrones y trabajadores representados por un sindicato, mediante un contrato colectivo de trabajo."
+      },
+      {
+       "k": "Agrario",
+       "v": "Regula la tenencia de la tierra, las formas de propiedad y la actividad agraria."
+      },
+      {
+       "k": "Ecológico",
+       "v": "Previene y protege el ambiente y los recursos naturales controlando la actividad humana; prevé sanciones. Ej.: Ley general del equilibrio ecológico y protección del ambiente, ley de aguas nacionales."
+      },
+      {
+       "k": "Económico",
+       "v": "Participación del Estado en la actividad económica para promoverla, supervisarla, controlarla, orientarla o intervenir, dando certeza jurídica a la cadena productiva y de consumo."
+      },
+      {
+       "k": "Educativo",
+       "v": "Regula la prestación de servicios educativos a cargo del Estado; la educación debe exaltar los valores cívicos y morales."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "juris",
+   "title": "La jurisprudencia",
+   "defs": [
+    [
+     "Jurisprudencia",
+     "Conjunto de sentencias de los órganos jurisdiccionales del Estado que han resuelto casos iguales o similares de la misma manera o en el mismo sentido."
+    ],
+    [
+     "Propósito",
+     "Obtener una interpretación uniforme del derecho en los casos que la realidad presenta a los jueces."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "Para conocer el contenido completo de las normas vigentes hay que considerar cómo se aplicaron en el pasado. Estudiar las variaciones de la jurisprudencia es la mejor manera de conocer cómo evoluciona la aplicación de las leyes, quizá con más exactitud que repasar las reformas del derecho positivo, que a veces no llegan a aplicarse."
+    },
+    {
+     "t": "h",
+     "text": "Valor según el sistema"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Derecho anglosajón",
+       "v": "Fuente de importante magnitud: los jueces deben fundamentar sus sentencias en un estudio minucioso de los precedentes."
+      },
+      {
+       "k": "Derecho continental",
+       "v": "También es fuente formal, pero su valor y fuerza vinculante varían según cada país."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Tres variantes en el derecho continental"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Los fallos de ciertos tribunales superiores son obligatorios para casos equivalentes en tribunales inferiores.",
+      "Las decisiones no suelen ser vinculantes, salvo cuando se unifican criterios interpretativos (como las sentencias plenarias en el derecho argentino).",
+      "La alternativa más extendida: los fallos superiores no son obligatorios en ningún caso, pero tienen fuerza dogmática para predecir decisiones y fundamentar peticiones."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Límite"
+    },
+    {
+     "t": "p",
+     "text": "El estudio de las sentencias tampoco da la medida exacta de la realidad del Derecho, porque a veces dejan de cumplirse, sobre todo cuando el Poder Judicial choca con el Ejecutivo o el Legislativo. Esto compromete la separación de poderes, pero no puede desconocerse al elaborar una teoría del Derecho."
+    }
+   ]
+  },
+  {
+   "id": "const",
+   "title": "Derecho constitucional",
+   "defs": [
+    [
+     "Derecho constitucional",
+     "Rama del derecho público que estudia las leyes fundamentales que definen un Estado: forma de Estado, forma de gobierno, derechos fundamentales y regulación de los poderes públicos (relaciones entre ellos y con los ciudadanos)."
+    ],
+    [
+     "Constitución",
+     "Texto jurídico-político, fruto del poder constituyente, que fundamenta todo el ordenamiento y crea los poderes constituidos limitándolos al servicio de las personas. Es norma suprema: prevalece sobre cualquier otra posterior y contraria. Para Kelsen, es la norma que da lógica a todo el sistema; el derecho común surge de ella por derivación y aplicación."
+    ],
+    [
+     "Poder constituyente",
+     "Según Linares Quintana: “la facultad soberana del pueblo a darse su ordenamiento jurídico-político fundamental originario, por medio de una Constitución y a revisar a ésta total o parcialmente cuando sea necesario”."
+    ],
+    [
+     "Originario / derivado",
+     "Originario: aparece cuando se sanciona la Constitución. Derivado: se manifiesta con su reforma."
+    ],
+    [
+     "Estado de derecho",
+     "Toda acción social y estatal encuentra sustento en la norma; el poder del Estado queda subordinado al orden jurídico vigente por cumplir el procedimiento para su creación, y es eficaz cuando se aplica en la realidad, creando un ambiente de respeto absoluto del ser humano y del orden público. No basta con una autoridad sometida al derecho: el ordenamiento debe reunir ciertas características para que haya un Estado de derecho real o material. Se explica en sentido formal y en sentido material."
+    ],
+    [
+     "Soberanía nacional",
+     "Concepto ideológico de la teoría política liberal (Locke y Montesquieu): la soberanía pertenece a la nación, entidad abstracta y única ligada a un territorio, integrada por ciudadanos presentes, pasados y futuros. También es la capacidad jurídica y real de decidir en forma definitiva y eficaz todo conflicto que altere la unidad de la cooperación social (territorial si es necesario, e incluso contra el derecho positivo) e imponer la decisión a todos los habitantes del territorio."
+    ],
+    [
+     "Derechos fundamentales",
+     "Derechos o facultades básicas e inalienables reconocidos a los seres humanos. La teoría del derecho natural sostiene que deberían reconocerse en cualquier ordenamiento."
+    ],
+    [
+     "Estabilidad constitucional",
+     "La Constitución debe soportar el paso de sucesivos gobiernos sin cambiar su letra; por eso su modificación exige restricciones, sobre todo mayorías especialmente calificadas."
+    ],
+    [
+     "Rigidez constitucional",
+     "La norma suprema designa un proceso específico para su propia modificación, distinto del procedimiento legislativo común. Flexibilidad: cuanto más se parece la reforma al proceso de una ley ordinaria."
+    ],
+    [
+     "Control de constitucionalidad",
+     "Asegurar que los actos de los poderes constituidos no violen la Constitución."
+    ],
+    [
+     "Colisión normativa",
+     "Cuando dos normas tienen contenido incompatible (una ordena una conducta y otra la prohíbe)."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "El titular del poder constituyente es el pueblo; su fundamento es la base de la legitimidad democrática y del Estado de derecho. Por eso no se admite su ejercicio autocrático."
+    },
+    {
+     "t": "h",
+     "text": "Estructura de una constitución"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Preámbulo.",
+      "Parte dogmática (garantías individuales): derechos fundamentales sustantivos y derechos fundamentales procesales.",
+      "Parte orgánica: creación de los poderes constituidos y del poder constituido constituyente."
+     ]
+    },
+    {
+     "t": "p",
+     "text": "La Constitución argentina tiene una parte dogmática, que trata la situación del hombre frente al Estado y los demás (“derecho constitucional de la libertad”), y una parte orgánica, referida al poder, sus órganos, funciones y relaciones (“derecho constitucional del poder”)."
+    },
+    {
+     "t": "h",
+     "text": "Caracteres de la Constitución argentina"
+    },
+    {
+     "t": "p",
+     "text": "Responde al pensamiento jurídico del siglo XIX (texto de 1853) y en su estructura es un típico producto del constitucionalismo clásico."
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Escrita y codificada",
+       "v": "Formulada en normas sistematizadas en un único cuerpo legal."
+      },
+      {
+       "k": "Rígida",
+       "v": "Se reforma por un órgano distinto al que dicta las leyes (Convención Constituyente) y con un procedimiento distinto."
+      },
+      {
+       "k": "Constitución-ley",
+       "v": "No fue otorgada por un monarca ni es un pacto: es un acto unilateral por el cual el pueblo argentino, a través de sus representantes reunidos en Congreso, se da su propia ley fundamental."
+      },
+      {
+       "k": "Fundamental",
+       "v": "Todas las disposiciones del ordenamiento deben tener fundamento en ella."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Grados de rigidez: de qué dependen"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Si el órgano reformador se crea y elige especialmente o es uno de los que funcionan habitualmente.",
+      "El número de instituciones cuyo consentimiento debe concurrir.",
+      "Las mayorías exigidas.",
+      "La participación del pueblo: directa (referéndum) o indirecta (elección de una asamblea que ratifique o redacte la reforma)."
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Criterios para resolver la colisión normativa"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Jerarquía",
+       "v": "La norma de rango superior destruye a la inferior."
+      },
+      {
+       "k": "Temporalidad",
+       "v": "Entre normas de igual rango, la posterior deroga a la anterior."
+      },
+      {
+       "k": "Especialidad",
+       "v": "Entre normas de igual rango, prevalece la que regula la materia en forma más específica."
+      },
+      {
+       "k": "Prelación axiológica",
+       "v": "Se aplica la que tutela un derecho superior en la escala de valores constitucional (la vida sobre la propiedad)."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Campos del derecho constitucional"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Teoría del Poder",
+      "Teoría del Estado",
+      "Teoría de la Constitución",
+      "Teoría de los Derechos Humanos"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "supremacia",
+   "exam": true,
+   "title": "Supremacía constitucional",
+   "defs": [
+    [
+     "Supremacía constitucional",
+     "Concepto que procede del precedente jurisprudencial “Marbury vs. Madison”: el ordenamiento jurídico se estructura como una pirámide jerárquica con la Constitución en la cúspide. Cualquier norma posterior y contraria que entre en colisión con la norma suprema provoca la nulidad de la norma inferior."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "p",
+     "text": "La Constitución es el punto más alto de la escala jerárquica normativa. Como es norma suprema, su cumplimiento debe estar garantizado: para eso existe el control de constitucionalidad, que asegura que los actos de los poderes constituidos no la violen."
+    },
+    {
+     "t": "p",
+     "text": "Se relaciona con el criterio de jerarquía de la colisión normativa (la norma superior destruye a la inferior) y con el art. 31 CN, que el material cita al explicar la autonomía. Además, por el art. 75 inc. 22 ciertos tratados de derechos humanos tienen rango constitucional."
+    },
+    {
+     "t": "key",
+     "text": "Piden “brevemente”: definición (pirámide con la Constitución en la cúspide), origen (Marbury vs. Madison), consecuencia (nulidad de la norma inferior contraria) y cómo se garantiza (control de constitucionalidad)."
+    }
+   ]
+  },
+  {
+   "id": "cn",
+   "title": "La Constitución Nacional",
+   "defs": [
+    [
+     "Constitución Nacional",
+     "Aprobada por una asamblea constituyente en la ciudad de Santa Fe en 1853. Fue reformada siete veces; la última, en 1994. Puso fin a las guerras civiles y sentó las bases de la Organización Nacional."
+    ],
+    [
+     "Preámbulo",
+     "Introducción que enumera los fines generales de la Constitución. Para Bidart Campos es una mera declaración de propósitos sin carácter normativo: “la síntesis del proyecto político de la Constitución”, el núcleo no negociable de principios, creencias y valores."
+    ],
+    [
+     "Valor interpretativo",
+     "Como el Preámbulo indica los fines del Estado Federal, es un instrumento de interpretación teleológica (según los fines) del texto constitucional."
+    ],
+    [
+     "Pactos preexistentes",
+     "Pactos y tratados firmados por las autoridades provinciales a los que el Preámbulo atribuye el dictado de la Constitución."
+    ],
+    [
+     "Oración laica",
+     "Alfonsín recitaba el Preámbulo en su campaña de 1983 y en su asunción lo llamó “nuestra conmovida oración laica”."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "h",
+     "text": "Partes del texto"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "Preámbulo",
+       "v": "Fines generales."
+      },
+      {
+       "k": "Primera parte",
+       "v": "Declaraciones, Derechos y Garantías (arts. 1 a 43)."
+      },
+      {
+       "k": "Segunda parte",
+       "v": "Autoridades de la Nación (arts. 44 a 129)."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Texto del Preámbulo"
+    },
+    {
+     "t": "p",
+     "text": "“Nos los representantes del pueblo de la Nación Argentina, reunidos en Congreso General Constituyente por voluntad y elección de las provincias que la componen, en cumplimiento de pactos preexistentes, con el objeto de constituir la unión nacional, afianzar la justicia, consolidar la paz interior, proveer a la defensa común, promover el bienestar general, y asegurar los beneficios de la libertad, para nosotros, para nuestra posteridad, y para todos los hombres del mundo que quieran habitar en el suelo argentino: invocando la protección de Dios, fuente de toda razón y justicia: ordenamos, decretamos y establecemos esta Constitución para la Nación Argentina.”"
+    },
+    {
+     "t": "h",
+     "text": "Contenido del Preámbulo"
+    },
+    {
+     "t": "p",
+     "text": "Asevera la legitimidad de la Constitución sintetizando el programa de los constituyentes: recuerda los pactos preexistentes; afirma la unidad, la paz interior y un frente común hacia el extranjero; se propone poblar el territorio en sentido alberdiano, “para todos los hombres del mundo que quieran habitar el suelo argentino”; e invoca “la protección de Dios, fuente de toda razón y justicia” con una fórmula aceptable para todas las creencias. El texto original de 1853 se mantiene, salvo cambios de grafía."
+    },
+    {
+     "t": "h",
+     "text": "Los 6 fines"
+    },
+    {
+     "t": "defs",
+     "items": [
+      {
+       "k": "1. Afianzar la justicia",
+       "v": "El Congreso puede dictar la legislación necesaria para que los derechos y poderes se ejerzan con equidad y sin discriminación."
+      },
+      {
+       "k": "2. Constituir la unión nacional",
+       "v": "Formar un Estado Nacional sólido, con autoridad para ejercer las atribuciones delegadas por las provincias."
+      },
+      {
+       "k": "3. Consolidar la paz interior",
+       "v": "Fortalecer la soberanía popular y sus instituciones y evitar el enfrentamiento entre argentinos."
+      },
+      {
+       "k": "4. Proveer a la defensa común",
+       "v": "No solo la defensa bélica: defender todo lo común a la comunidad (la Constitución, las provincias, la población, los valores, el Estado de derecho, el federalismo)."
+      },
+      {
+       "k": "5. Promover el bienestar general",
+       "v": "Garantizar un nivel de vida decente para la población."
+      },
+      {
+       "k": "6. Asegurar los beneficios de la libertad",
+       "v": "Libertad extendida a todos los que quieran habitar el suelo argentino; encierra la dignidad humana y obliga a crear la posibilidad real de que cada uno desarrolle su personalidad y sus derechos."
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": "La reforma de 1949 (derogada pocos años después) agregó al Preámbulo: “la irrevocable decisión de constituir una Nación socialmente justa, económicamente libre y políticamente soberana”."
+    },
+    {
+     "t": "h",
+     "text": "Pactos preexistentes"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Tratado del Pilar (23/2/1820)",
+      "Tratado del Cuadrilátero (25/1/1822)",
+      "Pacto Federal (4/1/1831)",
+      "Protocolo de Palermo (6/4/1852)",
+      "Acuerdo de San Nicolás de los Arroyos (31/5/1852)",
+      "Pacto de San José de Flores (11/11/1859)"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "Tratados con rango constitucional (art. 75 inc. 22)"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Declaración Americana de los Derechos y Deberes del Hombre",
+      "Declaración Universal de Derechos Humanos",
+      "Convención Americana sobre Derechos Humanos",
+      "Pacto Internacional de Derechos Económicos, Sociales y Culturales",
+      "Pacto Internacional de Derechos Civiles y Políticos y su Protocolo Facultativo",
+      "Convención sobre la Prevención y la Sanción del Delito de Genocidio",
+      "Convención Internacional sobre la Eliminación de Todas las Formas de Discriminación Racial",
+      "Convención sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer",
+      "Convención contra la Tortura y Otros Tratos o Penas Crueles, Inhumanos o Degradantes",
+      "Convención sobre los Derechos del Niño",
+      "Convención Interamericana sobre Desaparición Forzada de Personas"
+     ]
+    },
+    {
+     "t": "h",
+     "text": "La Constitución de 1853"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Tras el Acuerdo de San Nicolás se convocó al Congreso Constituyente. El 11 de septiembre Buenos Aires se separó de la Confederación: no aceptó la igualdad de representación (dos diputados por provincia) ni la nacionalización de la aduana (art. 19 del Acuerdo), y no participó.",
+      "Aprobada el 1° de mayo de 1853 en Santa Fe, durante el gobierno de Urquiza (que había derrotado a Rosas en Caseros). Rigió para las trece provincias restantes.",
+      "Tras la batalla de Pavón, Buenos Aires y la Confederación se reunificaron con la reforma de 1860.",
+      "Fuentes: las constituciones anteriores, la Constitución de EE.UU. y las “Bases y puntos de partida para la organización política de la República Argentina” de Juan Bautista Alberdi.",
+      "Preámbulo y dos partes; 107 artículos. El Preámbulo cambió el “nosotros, el pueblo” estadounidense por “nos, los representantes del pueblo”, para subrayar el sistema representativo.",
+      "Derechos y garantías en 31 artículos: derechos de primera generación (legalidad, igualdad ante la ley, propiedad, inviolabilidad del domicilio, libertad de expresión sin censura previa, de circulación).",
+      "Normas específicas: abolición de la esclavitud (art. 15), gratuidad de la educación primaria (art. 5), igualdad de derechos civiles entre ciudadanos y extranjeros (art. 20), fomento de la inmigración europea (art. 25), prohibición de la democracia directa (art. 22).",
+      "Gobierno: forma representativa, republicana y federal (federalismo atenuado). Ejecutivo fuerte (presidencialismo) que podía intervenir provincias, declarar el estado de sitio y designar jueces. Legislativo bicameral que sanciona los códigos. Judicial basado en el juicio por jurados, que nunca se cumplió.",
+      "Sufragio no secreto ni universal (prohibía el voto femenino)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reformas",
+   "exam": true,
+   "title": "Las reformas constitucionales",
+   "defs": [
+    [
+     "Las 7 reformas",
+     "1860 · 1866 · 1898 · 1949 · 1957 · 1972 · 1994."
+    ],
+    [
+     "No son reformas",
+     "La Proclama de 1956, el Estatuto de la Revolución Argentina de 1966 y los instrumentos del Proceso de 1976: fueron actos de gobiernos de facto."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "timeline",
+     "items": [
+      {
+       "year": "1853",
+       "title": "Texto original",
+       "text": "Sancionada el 1° de mayo en Santa Fe. Base de todas las reformas.",
+       "base": true
+      },
+      {
+       "year": "1860",
+       "title": "Reforma de 1860",
+       "text": "Tras el Pacto de San José de Flores, una Convención de Buenos Aires sugirió reformas: desde cosméticas (eliminar frases como “ejecuciones a lanza y cuchillo”, reemplazar “Confederación” por “Nación”) hasta importantes (suprimir la aprobación de las constituciones provinciales por el Congreso). Una Convención Reformadora en Santa Fe las aprobó y se reunificó el país. También limitó los derechos de exportación."
+      },
+      {
+       "year": "1866",
+       "title": "Reforma de 1866",
+       "text": "En 1860 se fijaron cláusulas de carácter rentístico como transición para la entrada de Buenos Aires, con la condición de que solo pudieran reformarse “pasados diez años desde el día en que la juren los pueblos”. Esta reforma elimina esa condición."
+      },
+      {
+       "year": "1898",
+       "title": "Reforma de 1898",
+       "text": "Convención en Buenos Aires. Cambió la base de elección de diputados (1 cada 33.000 habitantes) para que el Congreso pudiera elevarla: sin el cambio, con el Censo 2001 la Cámara tendría 1813 miembros. Aumentó los ministerios de 5 (Relaciones Exteriores; Interior; Justicia e Instrucción Pública; Hacienda; Guerra y Marina) a 8, y dejó su deslinde a la ley."
+      },
+      {
+       "year": "1949",
+       "title": "Reforma de 1949",
+       "text": "Promovida por el gobierno de Perón para incorporar derechos sociales y nuevas funciones del Estado: derechos de la ancianidad, del niño, de la mujer, derecho laboral con fuerte protección y hábeas corpus. Reforzó al Ejecutivo, permitió la reelección presidencial indefinida y el voto directo."
+      },
+      {
+       "year": "1956",
+       "title": "Proclama militar de 1956",
+       "text": "El 27/4/1956 el presidente de facto Aramburu dejó sin efecto el texto vigente y restableció la Constitución de 1853 con las reformas de 1860, 1866 y 1898. Cayeron: derechos de los trabajadores, igualdad entre hombre y mujer y patria potestad compartida, derechos de niños y ancianos, autonomía universitaria, voto directo, reelección indefinida, fin social de la propiedad, gestión estatal de servicios públicos y comercio exterior.",
+       "no": true
+      },
+      {
+       "year": "1957",
+       "title": "Reforma de 1957",
+       "text": "El gobierno de Aramburu y Rojas (Revolución Libertadora) convocó a convencionales para convalidar la derogación de 1949. Se prohibieron los candidatos peronistas; sus simpatizantes votaron en blanco y fueron mayoría, lo que afectó la legitimidad. La UCR se dividió en UCRI (contra la reforma) y UCRP (a favor). La Convención convalidó la derogación y, mientras los convencionales se retiraban, alcanzó a sancionar el art. 14 bis (derechos del trabajo). Después no hubo más quórum."
+      },
+      {
+       "year": "1966",
+       "title": "Estatuto de la Revolución Argentina",
+       "text": "Golpe del 28/6/1966: la junta dictó un Estatuto de 10 artículos con preeminencia sobre la Constitución (que siguió vigente, pero sin ser norma suprema). Quedó sin efecto el 25/5/1973, al asumir Cámpora.",
+       "no": true
+      },
+      {
+       "year": "1972",
+       "title": "Reforma de 1972",
+       "text": "Estatuto de la Junta de Comandantes “en ejercicio del poder constituyente”: reformó 15 artículos y declaró inaplicables otros 4. Mandatos de 4 años; reelección presidencial por una vez; reelección indefinida de legisladores; elección directa; tercer senador por la minoría; elecciones simultáneas; menor quórum; aprobación automática de proyectos del Ejecutivo no tratados en plazo; aprobación de leyes en comisiones; jurado especial para el juicio político a jueces. Rigió hasta el 24/5/1981; casi todo se incorporó en 1994."
+      },
+      {
+       "year": "1976",
+       "title": "Proceso de Reorganización Nacional",
+       "text": "Golpe del 24/3/1976. Cuatro instrumentos supraconstitucionales: Acta para la Reorganización Nacional; Acta de Propósito y Objetivos Básicos; Estatuto (14 artículos); Reglamento de la Junta, el Ejecutivo y la CAL (“ley” 21.256). La Constitución quedó vigente pero subordinada; lo supremo eran “los objetivos básicos del Proceso”. Sin efecto el 10/12/1983, al asumir Alfonsín.",
+       "no": true
+      },
+      {
+       "year": "1994",
+       "title": "Reforma de 1994",
+       "text": "La última y más amplia: abarcó 44 artículos."
+      }
+     ]
+    },
+    {
+     "t": "h",
+     "text": "La reforma de 1994, según el material"
+    },
+    {
+     "t": "list",
+     "items": [
+      "Derechos de protección ambiental.",
+      "Derechos del consumidor.",
+      "Derecho a la información.",
+      "Acción de amparo simple y colectivo.",
+      "Delitos contra la Constitución y la democracia.",
+      "Preeminencia de los tratados internacionales.",
+      "Voto directo.",
+      "Reelección presidencial por una vez y mandato acortado de 6 a 4 años.",
+      "Reglamentación de los decretos de necesidad y urgencia.",
+      "Tercer senador por la minoría.",
+      "Consejo de la Magistratura.",
+      "Posibilidad de trasladar la Capital.",
+      "Autonomía de la Ciudad de Buenos Aires.",
+      "Ballotage: hay segunda vuelta si nadie obtiene más del 45% de los votos válidos, o un mínimo de 40% con más de 10 puntos sobre el segundo."
+     ]
+    },
+    {
+     "t": "key",
+     "text": "Además, la autonomía municipal surge del art. 123 en su redacción actual (lo explica el tema de soberanía, autonomía y autarquía).",
+     "label": "Relacionado"
+    }
+   ]
+  },
+  {
+   "id": "soberania",
+   "exam": true,
+   "title": "Soberanía, autonomía y autarquía",
+   "defs": [
+    [
+     "Soberanía",
+     "Expresión de poder que no admite un poder superior, ni interior ni exterior. Solo el Estado Nacional es su titular: es poder superior que no admite mutilación ni dependencia. Es una calidad política ligada a la nacionalidad y a la real facultad de decisión independiente del Estado. Genovesi: “soberanía nacional e independencia económica son calidades inseparables”."
+    ],
+    [
+     "Autonomía",
+     "Expresión de poder que faculta al propio organismo autónomo a darse sus normas regulatorias organizativas. Hay que tener en cuenta el art. 31 CN, interpretado en relación con el art. 75 inc. 22."
+    ],
+    [
+     "Autarquía",
+     "Facultad de un órgano estatal de autoadministrarse. El ente autárquico debe tener personalidad jurídica, fines y forma pública, subordinados al control de un poder superior."
+    ]
+   ],
+   "exp": [
+    {
+     "t": "h",
+     "text": "Autonomía de las provincias"
+    },
+    {
+     "t": "p",
+     "text": "Las provincias son autónomas porque dictan su propia Constitución sin intervención de otro poder (art. 5 CN). La Constitución de 1860 suprimió la revisión de las constituciones provinciales por el Congreso, sin que eso impida el control de constitucionalidad por vía judicial."
+    },
+    {
+     "t": "h",
+     "text": "Autonomía de los municipios"
+    },
+    {
+     "t": "p",
+     "text": "Art. 123: “Cada provincia dicta su propia Constitución, conforme a lo dispuesto en el Artículo 5° asegurando la autonomía municipal y reglando su alcance y contenido en el orden institucional, político, administrativo, económico y financiero.” Los municipios son entes estatales autónomos y así deben disponerlo las constituciones provinciales. La Provincia de Buenos Aires, cuya convención de 1994 terminó después de la nacional, no adecuó su constitución al art. 123."
+    },
+    {
+     "t": "h",
+     "text": "Universidades"
+    },
+    {
+     "t": "p",
+     "text": "Según el art. 75 inc. 19, las universidades tienen garantizada la autonomía (dictar su propio estatuto) y la autarquía (autoadministrarse, subordinadas al control de un poder superior según la ley que regula el ente)."
+    },
+    {
+     "t": "h",
+     "text": "Cuadro comparativo"
+    },
+    {
+     "t": "table",
+     "head": [
+      "",
+      "Soberanía",
+      "Autonomía",
+      "Autarquía"
+     ],
+     "rows": [
+      [
+       "Qué permite",
+       "Decidir sin ningún poder superior",
+       "Darse sus propias normas organizativas",
+       "Autoadministrarse"
+      ],
+      [
+       "¿Depende de otro?",
+       "No",
+       "Debe respetar la CN (art. 31)",
+       "Sí: control de un poder superior"
+      ],
+      [
+       "Quién la tiene",
+       "Solo el Estado Nacional",
+       "Provincias (art. 5), municipios (art. 123), universidades (art. 75 inc. 19)",
+       "Entes autárquicos; universidades (art. 75 inc. 19)"
+      ],
+      [
+       "Naturaleza",
+       "Calidad política",
+       "Normativa / organizativa",
+       "Administrativa"
+      ]
+     ]
+    },
+    {
+     "t": "key",
+     "text": "De mayor a menor poder: soberanía → autonomía → autarquía.",
+     "label": "Para recordar"
+    }
+   ]
+  }
+ ],
+ "LEG_CHOICES": [
+  [
+   "f",
+   "¿Qué carácter distingue a la norma jurídica de los demás tipos de normas?",
+   [
+    "La coercibilidad",
+    "La interioridad",
+    "La autonomía",
+    "La unilateralidad"
+   ],
+   [
+    0
+   ],
+   "Solo la norma jurídica admite el uso de la fuerza del Estado para que se cumpla.",
+   "normas"
+  ],
+  [
+   "f",
+   "¿Cuántas veces fue reformada la Constitución Nacional?",
+   [
+    "7",
+    "5",
+    "9",
+    "4"
+   ],
+   [
+    0
+   ],
+   "1860, 1866, 1898, 1949, 1957, 1972 y 1994.",
+   "reformas"
+  ],
+  [
+   "f",
+   "¿En qué año fue la última reforma constitucional?",
+   [
+    "1994",
+    "1957",
+    "1972",
+    "1949"
+   ],
+   [
+    0
+   ],
+   "La de 1994 es la última y la más amplia.",
+   "reformas"
+  ],
+  [
+   "f",
+   "¿Dónde se sancionó la Constitución de 1853?",
+   [
+    "Santa Fe",
+    "Buenos Aires",
+    "Tucumán",
+    "Córdoba"
+   ],
+   [
+    0
+   ],
+   "Fue sancionada el 1° de mayo de 1853 en Santa Fe.",
+   "cn"
+  ],
+  [
+   "f",
+   "¿Quién tiene soberanía?",
+   [
+    "El Estado Nacional",
+    "Las provincias",
+    "Los municipios",
+    "Las universidades nacionales"
+   ],
+   [
+    0
+   ],
+   "La soberanía no admite otro poder por encima: solo la tiene el Estado Nacional.",
+   "soberania"
+  ],
+  [
+   "f",
+   "Según la supremacía constitucional, la norma inferior que contradice a la Constitución es:",
+   [
+    "Nula",
+    "Válida igual",
+    "Superior a la Constitución",
+    "Optativa"
+   ],
+   [
+    0
+   ],
+   "Cualquier norma posterior y contraria a la suprema provoca la nulidad de la norma inferior.",
+   "supremacia"
+  ],
+  [
+   "f",
+   "La supremacía constitucional tiene su origen en el precedente:",
+   [
+    "Marbury vs. Madison",
+    "Pacto de Olivos",
+    "Acuerdo de San Nicolás",
+    "Pacto de San José de Flores"
+   ],
+   [
+    0
+   ],
+   "Fallo de la Corte de EE.UU. de 1803.",
+   "supremacia"
+  ],
+  [
+   "f",
+   "¿Cuáles son tipos de normas según el material?",
+   [
+    "Religiosas",
+    "Morales",
+    "De trato social",
+    "Jurídicas",
+    "Económicas"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Son cuatro: religiosas, morales, de trato social y jurídicas.",
+   "normas"
+  ],
+  [
+   "f",
+   "¿Qué reforma incorporó el artículo 14 bis?",
+   [
+    "1957",
+    "1949",
+    "1994",
+    "1866"
+   ],
+   [
+    0
+   ],
+   "La Convención de 1957 lo sancionó antes de quedarse sin quórum.",
+   "reformas"
+  ],
+  [
+   "f",
+   "La opinión de juristas prestigiosos sobre una materia es:",
+   [
+    "La doctrina",
+    "La jurisprudencia",
+    "La costumbre",
+    "La ley"
+   ],
+   [
+    0
+   ],
+   "La doctrina orienta, pero no es fuente formal.",
+   "fuentes"
+  ],
+  [
+   "f",
+   "Las reiteradas interpretaciones de las normas que hacen los tribunales se llaman:",
+   [
+    "Jurisprudencia",
+    "Doctrina",
+    "Costumbre",
+    "Negocio jurídico"
+   ],
+   [
+    0
+   ],
+   "Conjunto de sentencias que resuelven del mismo modo casos similares.",
+   "juris"
+  ],
+  [
+   "f",
+   "La repetición continua y uniforme de un acto al que se le da valor normativo es:",
+   [
+    "La costumbre",
+    "La ley",
+    "La doctrina",
+    "Un tratado"
+   ],
+   [
+    0
+   ],
+   "Es una práctica social arraigada.",
+   "fuentes"
+  ],
+  [
+   "f",
+   "¿Quién es el titular del poder constituyente?",
+   [
+    "El pueblo",
+    "El Presidente",
+    "El Congreso",
+    "La Corte Suprema"
+   ],
+   [
+    0
+   ],
+   "Es la facultad soberana del pueblo de darse su ordenamiento fundamental.",
+   "const"
+  ],
+  [
+   "f",
+   "El derecho penal pertenece al:",
+   [
+    "Derecho público",
+    "Derecho privado",
+    "Derecho social",
+    "Derecho natural"
+   ],
+   [
+    0
+   ],
+   "Determina delitos y penas que impone el Estado.",
+   "division"
+  ],
+  [
+   "f",
+   "El derecho civil pertenece al:",
+   [
+    "Derecho privado",
+    "Derecho público",
+    "Derecho social",
+    "Derecho canónico"
+   ],
+   [
+    0
+   ],
+   "Regula personas, familia, propiedad y sucesiones.",
+   "division"
+  ],
+  [
+   "f",
+   "El derecho del trabajo (laboral) pertenece al:",
+   [
+    "Derecho social",
+    "Derecho privado",
+    "Derecho público",
+    "Derecho canónico"
+   ],
+   [
+    0
+   ],
+   "Busca la justicia social en las relaciones laborales.",
+   "division"
+  ],
+  [
+   "f",
+   "¿Cuáles son ramas del derecho público?",
+   [
+    "Penal",
+    "Constitucional",
+    "Administrativo",
+    "Civil",
+    "Mercantil"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Civil y mercantil son ramas del derecho privado.",
+   "division"
+  ],
+  [
+   "f",
+   "¿Cuántos fines enumera el Preámbulo?",
+   [
+    "6",
+    "4",
+    "8",
+    "10"
+   ],
+   [
+    0
+   ],
+   "Unión nacional, justicia, paz interior, defensa común, bienestar general y beneficios de la libertad.",
+   "cn"
+  ],
+  [
+   "f",
+   "¿Cuáles son partes de la Constitución Nacional?",
+   [
+    "Preámbulo",
+    "Parte dogmática",
+    "Parte orgánica",
+    "Parte penal"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Preámbulo, primera parte (dogmática) y segunda parte (orgánica).",
+   "cn"
+  ],
+  [
+   "f",
+   "Las provincias tienen:",
+   [
+    "Autonomía",
+    "Soberanía",
+    "Solo autarquía",
+    "Ningún poder propio"
+   ],
+   [
+    0
+   ],
+   "Dictan su propia constitución respetando la CN.",
+   "soberania"
+  ],
+  [
+   "f",
+   "La autarquía es la facultad de:",
+   [
+    "Autoadministrarse bajo el control de un poder superior",
+    "Dictar su propia constitución",
+    "Decidir sin ningún poder por encima",
+    "Dictar sentencias"
+   ],
+   [
+    0
+   ],
+   "Ej.: las universidades nacionales (art. 75 inc. 19).",
+   "soberania"
+  ],
+  [
+   "f",
+   "Desde 1994, el mandato presidencial es de:",
+   [
+    "4 años con una reelección inmediata",
+    "6 años sin reelección",
+    "4 años sin reelección",
+    "6 años con reelección indefinida"
+   ],
+   [
+    0
+   ],
+   "Se acortó de 6 a 4 años.",
+   "reformas"
+  ],
+  [
+   "f",
+   "¿Qué reforma dio autonomía a la Ciudad de Buenos Aires?",
+   [
+    "1994",
+    "1860",
+    "1949",
+    "1957"
+   ],
+   [
+    0
+   ],
+   "Es una de las características de la reforma de 1994.",
+   "reformas"
+  ],
+  [
+   "f",
+   "¿Qué reforma permitió la incorporación de Buenos Aires?",
+   [
+    "1860",
+    "1866",
+    "1898",
+    "1957"
+   ],
+   [
+    0
+   ],
+   "Tras el Pacto de San José de Flores (1859).",
+   "reformas"
+  ],
+  [
+   "f",
+   "La moral regula conductas:",
+   [
+    "Internas",
+    "Externas",
+    "Solo comerciales",
+    "Solo religiosas"
+   ],
+   [
+    0
+   ],
+   "El derecho regula conductas externas.",
+   "moral"
+  ],
+  [
+   "f",
+   "¿Cuál es el fin del derecho?",
+   [
+    "Mantener y desarrollar la vida social",
+    "La perfección individual",
+    "La santidad del hombre",
+    "La bondad del sujeto"
+   ],
+   [
+    0
+   ],
+   "La perfección individual es el fin de la moral.",
+   "moral"
+  ],
+  [
+   "f",
+   "El derecho natural es:",
+   [
+    "Universal e inmutable",
+    "Variable según cada gobierno",
+    "Dictado por el Congreso",
+    "Una costumbre local"
+   ],
+   [
+    0
+   ],
+   "Parte de la naturaleza misma del hombre.",
+   "natural"
+  ],
+  [
+   "f",
+   "¿Cuál es la sanción de las normas de trato social?",
+   [
+    "La reprobación social",
+    "Una multa del Estado",
+    "La condenación eterna",
+    "La prisión"
+   ],
+   [
+    0
+   ],
+   "El grupo rechaza o reprocha la conducta.",
+   "normas"
+  ],
+  [
+   "f",
+   "Desde 1994, ¿qué tiene jerarquía constitucional?",
+   [
+    "Los tratados de derechos humanos del art. 75 inc. 22",
+    "Los decretos del Presidente",
+    "Las leyes provinciales",
+    "Las ordenanzas municipales"
+   ],
+   [
+    0
+   ],
+   "Son 11 instrumentos de derechos humanos.",
+   "cn"
+  ],
+  [
+   "f",
+   "¿Cuáles de estas son fuentes del derecho?",
+   [
+    "La Constitución",
+    "La ley",
+    "La costumbre",
+    "La opinión de un vecino"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Las siete fuentes: Constitución, ley, jurisprudencia, costumbre, negocio jurídico, principios generales y doctrina.",
+   "fuentes"
+  ],
+  [
+   "f",
+   "El derecho que regula las relaciones entre particulares es el:",
+   [
+    "Derecho privado",
+    "Derecho público",
+    "Derecho penal",
+    "Derecho constitucional"
+   ],
+   [
+    0
+   ],
+   "También rige al Estado cuando actúa como persona privada.",
+   "division"
+  ],
+  [
+   "f",
+   "En la cúspide de la pirámide jurídica está:",
+   [
+    "La CN y los tratados de DDHH con jerarquía constitucional",
+    "Las leyes provinciales",
+    "Los decretos",
+    "Las resoluciones ministeriales"
+   ],
+   [
+    0
+   ],
+   "Todas las demás normas deben respetarla.",
+   "supremacia"
+  ],
+  [
+   "f",
+   "¿Quién impulsó la reforma de 1949?",
+   [
+    "Perón",
+    "Alfonsín",
+    "Urquiza",
+    "Aramburu"
+   ],
+   [
+    0
+   ],
+   "Incorporó derechos sociales y la reelección indefinida.",
+   "reformas"
+  ],
+  [
+   "f",
+   "Un contrato entre dos personas es un ejemplo de:",
+   [
+    "Negocio jurídico",
+    "Costumbre",
+    "Jurisprudencia",
+    "Doctrina"
+   ],
+   [
+    0
+   ],
+   "Acto de autonomía privada protegido por el orden jurídico.",
+   "fuentes"
+  ],
+  [
+   "f",
+   "Si una ley contradice a la Constitución:",
+   [
+    "Es inconstitucional y pierde validez",
+    "Prevalece la ley",
+    "Las dos siguen vigentes igual",
+    "Se reforma la Constitución"
+   ],
+   [
+    0
+   ],
+   "La norma inferior contraria es nula.",
+   "supremacia"
+  ],
+  [
+   "f",
+   "¿Qué tipo de norma emana de los órganos competentes del Estado?",
+   [
+    "La jurídica",
+    "La moral",
+    "La religiosa",
+    "La de trato social"
+   ],
+   [
+    0
+   ],
+   "Además son escritas y coercibles.",
+   "normas"
+  ],
+  [
+   "n",
+   "¿Cuáles de estos NO fueron reformas constitucionales?",
+   [
+    "1956 (Proclama de Aramburu)",
+    "1966 (Estatuto de la Revolución Argentina)",
+    "1976 (Proceso de Reorganización Nacional)",
+    "1957",
+    "1972"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Fueron actos de gobiernos de facto, no reformas.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Cuáles son caracteres de la norma jurídica?",
+   [
+    "Coercible",
+    "Heterónoma",
+    "Exterior",
+    "Temporal",
+    "Incoercible"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Además es bilateral: impone deberes y atribuye derechos.",
+   "normas"
+  ],
+  [
+   "n",
+   "Las normas morales son:",
+   [
+    "Unilaterales",
+    "Interiores",
+    "Autónomas",
+    "Incoercibles",
+    "Coercibles"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Nacen en la conciencia y no se pueden imponer por la fuerza.",
+   "normas"
+  ],
+  [
+   "n",
+   "Las normas religiosas son:",
+   [
+    "Heterónomas",
+    "Unilaterales",
+    "Internas",
+    "Incoercibles",
+    "Bilaterales"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Las impone Dios; su sanción es interna y sobrenatural.",
+   "normas"
+  ],
+  [
+   "n",
+   "Las normas de trato social son:",
+   [
+    "Externas",
+    "Heterónomas",
+    "Unilaterales",
+    "Coercibles"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "No son coercibles: su sanción es la reprobación social.",
+   "normas"
+  ],
+  [
+   "n",
+   "¿Qué afirmaciones sobre moral y derecho son correctas?",
+   [
+    "La moral solo impone deberes",
+    "El derecho impone deberes y atribuye derechos",
+    "La moral es heterónoma",
+    "El derecho es incoercible"
+   ],
+   [
+    0,
+    1
+   ],
+   "La moral es autónoma e incoercible; el derecho, heterónomo y coercible.",
+   "moral"
+  ],
+  [
+   "n",
+   "¿Cuál NO es fuente formal del derecho?",
+   [
+    "La doctrina",
+    "La ley",
+    "La costumbre",
+    "La jurisprudencia"
+   ],
+   [
+    0
+   ],
+   "Es la opinión de juristas; orienta pero no obliga.",
+   "fuentes"
+  ],
+  [
+   "n",
+   "¿Dónde se reconoce el derecho natural en nuestra legislación?",
+   [
+    "Art. 33 CN",
+    "Art. 16 Código Civil",
+    "Art. 14 bis CN",
+    "Art. 123 CN"
+   ],
+   [
+    0,
+    1
+   ],
+   "Art. 33: derechos no enumerados. Art. 16 CC: principios generales del derecho.",
+   "natural"
+  ],
+  [
+   "n",
+   "¿Qué hizo la reforma de 1860?",
+   [
+    "“Confederación” pasa a “Nación”",
+    "Elimina la revisión de las constituciones provinciales por el Congreso",
+    "Limita los derechos de exportación",
+    "Crea el Jefe de Gabinete"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El Jefe de Gabinete se creó en 1994.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué hizo la reforma de 1898?",
+   [
+    "Cambió la base de elección de diputados (1 cada 33.000)",
+    "Aumentó los ministerios de 5 a 8",
+    "Creó el ballotage",
+    "Incorporó el art. 14 bis"
+   ],
+   [
+    0,
+    1
+   ],
+   "Ballotage: 1994. Art. 14 bis: 1957.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué incorporó la reforma de 1949?",
+   [
+    "Derechos sociales (trabajador, ancianidad, niñez, mujer)",
+    "Reelección presidencial indefinida",
+    "Hábeas corpus",
+    "Autonomía de la Ciudad de Buenos Aires"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "La autonomía de CABA es de 1994.",
+   "reformas"
+  ],
+  [
+   "n",
+   "La reforma de 1866 tuvo por objeto:",
+   [
+    "Eliminar una condición de carácter rentístico (derechos de exportación)",
+    "Incorporar a Buenos Aires",
+    "Crear el Consejo de la Magistratura",
+    "Incorporar derechos sociales"
+   ],
+   [
+    0
+   ],
+   "Quitó la condición fijada en 1860.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué estableció la reforma de 1972?",
+   [
+    "Mandatos de 4 años",
+    "Tercer senador por la minoría",
+    "Elección directa",
+    "El art. 14 bis"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "También permitió la reelección presidencial por una vez.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué estableció la reforma de 1994 según el material?",
+   [
+    "Consejo de la Magistratura",
+    "Tercer senador por la minoría",
+    "Reglamentación de los decretos de necesidad y urgencia",
+    "El art. 14 bis"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El 14 bis es de 1957.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué acción constitucional reconoció la reforma de 1994?",
+   [
+    "Amparo simple y colectivo",
+    "Recurso de casación",
+    "Juicio por jurados",
+    "Juicio político a jueces"
+   ],
+   [
+    0
+   ],
+   "El juicio por jurados estaba en 1853 y nunca se cumplió.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué nuevos derechos incorporó la reforma de 1994?",
+   [
+    "Ambiente sano",
+    "Derechos del consumidor y usuario",
+    "Derecho a la información",
+    "Reelección indefinida"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Están en el capítulo de nuevos derechos y garantías (arts. 36 a 43).",
+   "reformas"
+  ],
+  [
+   "n",
+   "No hay segunda vuelta (ballotage) si el más votado obtiene:",
+   [
+    "Más del 45% de los votos válidos",
+    "Al menos 40% y más de 10 puntos sobre el segundo",
+    "Más del 30%",
+    "40% sin importar la diferencia"
+   ],
+   [
+    0,
+    1
+   ],
+   "Sistema establecido en 1994.",
+   "reformas"
+  ],
+  [
+   "n",
+   "¿Qué artículo reconoce la autonomía municipal?",
+   [
+    "Art. 123",
+    "Art. 31",
+    "Art. 75 inc. 22",
+    "Art. 14 bis"
+   ],
+   [
+    0
+   ],
+   "Incorporado en 1994.",
+   "soberania"
+  ],
+  [
+   "n",
+   "¿Qué debe tener un ente autárquico?",
+   [
+    "Personalidad jurídica",
+    "Fines y forma pública",
+    "Subordinación al control de un poder superior",
+    "Soberanía propia"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "La soberanía es solo del Estado Nacional.",
+   "soberania"
+  ],
+  [
+   "n",
+   "¿Quiénes tienen autonomía?",
+   [
+    "Las provincias",
+    "La Ciudad de Buenos Aires",
+    "Los municipios",
+    "El Banco Central"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El Banco Central es autárquico.",
+   "soberania"
+  ],
+  [
+   "n",
+   "¿Cuáles son ramas del derecho social?",
+   [
+    "Laboral",
+    "Agrario",
+    "Ecológico",
+    "Penal"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El penal es derecho público.",
+   "division"
+  ],
+  [
+   "n",
+   "¿Cuáles son ramas del derecho privado?",
+   [
+    "Civil",
+    "Mercantil (comercial)",
+    "Internacional privado",
+    "Procesal"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El procesal es derecho público.",
+   "division"
+  ],
+  [
+   "n",
+   "El poder constituyente derivado es el que:",
+   [
+    "Se ejerce al reformar la Constitución",
+    "Sanciona la primera Constitución",
+    "Dicta las leyes comunes",
+    "Aplica la ley a casos concretos"
+   ],
+   [
+    0
+   ],
+   "El originario actúa al sancionarla.",
+   "const"
+  ],
+  [
+   "n",
+   "¿Cuáles son caracteres de la Constitución argentina?",
+   [
+    "Escrita y codificada",
+    "Rígida",
+    "Constitución-ley",
+    "Flexible",
+    "Otorgada por un monarca"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Además es fundamental.",
+   "const"
+  ],
+  [
+   "n",
+   "La parte dogmática de la CN abarca:",
+   [
+    "Declaraciones, derechos y garantías (arts. 1 a 43)",
+    "Autoridades de la Nación (arts. 44 a 129)",
+    "Solo el Preámbulo",
+    "Los tratados internacionales"
+   ],
+   [
+    0
+   ],
+   "Es el “derecho constitucional de la libertad”.",
+   "const"
+  ],
+  [
+   "n",
+   "¿Cuáles fueron fuentes de la Constitución de 1853?",
+   [
+    "Las “Bases” de Alberdi",
+    "La Constitución de EE.UU.",
+    "Las constituciones anteriores",
+    "El Pacto de Olivos"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El Pacto de Olivos es de 1993.",
+   "cn"
+  ],
+  [
+   "n",
+   "¿Cuáles son pactos preexistentes?",
+   [
+    "Tratado del Pilar (1820)",
+    "Tratado del Cuadrilátero (1822)",
+    "Pacto Federal (1831)",
+    "Pacto de Olivos (1993)"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "También el Protocolo de Palermo, el Acuerdo de San Nicolás y el Pacto de San José de Flores.",
+   "cn"
+  ],
+  [
+   "n",
+   "¿Cuáles son fines del Preámbulo?",
+   [
+    "Afianzar la justicia",
+    "Consolidar la paz interior",
+    "Promover el bienestar general",
+    "Asegurar la reelección presidencial"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Son seis fines; la reelección no es uno.",
+   "cn"
+  ],
+  [
+   "n",
+   "¿Qué criterios se usan cuando dos normas colisionan?",
+   [
+    "Jerarquía",
+    "Temporalidad",
+    "Especialidad",
+    "Prelación axiológica",
+    "Antigüedad del juez"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Son los cuatro criterios de colisión normativa.",
+   "const"
+  ],
+  [
+   "n",
+   "¿En qué sistema la jurisprudencia tiene mayor peso como fuente?",
+   [
+    "Anglosajón",
+    "Continental",
+    "Canónico",
+    "Romano-germánico"
+   ],
+   [
+    0
+   ],
+   "Los jueces fundamentan sus sentencias en precedentes.",
+   "juris"
+  ],
+  [
+   "n",
+   "La publicación de una norma es:",
+   [
+    "Requisito previo de su validez",
+    "Optativa",
+    "Posterior a su aplicación",
+    "Solo necesaria para leyes penales"
+   ],
+   [
+    0
+   ],
+   "Desde la publicación la norma es exigible y obligatoria.",
+   "general"
+  ],
+  [
+   "n",
+   "¿Qué principios dan armonía al sistema jurídico?",
+   [
+    "Jerarquía normativa",
+    "La norma especial prevalece sobre la general",
+    "La norma posterior deroga a la anterior",
+    "La norma anterior deroga a la posterior"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Es al revés: la posterior deroga a la anterior.",
+   "general"
+  ],
+  [
+   "n",
+   "Según Bidart Campos, el Preámbulo:",
+   [
+    "No tiene carácter normativo",
+    "Tiene valor interpretativo",
+    "Es la norma más importante",
+    "Fue derogado en 1994"
+   ],
+   [
+    0,
+    1
+   ],
+   "Es “la síntesis del proyecto político de la Constitución”.",
+   "cn"
+  ],
+  [
+   "n",
+   "Para los iuspositivistas:",
+   [
+    "El derecho positivo es el único que existe",
+    "Solo existe el derecho natural",
+    "El derecho natural está por encima de la ley",
+    "No existe ningún derecho"
+   ],
+   [
+    0
+   ],
+   "Niegan la existencia del derecho natural.",
+   "natural"
+  ],
+  [
+   "n",
+   "El derecho canónico regula:",
+   [
+    "La estructura de la Iglesia Católica",
+    "Las relaciones laborales",
+    "El comercio exterior",
+    "Los delitos y las penas"
+   ],
+   [
+    0
+   ],
+   "Jerarquía, organización interna y relación con los fieles.",
+   "normas"
+  ],
+  [
+   "n",
+   "Las universidades nacionales tienen:",
+   [
+    "Autonomía",
+    "Autarquía",
+    "Soberanía",
+    "Ninguna de estas"
+   ],
+   [
+    0,
+    1
+   ],
+   "Autonomía: dictan su estatuto. Autarquía: se autoadministran (art. 75 inc. 19).",
+   "soberania"
+  ],
+  [
+   "d",
+   "¿Qué afirmaciones sobre la soberanía son correctas?",
+   [
+    "No admite otro poder por encima, ni interno ni externo",
+    "Es una calidad política",
+    "La tienen también las provincias",
+    "Los municipios la tienen desde 1994"
+   ],
+   [
+    0,
+    1
+   ],
+   "Solo el Estado Nacional es soberano.",
+   "soberania"
+  ],
+  [
+   "d",
+   "¿Qué afirmaciones sobre la autarquía son correctas?",
+   [
+    "El ente tiene personalidad jurídica",
+    "Persigue fines públicos",
+    "Está subordinado al control de un poder superior",
+    "Puede dictar su propia constitución"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Dictar su constitución es propio de la autonomía.",
+   "soberania"
+  ],
+  [
+   "d",
+   "Sobre la autonomía provincial, es correcto que:",
+   [
+    "Las provincias dictan su propia constitución",
+    "Deben respetar la Constitución Nacional (art. 31)",
+    "Las provincias son soberanas",
+    "No tienen ningún límite"
+   ],
+   [
+    0,
+    1
+   ],
+   "Autonomía no es soberanía: está dentro del marco de la CN.",
+   "soberania"
+  ],
+  [
+   "d",
+   "¿Cuántos artículos abarcó la reforma de 1994?",
+   [
+    "44",
+    "107",
+    "15",
+    "31"
+   ],
+   [
+    0
+   ],
+   "107 artículos tenía el texto de 1853; 15 reformó el estatuto de 1972.",
+   "reformas"
+  ],
+  [
+   "d",
+   "El estatuto de la reforma de 1972 rigió hasta:",
+   [
+    "El 24/5/1981",
+    "El 25/5/1973",
+    "El 10/12/1983",
+    "1994"
+   ],
+   [
+    0
+   ],
+   "Luego quedó automáticamente sin vigencia; casi todo se incorporó en 1994.",
+   "reformas"
+  ],
+  [
+   "d",
+   "¿Dónde se reunió la Convención de la reforma de 1898?",
+   [
+    "Buenos Aires",
+    "Santa Fe",
+    "Paraná",
+    "Córdoba"
+   ],
+   [
+    0
+   ],
+   "La Convención Reformadora de 1860 fue en Santa Fe.",
+   "reformas"
+  ],
+  [
+   "d",
+   "Sobre los tratados, el material dice que:",
+   [
+    "La reforma de 1994 estableció la preeminencia de los tratados internacionales",
+    "Ciertos tratados de DDHH tienen rango constitucional (art. 75 inc. 22)",
+    "Los tratados están siempre debajo de las leyes provinciales",
+    "Ningún tratado tiene rango constitucional"
+   ],
+   [
+    0,
+    1
+   ],
+   "Son 11 instrumentos con rango constitucional.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Cuántos instrumentos de DDHH enumera el art. 75 inc. 22?",
+   [
+    "11",
+    "7",
+    "4",
+    "22"
+   ],
+   [
+    0
+   ],
+   "Por ejemplo: Convención sobre los Derechos del Niño, Pacto de San José de Costa Rica.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Cuáles tienen jerarquía constitucional?",
+   [
+    "Convención sobre los Derechos del Niño",
+    "Convención Americana sobre Derechos Humanos",
+    "Declaración Universal de Derechos Humanos",
+    "Tratado de Asunción (Mercosur)"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El Tratado de Asunción no figura en la lista del art. 75 inc. 22.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Qué afirmaciones sobre la reforma de 1957 son correctas?",
+   [
+    "Se hizo con el peronismo proscripto",
+    "Convalidó la derogación de 1949",
+    "Incorporó el art. 14 bis",
+    "Se quedó sin quórum",
+    "Creó el Jefe de Gabinete"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "El Jefe de Gabinete es de 1994.",
+   "reformas"
+  ],
+  [
+   "d",
+   "¿Qué afirmaciones sobre la reforma de 1972 son correctas?",
+   [
+    "Fue un estatuto de la Junta de Comandantes",
+    "Reformó 15 artículos",
+    "Rigió hasta 1981",
+    "Casi todo se incorporó en 1994",
+    "Estableció la reelección indefinida"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Permitió la reelección solo por una vez.",
+   "reformas"
+  ],
+  [
+   "d",
+   "La Proclama de Aramburu (1956) restableció:",
+   [
+    "El texto de 1853 con las reformas de 1860, 1866 y 1898",
+    "La reforma de 1949",
+    "La reforma de 1957",
+    "El Estatuto de 1966"
+   ],
+   [
+    0
+   ],
+   "Anuló la reforma de 1949.",
+   "reformas"
+  ],
+  [
+   "d",
+   "Sobre el Estatuto de la Revolución Argentina (1966), es correcto que:",
+   [
+    "Tenía 10 artículos y se puso por encima de la CN",
+    "Quedó sin efecto en 1973",
+    "Fue una reforma constitucional válida",
+    "Creó el ballotage"
+   ],
+   [
+    0,
+    1
+   ],
+   "No se cuenta entre las reformas.",
+   "reformas"
+  ],
+  [
+   "d",
+   "Los instrumentos del Proceso de 1976 quedaron sin efecto:",
+   [
+    "El 10/12/1983, con Alfonsín",
+    "En 1994, con la reforma",
+    "En 1957",
+    "En 1973"
+   ],
+   [
+    0
+   ],
+   "Con el regreso de la democracia.",
+   "reformas"
+  ],
+  [
+   "d",
+   "Linares Quintana definió:",
+   [
+    "El poder constituyente",
+    "La jurisprudencia",
+    "La autarquía",
+    "La costumbre"
+   ],
+   [
+    0
+   ],
+   "“La facultad soberana del pueblo a darse su ordenamiento jurídico-político fundamental originario”.",
+   "const"
+  ],
+  [
+   "d",
+   "Según el material, Kelsen sostiene que la Constitución:",
+   [
+    "Es la norma que da lógica a todo el sistema",
+    "Es un pacto entre provincias",
+    "No tiene valor normativo",
+    "Debe ser flexible"
+   ],
+   [
+    0
+   ],
+   "El derecho común surge de ella por derivación y aplicación.",
+   "const"
+  ],
+  [
+   "d",
+   "El grado de rigidez de una constitución depende de:",
+   [
+    "El órgano reformador",
+    "Cuántas instituciones deben aprobar la reforma",
+    "Las mayorías exigidas",
+    "La participación del pueblo",
+    "La cantidad de provincias"
+   ],
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "Son los cuatro factores del material.",
+   "const"
+  ],
+  [
+   "d",
+   "La CN es una “constitución-ley” porque:",
+   [
+    "Es un acto unilateral por el cual el pueblo se da su ley",
+    "Fue otorgada por un monarca",
+    "Es un pacto entre el rey y el pueblo",
+    "La dictó el Poder Ejecutivo"
+   ],
+   [
+    0
+   ],
+   "A través de sus representantes.",
+   "const"
+  ],
+  [
+   "d",
+   "Aplicar la norma que protege la vida antes que la que protege la propiedad es un ejemplo de:",
+   [
+    "Prelación axiológica",
+    "Temporalidad",
+    "Especialidad",
+    "Jerarquía"
+   ],
+   [
+    0
+   ],
+   "Se elige la que protege un valor superior.",
+   "const"
+  ],
+  [
+   "d",
+   "Una provincia dicta una ley contraria a una ley nacional dictada en consecuencia de la CN. ¿Qué se aplica?",
+   [
+    "El criterio de jerarquía",
+    "El art. 31 CN",
+    "El criterio de temporalidad",
+    "El criterio de especialidad"
+   ],
+   [
+    0,
+    1
+   ],
+   "Las provincias están obligadas a conformarse a la ley suprema de la Nación.",
+   "const"
+  ],
+  [
+   "d",
+   "¿Qué afirmaciones sobre moral y derecho son correctas?",
+   [
+    "La moral exige la intención",
+    "El derecho se conforma con el comportamiento externo",
+    "La moral es objetiva y bilateral",
+    "El derecho es subjetivo y unilateral"
+   ],
+   [
+    0,
+    1
+   ],
+   "Es al revés: la moral es subjetiva y unilateral; el derecho, objetivo y bilateral.",
+   "moral"
+  ],
+  [
+   "d",
+   "Sobre la discusión de la “naturaleza humana”, es correcto que:",
+   [
+    "Para Calicles era natural que el fuerte se impusiera al débil",
+    "Aristóteles “justificaba” la esclavitud",
+    "Calicles defendía la igualdad de todos",
+    "Aristóteles propuso abolir la esclavitud"
+   ],
+   [
+    0,
+    1
+   ],
+   "Por eso no hubo acuerdo sobre qué es lo “natural”.",
+   "natural"
+  ],
+  [
+   "d",
+   "Sobre la jurisprudencia en el derecho continental, es correcto que:",
+   [
+    "Es fuente formal",
+    "Su fuerza vinculante varía según cada país",
+    "En Argentina, los fallos plenarios obligan a los inferiores",
+    "Es siempre obligatoria en todos los países"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "En otros casos solo tiene fuerza orientadora.",
+   "juris"
+  ],
+  [
+   "d",
+   "Sobre los principios generales del derecho, es correcto que:",
+   [
+    "Son enunciados normativos más generales",
+    "Forman parte del ordenamiento aunque no se hayan incorporado formalmente",
+    "Fundamentan a las demás normas",
+    "Son sentencias de la Corte"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El art. 16 del Código Civil remite a ellos.",
+   "fuentes"
+  ],
+  [
+   "d",
+   "El Estado alquila un local a un particular actuando como simple persona privada. ¿Qué derecho rige?",
+   [
+    "Derecho privado",
+    "Derecho público",
+    "Derecho penal",
+    "Derecho social"
+   ],
+   [
+    0
+   ],
+   "El público rige cuando el Estado actúa como poder soberano.",
+   "division"
+  ],
+  [
+   "d",
+   "Sobre la Constitución de 1853, es correcto que:",
+   [
+    "Tenía 107 artículos",
+    "Rigió para 13 provincias",
+    "Buenos Aires no participó",
+    "Incluía el ballotage"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El ballotage es de 1994.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Qué derechos incluía la Constitución de 1853?",
+   [
+    "Abolición de la esclavitud (art. 15)",
+    "Igualdad civil de los extranjeros (art. 20)",
+    "Fomento de la inmigración (art. 25)",
+    "Derecho a un ambiente sano"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El ambiente sano se incorporó en 1994.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Qué artículo garantiza la autonomía y autarquía universitarias?",
+   [
+    "Art. 75 inc. 19",
+    "Art. 75 inc. 22",
+    "Art. 123",
+    "Art. 31"
+   ],
+   [
+    0
+   ],
+   "El 75 inc. 22 es el de los tratados de DDHH.",
+   "soberania"
+  ],
+  [
+   "d",
+   "“Soberanía nacional e independencia económica son calidades inseparables” (Genovesi) se refiere a:",
+   [
+    "La soberanía",
+    "La autonomía",
+    "La autarquía",
+    "La supremacía constitucional"
+   ],
+   [
+    0
+   ],
+   "La soberanía como real facultad de decidir con independencia.",
+   "soberania"
+  ],
+  [
+   "d",
+   "Sobre la reforma de 1972, es correcto que:",
+   [
+    "Creó un organismo especial para el juicio político a jueces",
+    "Permitió aprobar leyes directamente en comisiones",
+    "Redujo el quórum para sesionar",
+    "Incorporó el art. 14 bis"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El 14 bis es de 1957.",
+   "reformas"
+  ],
+  [
+   "d",
+   "Sobre el Estado de derecho, es correcto que:",
+   [
+    "Toda acción estatal se apoya en la norma",
+    "El poder del Estado se subordina al orden jurídico",
+    "Tiene un sentido formal y uno material",
+    "El gobernante está por encima de la ley"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "Nadie, ni el Estado, está por encima del orden jurídico.",
+   "const"
+  ],
+  [
+   "d",
+   "En Argentina, el control de constitucionalidad lo ejercen:",
+   [
+    "Los jueces",
+    "El Congreso",
+    "El Presidente",
+    "El Defensor del Pueblo"
+   ],
+   [
+    0
+   ],
+   "Garantiza la supremacía constitucional.",
+   "supremacia"
+  ],
+  [
+   "d",
+   "¿Cuáles son ramas del derecho social según el material?",
+   [
+    "Económico",
+    "Educativo",
+    "Ecológico",
+    "Internacional privado"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El internacional privado es derecho privado.",
+   "division"
+  ],
+  [
+   "d",
+   "Sobre la reforma de 1994 y el Poder Ejecutivo, según el material:",
+   [
+    "Voto directo",
+    "Reglamentación de los decretos de necesidad y urgencia",
+    "Mandato de 4 años con una reelección",
+    "Reelección indefinida"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "La reelección es solo por una vez.",
+   "reformas"
+  ],
+  [
+   "f",
+   "¿Qué frase agregó la reforma de 1949 al Preámbulo?",
+   [
+    "Nación socialmente justa, económicamente libre y políticamente soberana",
+    "Nosotros, el pueblo",
+    "Unión y libertad",
+    "Orden y progreso"
+   ],
+   [
+    0
+   ],
+   "Fue derogada pocos años después.",
+   "cn"
+  ],
+  [
+   "n",
+   "¿Por qué Buenos Aires no participó de la Constitución de 1853?",
+   [
+    "No aceptó la igualdad de representación (dos diputados por provincia)",
+    "No aceptó la nacionalización de la aduana",
+    "Porque Urquiza la expulsó",
+    "Porque ya tenía una Constitución nacional"
+   ],
+   [
+    0,
+    1
+   ],
+   "Se separó de la Confederación el 11 de septiembre.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Qué normas específicas tenía la Constitución de 1853?",
+   [
+    "Gratuidad de la educación primaria (art. 5)",
+    "Prohibición de la democracia directa (art. 22)",
+    "Fomento de la inmigración europea (art. 25)",
+    "Voto femenino"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "El sufragio no era secreto ni universal: prohibía el voto femenino.",
+   "cn"
+  ],
+  [
+   "n",
+   "El Preámbulo permite una interpretación:",
+   [
+    "Teleológica (según los fines)",
+    "Literal únicamente",
+    "Penal",
+    "Religiosa"
+   ],
+   [
+    0
+   ],
+   "Porque indica los fines del Estado Federal.",
+   "cn"
+  ],
+  [
+   "d",
+   "¿Qué derechos quedaron sin efecto con la Proclama de 1956?",
+   [
+    "Derechos de los trabajadores",
+    "Autonomía universitaria",
+    "Voto directo",
+    "Abolición de la esclavitud"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "También la reelección indefinida y el fin social de la propiedad.",
+   "reformas"
+  ],
+  [
+   "d",
+   "En la Convención de 1957, la UCR se dividió en:",
+   [
+    "UCRI, opuesta a la reforma",
+    "UCRP, partidaria de la reforma",
+    "UCRI, partidaria de la reforma",
+    "UCRP, opuesta a la reforma"
+   ],
+   [
+    0,
+    1
+   ],
+   "Los peronistas votaron en blanco y fueron mayoría.",
+   "reformas"
+  ],
+  [
+   "n",
+   "Según la jurisprudencia, ¿qué pasa cuando el Poder Judicial choca con otros poderes?",
+   [
+    "A veces las sentencias dejan de cumplirse",
+    "Las sentencias se vuelven leyes",
+    "El Congreso se disuelve",
+    "No pasa nada"
+   ],
+   [
+    0
+   ],
+   "Por eso el estudio de sentencias no da la medida exacta del Derecho.",
+   "juris"
+  ],
+  [
+   "f",
+   "¿Qué es la flexibilidad constitucional?",
+   [
+    "Cuando la reforma se parece al proceso de una ley común",
+    "Cuando no se puede reformar",
+    "Cuando la reforma la hace un monarca",
+    "Cuando no hay Constitución escrita"
+   ],
+   [
+    0
+   ],
+   "Lo contrario es la rigidez.",
+   "const"
+  ],
+  [
+   "d",
+   "¿Qué abarca el derecho del trabajo según el material?",
+   [
+    "Derecho sindical",
+    "Derecho colectivo del trabajo",
+    "Derecho procesal del trabajo",
+    "Derecho canónico"
+   ],
+   [
+    0,
+    1,
+    2
+   ],
+   "También el derecho individual, la previsión social y la administración laboral.",
+   "division"
+  ],
+  [
+   "n",
+   "¿Qué provincia no adecuó su Constitución al art. 123?",
+   [
+    "Buenos Aires",
+    "Santa Fe",
+    "Córdoba",
+    "Mendoza"
+   ],
+   [
+    0
+   ],
+   "Su convención de 1994 terminó después de la nacional.",
+   "soberania"
+  ]
+ ]
+}

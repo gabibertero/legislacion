@@ -1,16 +1,18 @@
-// Inicio: cuenta regresiva, progreso por tema, plan día a día, "seguir donde dejaste". Sin localStorage el Inicio se ve igual.
+// Inicio: cuenta regresiva, progreso por tema, "seguir donde dejaste". Sin localStorage el Inicio se ve igual.
 import { leer } from './progreso.js';
-import { cuentaRegresiva, progresoPorTema, planDias, iso } from './home-calc.js';
+import { cuentaRegresiva, progresoPorTema } from './home-calc.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const base = import.meta.env.BASE_URL;
-const { fecha, temas, items } = JSON.parse($('#home-datos').textContent);
+const { fecha, fechaAlt, temas, items } = JSON.parse($('#home-datos').textContent);
 const json = (k) => { try { const v = JSON.parse(leer(k)); return v && typeof v === 'object' ? v : {}; } catch { return {}; } };
 
 // --- Cuenta regresiva ---
 const cuenta = $('[data-cuenta]');
 const pintarCuenta = () => {
-  const c = cuentaRegresiva(new Date(), fecha);
+  // Fecha sin confirmar (21 o 28): cuenta a la primera; si pasó, a la alternativa.
+  let c = cuentaRegresiva(new Date(), fecha);
+  if (c.pasado && fechaAlt) c = cuentaRegresiva(new Date(), fechaAlt);
   cuenta.textContent = c.pasado ? 'El parcial ya empezó o pasó' : `${c.dias} ${c.dias === 1 ? 'día' : 'días'} ${c.horas} h ${c.minutos} min`;
 };
 pintarCuenta();
@@ -30,26 +32,6 @@ function pintarProgreso() {
   $('[data-prog-global]').textContent = r.total ? `Total: ${r.hechos} de ${r.total} ítems dominados (${r.pct}%)` : 'Todavía no hay contenido cargado.';
 }
 
-// --- Plan sugerido (se recalcula si pasa la medianoche con la pestaña abierta) ---
-const plan = $('[data-plan]');
-function pintarPlan() {
-  const hoy = new Date();
-  const dias = planDias(hoy, fecha, temas);
-  const hoyIso = iso(hoy);
-  plan.replaceChildren(...dias.map((d) => {
-    const [y, m, dd] = d.fecha.split('-').map(Number);
-    const li = document.createElement('li');
-    li.dataset.tipo = d.tipo;
-    if (d.fecha === hoyIso) li.setAttribute('aria-current', 'date');
-    const b = document.createElement('b');
-    b.textContent = `${new Date(y, m - 1, dd).toLocaleDateString('es-AR', { weekday: 'long', day: 'numeric', month: 'numeric' })}${d.fecha === hoyIso ? ' · hoy' : ''} · ${d.titulo}`;
-    li.append(b);
-    if (d.temasTxt.length) li.append(d.temasTxt.join(' · ') + '. Leé el resumen, hacé las tarjetas y choices de esos temas y respondé el Top 15 relacionado.');
-    return li;
-  }));
-  plan.closest('[data-js]').hidden = !dias.length;
-}
-
 // --- Seguir donde dejaste (se oculta si se reinicia el progreso) ---
 function pintarSeguir() {
   const p = $('[data-seguir]');
@@ -67,8 +49,7 @@ function pintarSeguir() {
   } catch { /* nada guardado */ }
 }
 
-const repintar = () => { pintarProgreso(); pintarSeguir(); pintarPlan(); };
+const repintar = () => { pintarProgreso(); pintarSeguir(); };
 repintar();
 addEventListener('pageshow', repintar); // volver con "atrás" (bfcache)
 addEventListener('storage', repintar); // otra pestaña o reinicio
-setInterval(pintarPlan, 60000);

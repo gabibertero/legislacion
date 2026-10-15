@@ -25,12 +25,23 @@ const mostrar = !enTop || nTop > 0;
   <h3 class="preg-tit" data-ia-tit>{titulo}</h3>
   <blockquote class="preg-enun" data-ia-enun>{enunciado}</blockquote>
   {fq && <p class="preg-fte">Pregunta: {fuentes(fq).map((f, i) => <>{i > 0 && ' · '}<em>{f.archivo}</em>{f.p && <>, {/^\d/.test(f.p) ? 'p. ' : ''}{f.p}</>}</>)}</p>}
-  <IA modo="corregir" />
-  <details class="preg-resp" data-resp>
-    <summary><span class="s-ver">Mostrar respuesta</span><span class="s-ocultar">Ocultar respuesta</span></summary>
-    <div class="resp lectura-resp" data-ia-modelo><slot /></div>
-    {fr && <p class="preg-fte">Respuesta elaborada a partir de: {fuentes(fr).map((f, i) => <>{i > 0 && ' · '}<em>{f.archivo}</em>{f.p && <>, {/^\d/.test(f.p) ? 'p. ' : ''}{f.p}</>}</>)}</p>}
-  </details>
+  {enTop ? (
+    // Top 15 = para leer y memorizar: respuesta a la vista. Practicar sin respuesta va en el preguntero/simulacro.
+    <>
+      <div class="resp lectura-resp" data-ia-modelo><slot /></div>
+      {fr && <p class="preg-fte">Respuesta elaborada a partir de: {fuentes(fr).map((f, i) => <>{i > 0 && ' · '}<em>{f.archivo}</em>{f.p && <>, {/^\d/.test(f.p) ? 'p. ' : ''}{f.p}</>}</>)}</p>}
+      <IA modo="explicar" />
+    </>
+  ) : (
+    <>
+      <IA modo="corregir" />
+      <details class="preg-resp" data-resp>
+        <summary><span class="s-ver">Mostrar respuesta</span><span class="s-ocultar">Ocultar respuesta</span></summary>
+        <div class="resp lectura-resp" data-ia-modelo><slot /></div>
+        {fr && <p class="preg-fte">Respuesta elaborada a partir de: {fuentes(fr).map((f, i) => <>{i > 0 && ' · '}<em>{f.archivo}</em>{f.p && <>, {/^\d/.test(f.p) ? 'p. ' : ''}{f.p}</>}</>)}</p>}
+      </details>
+    </>
+  )}
   <div class="preg-acc" data-js hidden role="group" aria-label="Marcar pregunta">
     <button type="button" class="btn-sabe" data-marca="sabe" aria-pressed="false">✓ La sé</button>
     <button type="button" class="btn-repasar" data-marca="repasar" aria-pressed="false">↻ Repasar</button>

@@ -9,7 +9,6 @@ test('sin JS el contenido se ve (Home, Top 15, preguntero, choices, tarjetas)', 
   await expect(page.locator('h1')).toContainText(cfg.materia.corto);
   await expect(page.locator('.mapa-g').first()).toBeVisible();
   await expect(page.locator('[data-tema-toggle]')).toBeHidden(); // los controles JS arrancan hidden
-  await expect(page.locator('[data-plan]')).toBeHidden();
   await page.goto(TOP);
   await expect(page.locator('[data-pregunta]').first()).toBeVisible();
   await expect(page.locator('.top-prog')).toBeHidden();
