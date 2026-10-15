@@ -17,7 +17,7 @@ function texto(el) {
   c.querySelectorAll('li').forEach((x) => x.prepend('- '));
   c.querySelectorAll('td, th').forEach((x) => x.append(' | '));
   c.querySelectorAll('br').forEach((x) => x.replaceWith('\n'));
-  c.querySelectorAll('p, li, tr, h1, h2, h3, h4, h5, h6, blockquote, div, dt, dd, label').forEach((x) => x.append('\n'));
+  c.querySelectorAll('p, li, tr, h1, h2, h3, h4, h5, h6, blockquote, div, dt, dd, label, legend').forEach((x) => x.append('\n'));
   return c.textContent.replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
 }
 

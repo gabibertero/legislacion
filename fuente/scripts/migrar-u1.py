@@ -86,7 +86,8 @@ def pregunta(p, literal):
         cuerpo += '\n\n**Palabras clave que no pueden faltar:** ' + ' · '.join(esc(c) for c in p['checks']) + '.'
     if p.get('tip'):
         cuerpo += f"\n\n*Cómo encararla:* {esc(p['tip'])}"
-    tit = ('Parcial · ' + p['num'] + '. ' if literal else '') + p['q']
+    titulo_tema = next(t['title'] for t in d['topics'] if t['id'] == tema)
+    tit = ('Parcial · ' + p['num'] + ' · ' if literal else '') + titulo_tema  # el título es el tema: la consigna va en el enunciado
     extra = ' literal parcial="1º parcial"' if literal else ''
     return (f'<Pregunta id="u1-{p["id"]}" unidad="U1" tema="{tema}" sim="{SIM[tema]}"{extra}\n'
             f'  titulo="{attr(tit)}" enunciado="{attr(p["q"])}">\n\n{cuerpo}\n</Pregunta>\n')

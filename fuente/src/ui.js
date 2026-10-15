@@ -40,6 +40,11 @@ if (indice) {
   document.querySelector('[data-indice]')?.remove();
 }
 
+// Tablas anchas (display:block + overflow): alcanzables con teclado para desplazarlas a 390px.
+document.querySelectorAll('.lectura table, .resp table').forEach((t) => {
+  if (t.scrollWidth > t.clientWidth) Object.assign(t, { tabIndex: 0 }).setAttribute('aria-label', 'Tabla (desplazable)');
+});
+
 // Secciones de lectura: "Errores frecuentes", "Ojo con", "Fórmulas clave" pasan a ser cajas.
 document.querySelectorAll('.lectura').forEach((cont) => {
   cont.querySelectorAll('h2, h3').forEach((h) => {

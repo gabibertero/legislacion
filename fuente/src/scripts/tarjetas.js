@@ -84,8 +84,8 @@ if (items.length && cfg) {
   document.addEventListener('toggle', (e) => { if (paso && e.target.matches?.('details.ia-menu') && !e.target.open) paso.foco(); }, true);
   document.addEventListener('keydown', (e) => {
     if (!paso || e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
-    if (e.target.closest?.('input, select, textarea, summary, [contenteditable], .ia')) return;
-    if (e.key === ' ' && !e.target.closest?.('button')) { e.preventDefault(); paso.dar(); }
+    if (e.target.closest?.('input, select, textarea, [contenteditable]') || document.querySelector('details.ia-menu[open]')) return;
+    if (e.key === ' ' && !e.target.closest?.('button, summary')) { e.preventDefault(); paso.dar(); }
     else if (e.key === '1') paso.resp(false);
     else if (e.key === '2') paso.resp(true);
   });
