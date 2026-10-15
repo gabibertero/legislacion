@@ -9,7 +9,7 @@ import { choicesDe, tarjetasDe, temasDe, preguntasDeMdx } from '../lib/datos.js'
 
 const base = import.meta.env.BASE_URL;
 const { largo, facultad, carrera, lead } = cfg.materia;
-const inst = disponibles[0]; // instancia activa: el 2º parcial
+const inst = disponibles.find((i) => i.fecha) ?? disponibles[0]; // instancia activa: la que tiene fecha (el próximo examen); el orden de la config es el del navbar
 const FECHA = inst.fecha; // ISO con offset, en sitio.config.mjs
 const dia = (f) => new Date(f).toLocaleDateString('es-AR', { day: 'numeric', month: 'numeric', timeZone: 'America/Argentina/Buenos_Aires' });
 const fechaTxt = `${new Date(FECHA).toLocaleDateString('es-AR', { weekday: 'long', timeZone: 'America/Argentina/Buenos_Aires' })} ${dia(FECHA)}${inst.fechaAlt ? ` o ${dia(inst.fechaAlt)} (a confirmar)` : ''}, 08:00`;

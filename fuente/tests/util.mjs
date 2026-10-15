@@ -2,7 +2,7 @@
 import { expect } from '@playwright/test';
 import cfg from '../sitio.config.mjs';
 
-export const inst = cfg.instancias.find((i) => i.estado !== 'proximamente');
+export const inst = cfg.instancias.find((i) => i.fecha) ?? cfg.instancias.find((i) => i.estado !== 'proximamente');
 export const RAIZ = `${inst.ruta ?? inst.id}/`;
 export const TOP = `${RAIZ}top15/`;
 export const TEORIA = `${RAIZ}teoria/`;

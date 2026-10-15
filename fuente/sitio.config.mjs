@@ -63,6 +63,19 @@ export default {
   ],
   "instancias": [
     {
+      "id": "parcial-1",
+      "titulo": "1º parcial",
+      "unidades": [
+        "U1"
+      ],
+      "estado": "listo",
+      "descripcion": "Aprobado (07/10). Unidad 1 · El Derecho: el parcial tomado resuelto, resumen, choices y tarjetas. Sirve para el final.",
+      "secciones": [
+        "teoria",
+        "machetes"
+      ]
+    },
+    {
       "id": "parcial-2",
       "titulo": "2º parcial",
       "unidades": [
@@ -74,19 +87,6 @@ export default {
       "fechaAlt": "2026-10-28T08:00:00-03:00",
       "secciones": [
         "top15",
-        "teoria",
-        "machetes"
-      ]
-    },
-    {
-      "id": "parcial-1",
-      "titulo": "1º parcial",
-      "unidades": [
-        "U1"
-      ],
-      "estado": "listo",
-      "descripcion": "Aprobado (07/10). Unidad 1 · El Derecho: el parcial tomado resuelto, resumen, choices y tarjetas. Sirve para el final.",
-      "secciones": [
         "teoria",
         "machetes"
       ]
@@ -111,8 +111,13 @@ export default {
     "minutos": 60
   },
   "footer": {
-    "nota": "Sitio de estudio no oficial, armado para preparar la materia.",
+    "nota": "Sitio de estudio no oficial, hecho con Claude para preparar la materia.",
     "fuentes": "Material de cátedra. Material_Legislacion de la cátedra. Las respuestas modelo son elaboradas a partir de ese material, no oficiales; el orden del Top 15 es una estimación.",
-    "links": []
+    "links": [
+      {
+        "texto": "Hecho con Claude Code",
+        "href": "https://claude.com/claude-code"
+      }
+    ]
   }
 };
