@@ -6,9 +6,9 @@ import cfg, { conSeccion } from '../../../lib/sitio.js';
 export async function getStaticPaths() {
   const items = await getCollection('machetes');
   return conSeccion('machetes').flatMap((inst) =>
-    items.filter((e) => inst.unidades.includes(e.data.unidad)).map((e) => ({ params: { instancia: inst.ruta, slug: e.id }, props: { e, inst } })));
+    items.filter((e) => inst.unidades.includes(e.data.unidad)).map((e) => ({ params: { instancia: inst.ruta, slug: e.id }, props: { e, inst, modelo: e.id.endsWith('-machete') ? items.find((x) => x.data.unidad === e.data.unidad && x.id.endsWith('-mi-modelo')) : undefined } })));
 }
-const { e, inst } = Astro.props;
+const { e, inst, modelo } = Astro.props;
 const { Content, headings } = await render(e);
 const slugify = (t) => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 // Índice: las tarjetas <Definicion> (su h2 no está en headings) o, si no hay, los ## de la página.
@@ -23,6 +23,7 @@ const archivos = Object.entries(cfg.archivos ?? {});
   {archivos.length > 0 && (
     <p class="suave leyenda-fte">Fuentes: {archivos.map(([c, a], i) => <>{i > 0 && ' · '}<strong>{c}</strong> = {a}</>)}. «p.» = página del archivo. Contenido elaborado para el sitio, no oficial.</p>
   )}
+  {modelo && <a class="btn-modelo" href={`${base}${inst.ruta}/machetes/${modelo.id}/`}>MI MODELO →</a>}
   {indice.length > 2 && (
     <nav class="machete-indice" id="indice-machete" aria-label="Índice de esta página">
       <h2 class="machete-indice-t">En esta página</h2>
@@ -37,6 +38,8 @@ const archivos = Object.entries(cfg.archivos ?? {});
   .machete table { font-size: .92rem; }
   .machete .katex-display { overflow-x: auto; overflow-y: hidden; }
   .machete img { max-width: 100%; height: auto; }
+  .btn-modelo { display: inline-flex; align-items: center; min-height: 44px; margin: 0 0 14px; padding: 0 20px; border-radius: 99px; background: var(--acento); color: var(--sup); font-weight: 700; letter-spacing: .06em; text-decoration: none; box-shadow: var(--sombra); }
+  .btn-modelo:hover { filter: brightness(1.1); }
   .leyenda-fte { font-size: .85rem; max-width: 60rem; }
   .machete td, .machete th { vertical-align: top; }
   .machete-indice ol { list-style: none; padding: 0; columns: 1; display: grid; gap: 4px 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
