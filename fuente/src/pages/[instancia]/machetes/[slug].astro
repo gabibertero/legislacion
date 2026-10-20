@@ -10,7 +10,10 @@ export async function getStaticPaths() {
 }
 const { e, inst } = Astro.props;
 const { Content, headings } = await render(e);
-const indice = headings.filter((h) => h.depth === 2); // índice de los ## de la página
+const slugify = (t) => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+// Índice: las tarjetas <Definicion> (su h2 no está en headings) o, si no hay, los ## de la página.
+const defs = [...(e.body ?? '').matchAll(/<Definicion\s+titulo="([^"]+)"(?:\s+pts=\{(\d+)\})?/g)].map((m) => ({ text: m[1], slug: slugify(m[1]), pts: m[2] }));
+const indice = defs.length ? defs : headings.filter((h) => h.depth === 2);
 const base = import.meta.env.BASE_URL;
 const archivos = Object.entries(cfg.archivos ?? {});
 ---
@@ -21,10 +24,11 @@ const archivos = Object.entries(cfg.archivos ?? {});
     <p class="suave leyenda-fte">Fuentes: {archivos.map(([c, a], i) => <>{i > 0 && ' · '}<strong>{c}</strong> = {a}</>)}. «p.» = página del archivo. Contenido elaborado para el sitio, no oficial.</p>
   )}
   {indice.length > 2 && (
-    <nav class="machete-indice" aria-label="Índice de esta página">
+    <nav class="machete-indice" id="indice-machete" aria-label="Índice de esta página">
       <h2 class="machete-indice-t">En esta página</h2>
-      <ol>{indice.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+      <ol>{indice.map((h) => <li><a href={`#${h.slug}`}><span>{h.text}</span>{h.pts && <small>{h.pts} pts</small>}</a></li>)}</ol>
     </nav>
+    <a class="machete-arriba" href="#indice-machete">↑ Índice</a>
   )}
   <article class="lectura machete" data-unidad={e.data.unidad}><Content /></article>
 </Layout>
@@ -35,4 +39,14 @@ const archivos = Object.entries(cfg.archivos ?? {});
   .machete img { max-width: 100%; height: auto; }
   .leyenda-fte { font-size: .85rem; max-width: 60rem; }
   .machete td, .machete th { vertical-align: top; }
+  .machete-indice ol { list-style: none; padding: 0; columns: 1; display: grid; gap: 4px 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); }
+  main .machete-indice { max-width: 46rem; }
+  .machete-indice li { padding: 0; }
+  .machete-indice a { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; padding: 6px 12px; border-radius: var(--r-s); text-decoration: none; color: var(--texto); font-size: .95rem; line-height: 1.3; transition: background .15s; }
+  .machete-indice a:hover { background: color-mix(in srgb, var(--acento) 9%, var(--sup)); }
+  .machete-indice a small { flex: none; font-weight: 700; font-size: .75rem; color: var(--acento); background: color-mix(in srgb, var(--acento) 11%, var(--sup)); border-radius: 99px; padding: 2px 10px; }
+  .machete-arriba { position: fixed; right: 16px; bottom: 16px; z-index: 15; display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 99px; background: var(--acento); color: var(--sobre-acento); font-weight: 600; font-size: .9rem; text-decoration: none; box-shadow: var(--sombra-h); opacity: .92; }
+  @supports (animation-timeline: scroll()) { .machete-arriba { opacity: 0; animation: arriba-in linear both; animation-timeline: scroll(); animation-range: 500px 800px; } }
+  @keyframes arriba-in { to { opacity: .92; } }
+  .machete-arriba:hover { opacity: 1; }
 </style>
