@@ -24,7 +24,7 @@ const archivos = Object.entries(cfg.archivos ?? {});
     <p class="suave leyenda-fte">Fuentes: {archivos.map(([c, a], i) => <>{i > 0 && ' · '}<strong>{c}</strong> = {a}</>)}. «p.» = página del archivo. Contenido elaborado para el sitio, no oficial.</p>
   )}
   {modelo && <a class="btn-modelo" href={`${base}${inst.ruta}/machetes/${modelo.id}/`}>MI MODELO →</a>}
-  {indice.length > 2 && (
+  {(defs.length > 0 || indice.length > 2) && (
     <nav class="machete-indice" id="indice-machete" aria-label="Índice de esta página">
       <h2 class="machete-indice-t">En esta página</h2>
       <ol>{indice.map((h) => <li><a href={`#${h.slug}`}><span>{h.text}</span>{h.pts && <small>{h.pts} pts</small>}</a></li>)}</ol>
