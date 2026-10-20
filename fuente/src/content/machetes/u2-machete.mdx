@@ -6,26 +6,44 @@ resumen: "Las definiciones de la U2 armadas como respuesta de parcial, con punta
 ---
 import Definicion from '../../components/Definicion.astro';
 
-<Definicion titulo="1 · Persona humana y persona jurídica" pts={20} art="CCyC arts. 21-26, 141-148" desglose={[["Humana: concepto + art. 22", 6], ["Categorías por edad", 4], ["Jurídica: art. 141", 5], ["Públicas / privadas con ejemplos", 4], ["Dada vs. reconocida", 1]]}>
+<Definicion titulo="1 · Persona humana y persona jurídica" pts={23} art="CCyC arts. 21-26, 141-148" desglose={[["Humana: concepto + art. 22", 6], ["Categorías por edad", 4], ["Jurídica: art. 141", 5], ["Públicas / privadas con ejemplos", 4], ["Dada vs. reconocida + normas que la rigen", 4]]}>
 
 **Humana →** Es aquella cuya personalidad es **reconocida** por el derecho y está vinculada de forma exclusiva con su **existencia**. Toda persona humana goza de la aptitud para ser titular de derechos y deberes jurídicos (**art. 22 CCyC**). Para el derecho es indiferente la conciencia o la voluntad del ser: un pequeño irracional o un enfermo mental son personas, y la falta de un órgano esencial o cualquier deformación no incide en esta condición. Comprende a la persona por nacer, a la persona nacida y a la persona capaz desde los **18 años**.
 
 | Edad | Categoría |
 |---|---|
 | Concepción | **Persona por nacer**, derechos irrevocables si nace con vida (art. 21) |
-| < 13 | **Menor** |
+| Menos de 13 | **Menor** |
 | 13 a 16 | **Adolescente**: decide por sí tratamientos no invasivos que no comprometen su salud |
 | 16 a 18 | Adolescente con **mayores facultades sobre su cuerpo** (art. 26) |
 | 18 | **Persona capaz** (art. 25) |
 
-**Jurídica →** Grupo humano organizado con poder conferido por el ordenamiento jurídico para adquirir derechos y contraer obligaciones tendiente a la satisfacción de fines legítimos (**art. 141 CCyC**). A diferencia de la humana, su personalidad no es reconocida sino **dada** por el derecho. Pueden ser **públicas o privadas** (art. 145).
+<p class="nemo"><b>🧠 13 · 16 · 18</b> → a los <b>13</b> sos adolescente · a los <b>16</b> decidís más sobre tu cuerpo · a los <b>18</b> sos capaz</p>
+
+*Ojo: "menor" (menos de 13) no es lo mismo que "menor adolescente" (13 o más).*
+
+**Jurídica →** Grupo humano organizado con poder conferido por el ordenamiento jurídico para adquirir derechos y contraer obligaciones tendiente a la satisfacción de fines legítimos (**art. 141 CCyC**). Pueden ser **públicas o privadas** (art. 145).
 
 - **Públicas (art. 146) →** Son aquellas creadas por el Estado o que tienen un fin de utilidad pública general y ejercen cierto poder público. Se rigen por las leyes y ordenamientos de su constitución (art. 147). Ej.: Estado Nacional, provincias, CABA, municipios, entidades autárquicas (como la UTN), Estados extranjeros, Iglesia Católica.
 
 <p class="nemo"><b>🧠 Públicas = "el Estado y la Iglesia"</b> → Estado Nacional, provincias, CABA, municipios, autárquicas · Estados extranjeros · Iglesia Católica</p>
-- **Privadas (art. 148) →** Son aquellas que nacen de la voluntad de los particulares a través de un **acto constitutivo** (contrato / estatuto). Persiguen un fin específico que puede ser lucrativo o bien común y se rigen principalmente por el derecho privado. Ej.: sociedades (SA, SRL), asociaciones civiles, fundaciones, mutuales, cooperativas, iglesias, consorcio de propiedad horizontal.
 
-<p class="nemo"><b>🧠 SAFMCIC</b> ("Saf, mi cic") → <b>S</b>ociedades · <b>A</b>sociaciones · <b>F</b>undaciones · <b>M</b>utuales · <b>C</b>ooperativas · <b>I</b>glesias · <b>C</b>onsorcio PH</p>
+- **Privadas (art. 148) →** Son aquellas que nacen de la voluntad de los particulares a través de un **acto constitutivo** (contrato / estatuto). Persiguen un fin específico que puede ser lucrativo o bien común y se rigen principalmente por el derecho privado. Ej.: sociedades (SA, SRL), asociaciones civiles y simples asociaciones, fundaciones, mutuales, cooperativas, iglesias y confesiones religiosas, consorcio de propiedad horizontal.
+
+<p class="nemo"><b>🧠 SAFMCIC</b> ("Saf, mi cic") → <b>S</b>ociedades · <b>A</b>sociaciones (civiles y simples) · <b>F</b>undaciones · <b>M</b>utuales · <b>C</b>ooperativas · <b>I</b>glesias · <b>C</b>onsorcio PH</p>
+
+**Dada vs. reconocida →**
+
+| | Humana | Jurídica |
+|---|---|---|
+| Personalidad | **Reconocida** (la tiene por ser persona) | **Dada** por el derecho |
+
+**Normas que rigen a la persona jurídica (privada), en este orden de prelación →**
+1. **Normas imperativas** de la ley especial o, si no hay, del CCyC.
+2. **Acto constitutivo y reglamento** (si chocan, gana el acto constitutivo).
+3. **Normas supletorias** de leyes especiales o, si no hay, las del título II del Libro Primero del CCyC.
+
+<p class="nemo"><b>🧠 I-A-S</b> → <b>I</b>mperativas · <b>A</b>cto constitutivo (y reglamento) · <b>S</b>upletorias</p>
 
 </Definicion>
 
@@ -35,24 +53,65 @@ El comienzo de la existencia de la persona humana tiene lugar desde el momento d
 
 Sin embargo, el CCyC (**art. 21**) impone una condición fundamental: esos derechos solo se consideran **irrevocablemente adquiridos si nace con vida**. Si la persona no nace con vida, la ley asume jurídicamente que **nunca existió**, lo cual deja sin efecto cualquier eventual adquisición de derechos que haya recibido durante el embarazo.
 
+*Ej.: un bebé en gestación recibe una herencia; si nace con vida, es suyo para siempre; si no nace con vida, es como si nunca hubiera existido y no recibió nada.*
+
 Por último, para que el derecho reconozca esta existencia y personalidad, es totalmente **indiferente la conciencia o voluntad del ser**.
 
 </Definicion>
 
-<Definicion titulo="3 · Fin de la existencia" pts={20} art="CCyC arts. 79, 85, 86, 93" desglose={[["Muerte: concepto de cátedra (funciones autónomas)", 5], ["Prueba: partida, certificado, 48 hs", 3], ["Ausencia vs. presunción: diferencia", 4], ["Plazos 3 años / 2 años / 6 meses y desde cuándo", 6], ["Muerte civil: no existe", 2]]}>
+<Definicion titulo="3 · Fin de la existencia" pts={25} art="CCyC arts. 79, 85, 86, 93" desglose={[["Muerte natural: concepto de cátedra (funciones autónomas)", 4], ["Muerte civil: qué era, quiénes, no existe", 4], ["Prueba: partida, certificado, 48 hs", 3], ["Obligados a denunciar", 2], ["Muertes especiales y prueba supletoria", 3], ["Ausencia vs. presunción: diferencia", 3], ["Plazos 3 años / 2 años / 6 meses y desde cuándo", 6]]}>
 
 La existencia de la persona humana termina con su **muerte** (**art. 93 CCyC**). Sin embargo, también hay casos en que una persona desaparece y no se sabe si sigue con vida: para eso la ley distingue entre la **ausencia** y la **presunción de fallecimiento**.
 
-**Muerte natural →** Es el **cese definitivo e irreversible de las funciones autónomas** (pulmón, corazón, cerebro), perdiendo las relaciones sujeto-mundo. Se llama "natural" para diferenciarla de la **muerte civil**, que **no existe en nuestra legislación**. Se prueba con la **partida de defunción** del Registro Civil, que se inscribe con el **certificado médico** (o, sin médico, con **2 testigos** que vieron el cadáver) dentro de las **48 hs**. Si no se encuentra el cadáver pero la muerte es cierta, el juez puede tenerla por comprobada.
+**Muerte natural →** Es la muerte **biológica**. Concepto de cátedra: **cese definitivo e irreversible de las funciones autónomas** (pulmón, corazón, cerebro), perdiendo las relaciones sujeto-mundo. Se llama "natural" para diferenciarla de la **muerte civil**.
+
+**Muerte civil →** Era una muerte **solo para el derecho**: la persona seguía viva, pero se **abría la sucesión** de sus bienes y, si estaba casada, el **vínculo matrimonial desaparecía**. **No está en nuestra legislación.** Eran muertos civiles:
+
+- **E**sclavos.
+- Condenados a **c**adena perpetua.
+- Condenados a **d**estierro.
+- **R**eligioso profesor.
+
+<p class="nemo"><b>🧠 ECDR</b> → <b>E</b>sclavos · <b>C</b>adena perpetua · <b>D</b>estierro · <b>R</b>eligioso profesor</p>
+
+**Prueba de la muerte natural →** se prueba con el acto correspondiente: la **partida de defunción** del Registro Civil (para muertes ocurridas en la república). Se inscribe con:
+- **Certificado de defunción** del médico que lo atendió hasta su última enfermedad; si no, cualquier médico.
+- Si no hay médico: ante la autoridad (policía o juez), con **2 testigos** que vieron el cadáver.
+
+<p class="nemo"><b>🧠 Cabecera → Cualquiera → Testigos</b> → médico que lo atendió · cualquier médico · 2 testigos (sin médico)</p>
+
+Plazo de inscripción: **48 hs** del deceso. También se inscriben los fallecimientos en alta mar o en nave de bandera argentina, las sentencias que ordenen inscribir un deceso y las sentencias de ausencia por presunción de fallecimiento.
+
+**Obligados a denunciar el fallecimiento →**
+- **P**arientes (todos).
+- Toda persona **c**apaz que presenció el deceso.
+- Cualquiera en cuyo **d**omicilio murió.
+- Si la muerte es violenta: el **j**uez (certificados del médico forense).
+- Si muere en convento, cárcel u hospital: el **d**irector del establecimiento.
+
+<p class="nemo"><b>🧠 P-C-D-J-D</b> → <b>P</b>arientes · <b>C</b>apaz que presenció · <b>D</b>omicilio donde murió · <b>J</b>uez (violenta) · <b>D</b>irector (convento, cárcel, hospital)</p>
+
+**Muertes especiales →**
+- **M**ilitares muertos en combate → registros del Ministerio de Guerra.
+- **E**stablecimientos públicos o privados (conventos, cárceles, hospitales) → lo que conste en sus asientos.
+- **M**ilitares dentro de la república y empleados en servicio de ejército → los registros.
+
+<p class="nemo"><b>🧠 M-E-M</b> → <b>M</b>ilitares en combate · <b>E</b>stablecimientos · <b>M</b>ilitares y empleados dentro del país</p>
+
+**Prueba supletoria →**
+- **1ª parte:** si no hay acta ni certificados médicos, vale **cualquier medio de prueba**.
+- **2ª parte:** si **no aparece el cadáver** (o está totalmente irreconocible), el juez puede tener la muerte por comprobada e inscribirla, con certificado forense, si la desaparición fue en circunstancias en que la muerte es **cierta**. *Ej.: alguien que cae al mar en un naufragio con testigos.*
 
 **Ausencia →** Ocurre cuando una persona desaparece de su domicilio, no se tienen noticias de ella y se desconoce su paradero. **No significa que esté muerta**: la ley solo permite tomar medidas para proteger sus bienes (art. 79). Ej.: alguien sale de su casa y nadie vuelve a saber de él; todavía no se lo puede considerar fallecido.
 
-**Presunción de fallecimiento →** La desaparición sola **no basta**: hace falta además el **transcurso de un plazo** sin noticias, y ahí un **juez** declara el fallecimiento presunto (arts. 85 y 86). Los bienes no pasan plenamente de inmediato, por si reaparece.
+> ⚠️ El material de cátedra no desarrolla la "ausencia simple" aparte: solo trata la presunción de fallecimiento. La ausencia con art. 79 viene del CCyC.
+
+**Presunción de fallecimiento →** Concepto de cátedra: es la persona que **desapareció de su domicilio y no se tienen noticias de ella por un tiempo**; se le puede iniciar juicio, **tenga o no bienes**. La desaparición sola **no basta**: hace falta además el **transcurso de un plazo** sin noticias, y ahí un **juez** declara el fallecimiento presunto (arts. 85 y 86). Los bienes no pasan plenamente de inmediato, por si reaparece.
 
 | Caso | Plazo | Se cuenta desde |
 |---|---|---|
-| **Ordinario**: ausente sin noticias | **3 años** | La última noticia |
-| **Extraordinario genérico**: incendio, terremoto, guerra u otro suceso que pudo causar la muerte | **2 años** | El día del suceso |
+| **Ordinario**: ausente sin noticias (haya dejado o no apoderado) | **3 años** | La última noticia |
+| **Extraordinario genérico**: incendio, terremoto, guerra u otro suceso que pudo causar la muerte | **2 años** | El día del suceso (o en que pudo ocurrir) |
 | **Extraordinario específico**: nave o aeronave naufragada o perdida | **6 meses** | La última comunicación |
 
 <p class="nemo"><b>🧠 3 · 2 · ½</b> → 3 años (ordinario) · 2 años (catástrofe) · medio año (nave o avión): cuanto más peligrosa la desaparición, más corto el plazo</p>
@@ -73,14 +132,14 @@ Los atributos son **ciertas cualidades intrínsecas y permanentes que concurren 
 |---|---|
 | **Necesidad** | No puede haber personas que carezcan de ellos |
 | **Unidad** | Nadie puede tener a la vez más de un atributo del mismo orden (dos nombres, dos domicilios generales) |
-| **Inalienabilidad** | No se pueden enajenar ni transferir: están fuera del comercio |
-| **Imprescriptibilidad** | No se ven afectados por el paso del tiempo |
+| **Inalienabilidad** | No se pueden enajenar ni transferir a otros: están fuera del comercio |
+| **Imprescriptibilidad** | No se ven afectados por el paso del tiempo (va de la mano con la inalienabilidad) |
 
 <p class="nemo"><b>🧠 NUII</b> (null con i) → Necesidad · Unidad · Inalienabilidad · Imprescriptibilidad</p>
 
 </Definicion>
 
-<Definicion titulo="5 · El nombre" pts={20} art="CCyC arts. 62-72" desglose={[["Definición + función", 3], ["Caracteres", 3], ["Elementos: pila y apellido", 2], ["Prenombre: prohibiciones (art. 63)", 3], ["Apellido: hijo y cónyuge (arts. 64 y 67)", 3], ["Cambio de nombre y proceso (arts. 69-70)", 4], ["Acciones de protección (art. 71)", 2]]}>
+<Definicion titulo="5 · El nombre" pts={25} art="CCyC arts. 62-72" desglose={[["Definición + función", 3], ["Caracteres", 3], ["Elementos: pila y apellido", 2], ["Prenombre: elección y prohibiciones (art. 63)", 3], ["Apellido: hijo y cónyuge (arts. 64 y 67)", 4], ["Apellido: menor sin filiación y adopción (arts. 65-66, 623-627)", 3], ["Cambio de nombre y proceso (arts. 69-70)", 4], ["Acciones de protección (arts. 71-72)", 3]]}>
 
 El nombre es **la designación exclusiva que corresponde a cada persona** y su función es **individualizarla en la sociedad**. Es un **deber-derecho** regulado en el CCyC desde el **art. 62** (antes ley 18.248).
 
@@ -100,26 +159,44 @@ El nombre es **la designación exclusiva que corresponde a cada persona** y su f
 
 **Elementos →** el nombre **individual o de pila** (distingue a la persona dentro de su familia) y el **patronímico o apellido** (la ubica dentro de la sociedad).
 
-**Prenombre (art. 63) →** lo eligen los padres. **No se puede inscribir:** más de **3** prenombres, apellidos como prenombres, el mismo prenombre de un hermano vivo ni prenombres extravagantes. Sí se admiten nombres aborígenes.
+**Prenombre (art. 63) →**
+- **Quién lo elige:** los padres o quien ellos autoricen; si falta o no puede uno, el otro; si faltan todos, los guardadores, el Ministerio Público o el funcionario del Registro.
+- **No se puede inscribir:** más de **3** prenombres, apellidos como prenombres, el mismo prenombre de un hermano vivo ni prenombres extravagantes.
+- Sí se admiten nombres aborígenes o derivados de voces aborígenes autóctonas y latinoamericanas.
 
 <p class="nemo"><b>🧠 Tres Apellidos de Hermanos Extravagantes</b> → más de <b>3</b> · <b>A</b>pellidos · <b>H</b>ermano vivo · <b>E</b>xtravagantes</p>
 
+<p class="nemo"><b>🧠 Padres → el otro → G-M-R</b> → quién elige, en orden: los padres · el otro padre · <b>G</b>uardadores, <b>M</b>inisterio Público, <b>R</b>egistro</p>
+
 **Apellido →**
-- **Hijo matrimonial (art. 64):** primer apellido de alguno de los cónyuges; sin acuerdo, **sorteo** en el Registro. Se puede agregar el del otro y todos los hijos llevan el mismo.
+- **Hijo matrimonial (art. 64):** primer apellido de alguno de los cónyuges; sin acuerdo, **sorteo** en el Registro. A pedido de los padres (o del hijo con edad y madurez) se puede agregar el del otro. Todos los hijos del matrimonio llevan el mismo.
 - **Extramatrimonial (art. 64)** (padres no casados). Depende de quién lo reconoció y cuándo:
   - **Lo reconoce uno solo** → lleva el apellido de ese.
   - **Lo reconocen los dos a la vez** → igual que el matrimonial (eligen o sorteo).
   - **Lo reconoce uno y después el otro** → los padres acuerdan el orden; si no se ponen de acuerdo, decide el **juez** pensando en el **interés superior del niño**.
   - *Ej.: la mamá lo anota sola y queda "Juan Pérez". Al año el papá lo reconoce: acuerdan si queda "Pérez", "Pérez Gómez" o "Gómez Pérez"; si no hay acuerdo, decide el juez.*
+- **Menor sin filiación determinada (art. 65):** el oficial del Registro lo anota con el apellido que **está usando** o, si no, con un **apellido común**.
+- **Casos especiales (art. 66):** quien tiene edad y madurez suficiente y **no tiene apellido inscripto** puede pedir que inscriban el que está usando.
 - **Cónyuges (art. 67)** (los casados). Usar el apellido del otro es **optativo**, para cualquiera de los dos:
   - **Casado** → puede usar el apellido del otro, con o sin "de". *Ej.: Ana López se casa con Pedro García y puede firmar "Ana López de García" o "Ana López García".*
   - **Divorciado o matrimonio anulado** → **deja de usarlo**, salvo que un juez lo autorice por motivos razonables.
   - **Viudo** → **puede seguir usándolo**, hasta que se vuelva a casar o forme una unión convivencial.
 
+**Adopción →**
+- **Prenombre (art. 623):** se **respeta** el del adoptado. Excepcionalmente el juez puede modificarlo (si choca con las prohibiciones del prenombre o si el adoptado se siente identificado con otro).
+- **Apellido, adopción plena (art. 626):**
+  - **Unipersonal** → lleva el apellido del adoptante (si tiene doble apellido, puede pedir mantenerlo).
+  - **Conjunta** → reglas del hijo matrimonial.
+  - **Excepcional** → por derecho a la identidad, se puede agregar o anteponer el **apellido de origen**.
+  - **Opinión** → si el adoptado tiene edad y madurez, el juez valora especialmente lo que opina.
+- **Apellido, adopción simple (art. 627 inc. d):** el adoptado (con madurez) o los adoptantes pueden pedir **mantener el apellido de origen**, sumándole o anteponiéndole el del adoptante; si nadie lo pide, rige lo mismo que en la plena.
+
+<p class="nemo"><b>🧠 UCEO</b> (adopción plena) → <b>U</b>nipersonal · <b>C</b>onjunta · <b>E</b>xcepcional (apellido de origen) · <b>O</b>pinión del adoptado</p>
+
 **Cambio de nombre (art. 69) →** como el nombre es **inmutable**, la regla es que **no se puede cambiar**. Hay dos excepciones:
 
 **1. Con juez: hay que probar "justos motivos"**, y el juez decide si alcanzan. Ejemplos de justos motivos:
-- **Seudónimo** que se hizo conocido. *Ej.: un artista que todos conocen por su nombre artístico.*
+- **Seudónimo** que se hizo conocido (notoriedad). *Ej.: un artista que todos conocen por su nombre artístico.*
 - **Raigambre** cultural, étnica o religiosa. *Ej.: recuperar un nombre de su cultura de origen.*
 - **Afectación** de la personalidad, si se prueba. *Ej.: un nombre que le provoca burlas o daño.*
 
@@ -127,28 +204,39 @@ El nombre es **la designación exclusiva que corresponde a cada persona** y su f
 
 **2. Sin juez: se hace directo en el Registro**, en estos casos:
 - **Identidad de género** → se cambia el **prenombre**.
-- **Desaparición** forzada, **Apropiación** ilegal o **Alteración** del estado civil o la identidad → se cambian **prenombre y apellido**. *Ej.: nietos apropiados durante la dictadura que recuperan su identidad.*
+- **Desaparición** forzada, **Apropiación** ilegal o **Alteración** (o supresión) del estado civil o la identidad → se cambian **prenombre y apellido**. *Ej.: nietos apropiados durante la dictadura que recuperan su identidad.*
 
 <p class="nemo"><b>🧠 G + DAA</b> → <b>G</b>énero · <b>D</b>esaparición · <b>A</b>propiación · <b>A</b>lteración</p>
 
-**Proceso judicial (art. 70) →** cuando interviene el juez, hay que avisar públicamente para que alguien pueda oponerse:
+**Proceso judicial (art. 70) →** cuando interviene el juez, se tramita por el **proceso más abreviado** de la ley local, **con el Ministerio Público**, y hay que avisar públicamente para que alguien pueda oponerse:
 - Se publica el pedido en el diario oficial **1 vez por mes durante 2 meses**.
 - Cualquiera puede **oponerse** dentro de los **15 días hábiles** desde la última publicación.
-- La sentencia vale frente a terceros desde que se **inscribe** en el Registro, y se corrigen todas las partidas.
+- Se pide información sobre **medidas precautorias** que tenga el interesado.
+- La sentencia vale frente a terceros desde que se **inscribe** en el Registro, y se corrigen todas las partidas, títulos y asientos.
 
 <p class="nemo"><b>🧠 1-2-15</b> → 1 vez por mes · 2 meses · 15 días hábiles</p>
 
-**Acciones (art. 71) →** si te desconocen el nombre, **reconocimiento**; si otro lo usa indebidamente o lo usan para personajes de fantasía con perjuicio, **cese**; en todos los casos, reparación de daños. El **seudónimo notorio** tiene la misma tutela (art. 72).
+**Acciones (art. 71) →**
+- Te **desconocen** el nombre → **reconocimiento** (y que no lo impugnen más; la sentencia se publica a costa del demandado).
+- Otro lo **usa indebidamente** → **cese**.
+- Lo usan para **cosas o personajes de fantasía** con perjuicio material o moral → **cese**.
+- En todos los casos, **reparación de daños**, y el juez puede ordenar publicar la sentencia.
 
 <p class="nemo"><b>🧠 R-C-C + D</b> → <b>R</b>econocimiento · <b>C</b>ese por uso indebido · <b>C</b>ese por fantasía · + <b>D</b>años siempre</p>
 
+**Quién las ejerce →** el **interesado**; si falleció, sus **descendientes, cónyuge o conviviente** y, a falta de ellos, **ascendientes o hermanos**.
+
+<p class="nemo"><b>🧠 D-C-A-H</b> → <b>D</b>escendientes · <b>C</b>ónyuge/conviviente · <b>A</b>scendientes · <b>H</b>ermanos (los dos últimos, a falta de los primeros)</p>
+
+**Seudónimo (art. 72) →** el seudónimo **notorio** tiene la misma tutela que el nombre.
+
 </Definicion>
 
-<Definicion titulo="6 · El estado" pts={15} desglose={[["Definición + status familiae", 3], ["Caracteres", 3], ["Efectos", 2], ["Acciones de estado", 3], ["Posesión de estado: nomen, tractus, fama", 2], ["Prueba: partidas, 5 libros", 2]]}>
+<Definicion titulo="6 · El estado" pts={20} desglose={[["Definición + status familiae", 3], ["Caracteres", 3], ["Efectos (incluye deberes de denunciar)", 3], ["Acciones de estado", 3], ["Posesión de estado: nomen, tractus, fama", 3], ["Prueba: partidas, contenido, 5 libros", 5]]}>
 
-El estado es **la posición o situación jurídica que ocupa la persona dentro de la familia** (hijo, padre, casado, soltero, viudo…). Estado, estado civil y estado de familia son lo mismo.
+El estado es **la posición o situación jurídica que ocupa la persona dentro de la familia** (hijo, padre, casado, soltero, viudo…). En términos generales: la situación en que se encuentra una persona en sociedad, en relación con otras personas. Estado, estado civil y estado de familia son lo mismo.
 
-En Roma había tres *status*: **libertatis** (libre o esclavo), **civitatis** (ciudadano o extranjero) y **familiae** (posición en la familia). Hoy **solo perdura el status familiae**.
+En Roma había tres *status*: **libertatis** (libre o esclavo), **civitatis** (ciudadano o extranjero) y **familiae** (quienes ejercían la potestad vs. los sometidos a ella, los *alieni iuris*). Hoy **solo perdura el status familiae**, con un sentido distinto al romano.
 
 <p class="nemo"><b>🧠 Libre, Ciudadano, Familia</b> → de los tres, hoy solo queda la <b>Familia</b></p>
 
@@ -159,121 +247,198 @@ En Roma había tres *status*: **libertatis** (libre o esclavo), **civitatis** (c
 | **Necesario** | Toda persona tiene un estado |
 | **Unidad** | No se pueden tener dos estados del mismo orden a la vez (no sos soltero y casado) |
 | **Inalienable** | No se vende ni se transfiere |
-| **Imprescriptible** | No se gana ni se pierde por el paso del tiempo |
+| **Imprescriptible** | No se gana ni se pierde por el paso del tiempo ni por la inactividad del titular |
 | **Irrenunciable** | No se puede renunciar a él |
-| **Orden público** | Las partes no lo pueden cambiar por acuerdo: lo fija la ley |
+| **Orden público** | Las partes no lo pueden cambiar por acuerdo (está fuera de la autonomía de la voluntad): lo fija la ley |
 
 <p class="nemo"><b>🧠 NUII + IO</b> → los NUII de siempre (Necesario · Unidad · Inalienable · Imprescriptible) + <b>I</b>rrenunciable · <b>O</b>rden público</p>
 
 **Efectos →** el estado influye sobre:
-- la **capacidad** (mayor o menor de edad);
+- la **capacidad** (según tu estado, mayor o menor);
 - el **nombre** (ej.: el apellido del hijo o del cónyuge);
-- las **acciones de estado** (ver abajo);
-- el **derecho de familia** y el **hereditario** (quién hereda a quién).
+- las **acciones de estado**: genera derechos subjetivos para promoverlas (ver abajo);
+- el **derecho de familia** y el **hereditario** (quién hereda a quién);
+- **deberes**: impone **denunciar la orfandad o vacancia de tutela** de parientes menores de edad y **denunciar la demencia** de parientes. *Ej.: si un sobrino menor queda huérfano y sin tutor, la familia debe avisarlo.*
 
-<p class="nemo"><b>🧠 CNAF</b> → <b>C</b>apacidad · <b>N</b>ombre · <b>A</b>cciones · <b>F</b>amilia y herencia</p>
+<p class="nemo"><b>🧠 CNAF + D</b> → <b>C</b>apacidad · <b>N</b>ombre · <b>A</b>cciones · <b>F</b>amilia y herencia · + <b>D</b>eber de denunciar (orfandad y demencia)</p>
 
 **Acciones de estado →** sirven para defender el estado en un juicio:
 - **Reclamación →** pido que me reconozcan **mi** estado. *Ej.: un hijo que pide ser reconocido como hijo de su padre.*
 - **Contestación (impugnación) →** ataco el estado que **otro** se atribuye respecto de mí. *Ej.: un padre que impugna que alguien sea su hijo.*
 
-**Posesión de estado →** es **vivir de hecho** un estado aunque no haya papeles (título) que lo prueben. Requisitos:
-- **Nomen →** lleva el apellido.
-- **Tractus →** lo tratan como tal.
-- **Fama →** los demás lo conocen así.
+**Posesión de estado →** es **disfrutar de un estado de familia con independencia del título**, o sea, **vivir de hecho** un estado aunque no haya papeles que lo prueben. Para los romanos hacían falta tres requisitos:
+- **Nomen →** lleva el apellido que corresponde a ese estado.
+- **Tractus →** recibe el trato propio de ese estado.
+- **Fama →** los demás lo conocen así (publicidad).
 
 *Ej.: un chico que usa el apellido de un hombre, este lo trata como hijo y todo el barrio lo conoce como su hijo, aunque no esté anotado.*
 
 <p class="nemo"><b>🧠 NTF = Nombre · Trato · Fama</b></p>
 
-**Prueba →** el estado se prueba con las **partidas** del Registro del Estado Civil y Capacidad de las Personas, que son **instrumentos públicos**. Hay **5 libros** (en doble ejemplar):
+**Prueba →** el estado se prueba con las **partidas** del Registro del Estado Civil y Capacidad de las Personas. Las partidas, **sus testimonios y fotocopias**, son **instrumentos públicos**.
+
+**Contenido de cada partida →**
+- **F**echa y datos personales de los comparecientes.
+- **I**nscripción de los hechos denunciados o actos otorgados.
+- **T**ranscripción de sentencias u otros actos ante otros oficiales públicos.
+- **N**otas marginales (vinculan los distintos asientos entre sí).
+
+<p class="nemo"><b>🧠 F-I-T-N</b> → <b>F</b>echa y datos · <b>I</b>nscripción de hechos · <b>T</b>ranscripción de sentencias · <b>N</b>otas marginales</p>
+
+**Libros →** en principio **5**, en doble juego (más los que haga falta crear):
 
 <p class="nemo"><b>🧠 NAMDI</b> (en orden de la vida) → <b>N</b>acimientos y reconocimientos · <b>A</b>dopciones · <b>M</b>atrimonios · <b>D</b>efunciones · <b>I</b>nscripciones</p>
 
 </Definicion>
 
-<Definicion titulo="7 · El domicilio" pts={20} art="CCyC arts. 73-74" desglose={[["Definición + domicilio / residencia / habitación", 3], ["Importancia", 2], ["Legal: concepto, casos y caracteres", 5], ["Real: corpus + animus", 5], ["Prelación: gana el legal", 2], ["Especial vs. general", 3]]}>
+<Definicion titulo="7 · El domicilio" pts={25} art="CCyC arts. 73-74" desglose={[["Definición + domicilio / residencia / habitación", 3], ["Importancia", 2], ["Legal: concepto, sin prueba en contra y casos", 5], ["Legal: caracteres y domicilio de origen", 3], ["Real: corpus + animus y régimen", 6], ["Prelación: gana el legal", 2], ["Especial vs. general", 4]]}>
 
-El domicilio es **el asiento jurídico de la persona**: el lugar que la ley instituye como asiento de las personas para la producción de determinados efectos jurídicos. No es lo mismo que:
+**En criollo →** el domicilio es **la dirección que la ley usa para ubicarte** cuando hay que notificarte, demandarte o cobrarte. No es necesariamente donde dormís: es un lugar **jurídico**.
+
+**Definición de cátedra →** el domicilio es **el asiento jurídico de la persona**: el lugar que la ley instituye como asiento de las personas para la producción de determinados efectos jurídicos.
+
+**1. Domicilio, residencia y habitación →** no son lo mismo:
 
 | Noción | Qué es | Ej. |
 |---|---|---|
-| **Domicilio** | Noción **jurídica**: donde la ley te "ubica" | El que figura para notificarte |
-| **Residencia** | Donde vivís **habitualmente** | Tu casa |
-| **Habitación** | Donde estás **de paso** | El hotel de las vacaciones |
+| **Domicilio** | Noción **jurídica**: la ley te "ubica" en un lugar u otro según el caso | Donde te notifican |
+| **Residencia** | Noción **vulgar**: donde habitás **ordinariamente** (habitual y permanente) | Tu casa |
+| **Habitación** | Noción **vulgar**: donde estás **accidental o momentáneamente** | El hotel de vacaciones |
 
-**Importancia →** el domicilio define:
+La residencia a veces forma parte del domicilio: cuando la ley fija el domicilio **según tu residencia**.
+
+**2. Para qué sirve (importancia) →** el domicilio define:
+- **Le**y aplicable → qué ley te rige.
+- **Co**mpetencia → qué juez o autoridad te juzga.
+- **No**tificaciones → dónde te avisan válidamente.
+- **Pa**go → dónde el deudor cumple sus obligaciones.
 
 <p class="nemo"><b>🧠 LeCoNoPa</b> → <b>Le</b>y aplicable · <b>Co</b>mpetencia del juez · <b>No</b>tificaciones · <b>Pa</b>go (dónde se cumplen las obligaciones)</p>
 
-**Clases →** **general** (que se divide en **legal** y **real**) y **especial**.
+**3. Clases →** el **general** (el que rige casi todas tus relaciones jurídicas) se divide en **legal** y **real**; aparte está el **especial**.
 
-**1. Legal (art. 74) →** es el que **pone la ley**: el lugar donde presume, **sin admitir prueba en contra**, que la persona reside para ejercer sus derechos y cumplir sus obligaciones. Casos:
-- **Funcionarios públicos** → donde cumplen sus funciones (si no son temporarias).
+**4. Domicilio legal (art. 74) →** *en criollo: el que te pone la ley; vos no elegís.*
+
+Definición: es el lugar donde la ley **presume, sin admitir prueba en contra**, que una persona reside de manera permanente para ejercer sus derechos y cumplir sus obligaciones. **Solo la ley** puede establecerlo.
+
+- **"Sin admitir prueba en contra" →** la ley lo da por hecho y **no podés probar lo contrario** para cambiarlo. *Ej.: un juez federal destinado en Salta cuya familia vive en Córdoba: para la ley su domicilio es Salta, aunque demuestre que los fines de semana vive en Córdoba.*
+
+**Casos:**
+- **Funcionarios públicos** → donde cumplen sus funciones (si no son temporarias, periódicas o de simple comisión).
 - **Militares en servicio activo** → donde prestan servicio.
-- **Transeúntes o ambulantes** (sin domicilio conocido) → donde estén en ese momento.
-- **Incapaces** → el de sus representantes.
+- **Transeúntes o ambulantes** (sin domicilio conocido) → donde estén en ese momento (su residencia actual).
+- **Incapaces** → el de sus representantes. *Ej.: un nene tiene el domicilio de sus padres.*
 
 <p class="nemo"><b>🧠 FuMiTI</b> → <b>Fu</b>ncionarios · <b>Mi</b>litares · <b>T</b>ranseúntes · <b>I</b>ncapaces</p>
 
-| Carácter del legal | Significa |
+**Caracteres del legal →**
+
+| Carácter | Qué quiere decir |
 |---|---|
-| **Forzoso** | Lo impone la ley, no lo elegís (excepción: el militar puede mantener su real anterior) |
-| **Ficticio** | La ley supone que estás ahí aunque no sea real |
-| **Excepcional** | Solo en los casos que dice la ley, no se extiende a otros |
-| **Único** | Hay uno solo |
+| **Forzoso** | Lo impone la ley, no lo elegís |
+| **Ficticio** | La ley hace de cuenta que estás ahí, aunque no estés |
+| **Excepcional** | Solo en los casos de la lista; no se extiende por analogía (interpretación restrictiva) |
+| **Único** | Si se juntan varios hechos que lo generan, se toma solo uno |
+
+- **Excepción del militar →** su domicilio legal **no es tan forzoso**: la ley lo aplica **solo si no manifestó voluntad de mantener** su domicilio real anterior.
 
 <p class="nemo"><b>🧠 FFEU</b> ("fe-u") → <b>F</b>orzoso · <b>F</b>icticio · <b>E</b>xcepcional · <b>U</b>nico</p>
 
-El **domicilio de origen** es una especie de legal: el del **padre** al nacer, que **no es** el lugar de nacimiento.
+**Domicilio de origen →** es el **primer domicilio** de la persona: como el recién nacido es incapaz, tiene el **del padre al momento de nacer**. **No es** el lugar de nacimiento (puede coincidir o no). Es una especie de **domicilio legal**, porque lo impone la ley sin que intervenga tu voluntad.
 
-**2. Real (art. 73) →** es el que **elegís vos**: el lugar de tu **residencia habitual** (o donde trabajás, para las obligaciones de ese trabajo). Es real, voluntario y de libre elección. Tiene dos elementos:
-- **Corpus →** estar ahí físicamente (residir).
-- **Animus →** tener la intención de quedarte.
+**5. Domicilio real (art. 73) →** *en criollo: el que elegís vos, donde realmente vivís.*
 
-| Para… | Hace falta |
+Definición: la persona humana tiene domicilio real en el lugar de su **residencia habitual**; si ejerce actividad profesional o económica, lo tiene **donde la desempeña**, para las obligaciones de esa actividad.
+
+<p class="nemo"><b>🧠 RVL</b> → <b>R</b>eal (base: residencia efectiva) · <b>V</b>oluntario (depende de tu voluntad) · <b>L</b>ibre elección (elegís y trasladás cuando quieras)</p>
+
+**Dos elementos:**
+- **Corpus →** el elemento **material**: estar ahí físicamente, residir.
+- **Animus →** el elemento **intencional**: tener la intención de quedarte.
+
+**Cómo funciona:**
+
+| Etapa | Hace falta |
 |---|---|
-| **Constituirlo** | Los **dos** (corpus + animus) |
+| **Constituirlo** | Los **dos**: corpus **y** animus |
 | **Mantenerlo** | Con **uno** alcanza |
-| **Extinguirlo** | Constituir un **nuevo** domicilio |
+| **Extinguirlo** | Constituir **otro** domicilio (real o legal) |
 
-*Ej.: si te vas 6 meses de intercambio pero pensás volver, tu domicilio sigue (se mantiene con el animus).*
+- **Por qué para mantenerlo alcanza uno →** el domicilio dura **mientras uno de los dos siga en ese lugar**; recién se pierde cuando armás uno nuevo. Así no quedás nunca sin domicilio (es un atributo **necesario**).
+- *Ej. con animus: te vas 6 meses de intercambio pero pensás volver → seguís físicamente afuera, pero tu domicilio sigue.*
+- *Ej. con corpus: decidiste mudarte a Rosario (ya no tenés animus de quedarte), pero todavía vivís en tu casa de Córdoba → el domicilio sigue en Córdoba hasta que armes el nuevo.*
 
-**Prelación →** si el real choca con el legal, **gana el legal**.
+<p class="nemo"><b>🧠 C-M-E = 2 · 1 · Nuevo</b> → Constituir con 2 elementos · Mantener con 1 · Extinguir con un domicilio nuevo</p>
 
-**3. Especial →** lo fijan las partes en un **contrato** y vale solo para esa relación. *Ej.: en un alquiler fijás un domicilio para que te notifiquen.*
+**6. Prelación (qué pasa si chocan) →**
+- Dos domicilios **reales** no pueden chocar: el último **borra** al anterior.
+- Real vs. legal **sí** pueden chocar. **Gana el legal**, porque es **único** y desplaza al real.
+- Entonces esa persona solo tiene **residencia** en el otro lugar, pero **no domicilio real**. *Ej.: el juez federal de Salta con familia en Córdoba: en Córdoba solo tiene residencia.*
+
+| | Legal | Real |
+|---|---|---|
+| Quién lo fija | La ley | Vos |
+| Puede ser ficticio | Sí | No (hay residencia efectiva) |
+| Si chocan | **Gana** | Cede |
+
+**7. Domicilio especial →** *en criollo: el que fijan las partes para una relación puntual.* Produce efectos **limitados a una o varias relaciones jurídicas determinadas**. *Ej.: en un contrato de alquiler fijás un domicilio para que te notifiquen.*
+
+**Caracteres del especial:** **V**oluntario (lo deciden los interesados) · **C**ontractual (accesorio: dura mientras dura el contrato) · **T**ransmisible (con el contrato, a los herederos) · **I**nmutable (solo cambia por nuevo acuerdo de las partes). Además **no es necesario ni único** (tantos como contratos).
+
+<p class="nemo"><b>🧠 VCTI</b> → <b>V</b>oluntario · <b>C</b>ontractual · <b>T</b>ransmisible · <b>I</b>nmutable</p>
 
 | General | Especial |
 |---|---|
 | Necesario | No necesario |
 | Único | Puede haber varios (uno por contrato) |
-| Termina con la persona | Pasa a los herederos con el contrato |
-| Lo cambia la persona | Inmutable: solo cambia con nuevo acuerdo |
+| Imprescriptible e inalienable | No tiene esas notas |
+| Termina con la persona | Puede seguir: se transmite a los herederos con el contrato |
 
 </Definicion>
 
-<Definicion titulo="8 · Capacidad" pts={15} art="CCyC art. 22" desglose={[["Concepto", 3], ["De derecho: goce, en grado", 4], ["De hecho: ejercicio", 3], ["Incapaces de ejercicio", 3], ["Falta de la de hecho no quita la titularidad", 2]]}>
+<Definicion titulo="8 · Capacidad" pts={20} art="CCyC art. 22" desglose={[["Concepto + definición de cátedra", 3], ["De derecho: goce, humanas y jurídicas, art. 22", 4], ["En grado: por qué no falta ni es absoluta", 4], ["De hecho: ejercicio", 3], ["Incapaces de ejercicio + edades", 4], ["Falta de la de hecho no quita la titularidad", 2]]}>
 
-La capacidad es **la aptitud o idoneidad para ser titular de derechos y deberes y ejercerlos por sí mismo**. Tiene dos caras:
+**En criollo →** la capacidad tiene dos partes: poder **tener** derechos y deudas (ser titular) y poder **usarlos vos mismo** sin que decida otro por vos.
 
-| | De derecho (goce) | De hecho (ejercicio u obrar) |
+**Definición de cátedra →** la capacidad es **la aptitud o idoneidad para ser titular de derechos y deberes y ejercerlos por sí mismo**. De ahí sus dos caras: capacidad **de derecho** y capacidad **de hecho**.
+
+**1. Las dos caras →**
+
+| | De derecho (goce) | De hecho (ejercicio) |
 |---|---|---|
-| **Qué es** | Poder **ser titular** de derechos y obligaciones (**art. 22 CCyC**) | Poder **ejercerlos por uno mismo** |
+| **Qué es** | Poder **ser titular** de derechos y obligaciones | Poder **ejercerlos por uno mismo** |
 | **Quiénes** | Personas humanas **y** jurídicas | Con los límites del código y de las sentencias |
 | **¿Puede faltar?** | **No**: siempre existe **en grado** | **Sí** |
 | **Ej.** | Un bebé es dueño de una casa que heredó | El bebé no puede venderla solo: actúan sus padres |
 
-<p class="nemo"><b>🧠 Derecho = Tener · Hecho = Hacer</b></p>
+<p class="nemo"><b>🧠 Derecho = Tener (gozar) · Hecho = Hacer (ejercer)</b></p>
 
-**¿Por qué la de derecho es "en grado"? →** no puede **faltar del todo** (dejaríamos de ser personas) ni ser **absoluta** (el derecho se ejerce en función de los demás). Siempre hay algunas cosas que no podés tener.
+**2. Capacidad de derecho (de goce) →** es la aptitud para **adquirir derechos y contraer obligaciones**, en los casos, por el modo y en la forma que el propio Código determina (**art. 22 CCyC**). La tienen las personas **humanas y jurídicas**.
 
-**Incapaces de ejercicio →**
+**3. ¿Por qué es "en grado"? →** significa que existe siempre, pero **no es absoluta ni puede faltar**:
+- **No puede faltar del todo →** si no pudieras ser titular de ningún derecho, **dejarías de ser persona**.
+- **No puede ser absoluta →** tu derecho se ejerce **en función de los demás**; vivimos en comunidad. Siempre hay cosas que no podés tener. *Ej.: un juez no puede comprar los bienes que se rematan en su propio juicio.*
+
+**4. Capacidad de hecho (de ejercicio u obrar) →** es la aptitud para **ejercer** los derechos y cumplir las obligaciones **por uno mismo**, con las limitaciones previstas en el código y, eventualmente, en las **sentencias** que se dicten. *Ej.: firmar un contrato de alquiler vos solo.*
+
+**5. Incapaces de ejercicio →** están expresamente previstos en el CCyC:
 - La **persona por nacer**.
-- La persona que no tiene la **edad y el grado de madurez suficiente**.
+- La persona que **no tiene la edad y el grado de madurez suficiente** (alcance según la Sección 2ª, título I, Libro Primero del CCyC).
 
 <p class="nemo"><b>🧠 Nace y Madura</b> → la <b>persona por nacer</b> y la que todavía <b>no maduró</b></p>
 
-**Clave →** puede faltar la capacidad de hecho **sin que falte la de derecho**: el incapaz sigue siendo titular de sus derechos, solo que no los ejerce por sí mismo.
+**Relación con las edades (def. 1) →**
+
+| Edad | Categoría | Ejerce por sí |
+|---|---|---|
+| Por nacer | Persona por nacer | No (incapaz de ejercicio) |
+| Menos de 13 | Menor | En principio no |
+| 13 a 18 | Adolescente | Parcial (desde 13 ciertos tratamientos no invasivos; desde 16 más sobre su cuerpo) |
+| 18 | Persona capaz | Sí |
+
+> ⚠️ El material no desarrolla la incapacidad en detalle (restringida, inhabilitados, curatela, tutela). La regla "en principio los menores actúan por sus representantes, salvo los actos que la ley les permite" viene del art. 26 CCyC, no del material.
+
+**6. Clave →** puede faltar la capacidad de hecho **sin que falte la de derecho**: el incapaz de ejercicio **sigue siendo titular** de sus derechos, solo que no los ejerce por sí mismo. *Ej.: la persona por nacer ya es titular de derechos desde la concepción (def. 2), pero no puede ejercerlos sola.*
 
 </Definicion>
 
@@ -285,10 +450,10 @@ El patrimonio es **el conjunto de bienes de una persona**. **Bienes** son las **
 
 | Activo | Pasivo |
 |---|---|
-| Lo que **tengo**: cosas y derechos con valor económico | Lo que **debo**: deudas y obligaciones |
+| Lo que **tengo**: cosas y derechos con valor económico | Lo que **debo**: deudas y obligaciones contraídas |
 | *Ej.: un auto, una cuenta bancaria* | *Ej.: un préstamo, una cuota* |
 
-**Excluidos →** los **derechos personalísimos** (vida, honor, imagen) y los **de familia**, porque **no se pueden medir en plata**.
+**Excluidos →** los **derechos personalísimos** (vida, honor, imagen) y los **de familia**, porque **no se pueden medir en plata** (no son susceptibles de apreciación económica).
 
 **Caracteres →** necesario (todos tienen uno, aunque sea vacío), único e inalienable.
 
