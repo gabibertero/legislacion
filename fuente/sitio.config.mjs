@@ -15,28 +15,28 @@ export default {
   "prefijo": "legis:v2:",
   "paleta": {
     "claro": {
-      "acento": "#b3201f",
-      "acento2": "#7a5c0d",
-      "acento3": "#1e3a5f",
-      "fondo": "#fffaee",
-      "sup": "#fffdf7",
-      "sup2": "#f8f0dc",
-      "texto": "#2a1d1a",
-      "suave": "#625248",
-      "borde": "#e9dec5",
-      "borde-fuerte": "#b9a98a"
+      "acento": "#7a1f3d",
+      "acento2": "#8a6a1f",
+      "acento3": "#4a3b63",
+      "fondo": "#faf4e8",
+      "sup": "#fffdf9",
+      "sup2": "#f3eadb",
+      "texto": "#2b1d20",
+      "suave": "#645257",
+      "borde": "#e6dccb",
+      "borde-fuerte": "#b4a48f"
     },
     "oscuro": {
-      "acento": "#ee6f68",
-      "acento2": "#e3c25a",
-      "acento3": "#8fb3e0",
-      "fondo": "#171311",
-      "sup": "#211b18",
-      "sup2": "#2b2420",
-      "texto": "#f3ebdf",
-      "suave": "#bcaea0",
-      "borde": "#3a302b",
-      "borde-fuerte": "#6a5b52"
+      "acento": "#e594a8",
+      "acento2": "#dfc072",
+      "acento3": "#b9a6dc",
+      "fondo": "#181214",
+      "sup": "#221a1d",
+      "sup2": "#2c2226",
+      "texto": "#f4ebe6",
+      "suave": "#c0aeb2",
+      "borde": "#3a2d32",
+      "borde-fuerte": "#6b5860"
     }
   },
   "fuentes": {

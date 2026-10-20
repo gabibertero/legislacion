@@ -6,10 +6,10 @@
   --texto: #1d1b18; --suave: #5f5a52; --borde: #ddd7cc; --borde-fuerte: #b9b1a3;
   --sombra: 0 1px 2px rgb(40 30 10 / .06), 0 4px 14px rgb(40 30 10 / .06);
   --sombra-h: 0 2px 4px rgb(40 30 10 / .08), 0 10px 24px rgb(40 30 10 / .1);
-  --oficial: #1d4ed8; --oficial-fondo: #eef3fe;
+  --oficial: #7a1f3d; --oficial-fondo: #f8ecef;
   --elaborado: #0f6b45; --elaborado-fondo: #eaf6ef;
   --generado: #8a4b00; --generado-fondo: #fff3dc;
-  --pendiente: #a31d1d;
+  --pendiente: #a8400f;
   --e-pend: #5f5a52; --e-pend-bg: #ebe7df;
   --e-curso: #8a4b00; --e-curso-bg: #fff0cf;
   --e-ok: #0f6b45; --e-ok-bg: #dff3e7;
@@ -21,10 +21,10 @@
     --texto: #ece8e1; --suave: #aaa59c; --borde: #36343d; --borde-fuerte: #5a5764;
     --sombra: 0 1px 2px rgb(0 0 0 / .3), 0 4px 14px rgb(0 0 0 / .25);
     --sombra-h: 0 2px 4px rgb(0 0 0 / .35), 0 10px 24px rgb(0 0 0 / .35);
-    --oficial: #8db4ff; --oficial-fondo: #1b2438;
+    --oficial: #e594a8; --oficial-fondo: #2e1b22;
     --elaborado: #6fd6a2; --elaborado-fondo: #17291f;
     --generado: #ffc069; --generado-fondo: #33260f;
-    --pendiente: #ff9a9a;
+    --pendiente: #f0a27c;
     --e-pend: #c4bfb5; --e-pend-bg: #2e2c34;
     --e-curso: #ffc069; --e-curso-bg: #3a2c12;
     --e-ok: #6fd6a2; --e-ok-bg: #173324;
@@ -36,10 +36,10 @@
     --texto: #ece8e1; --suave: #aaa59c; --borde: #36343d; --borde-fuerte: #5a5764;
     --sombra: 0 1px 2px rgb(0 0 0 / .3), 0 4px 14px rgb(0 0 0 / .25);
     --sombra-h: 0 2px 4px rgb(0 0 0 / .35), 0 10px 24px rgb(0 0 0 / .35);
-    --oficial: #8db4ff; --oficial-fondo: #1b2438;
+    --oficial: #e594a8; --oficial-fondo: #2e1b22;
     --elaborado: #6fd6a2; --elaborado-fondo: #17291f;
     --generado: #ffc069; --generado-fondo: #33260f;
-    --pendiente: #ff9a9a;
+    --pendiente: #f0a27c;
     --e-pend: #c4bfb5; --e-pend-bg: #2e2c34;
     --e-curso: #ffc069; --e-curso-bg: #3a2c12;
     --e-ok: #6fd6a2; --e-ok-bg: #173324;
@@ -229,7 +229,7 @@ main > p { max-width: 46rem; }
 
 /* Lectura: machetes y teoría */
 .lectura { max-width: 72ch; padding: 18px 24px 22px; }
-.lectura[data-unidad] { border-left-color: var(--uc, var(--cap)); }
+
 .lectura h2 { font-size: 1.4rem; margin-top: 2rem; padding-top: .9rem; border-top: 1px solid var(--borde); }
 .lectura > .rotulo + h2 { border-top: 0; margin-top: .5rem; }
 .lectura h3 { font-size: 1.15rem; }
@@ -449,7 +449,7 @@ main .preg { border-top-color: var(--acento); }
 
 /* Resumen y machete: lectura cómoda */
 .lectura { max-width: 72ch; background: var(--sup); border: 1px solid var(--borde); border-radius: var(--r); box-shadow: var(--sombra); padding: 24px 32px 32px; line-height: 1.7; }
-.lectura[data-unidad] { border-left: 5px solid var(--acento); }
+
 .lectura h2 { font-size: 1.625rem; margin-top: 48px; padding-top: 24px; color: var(--acento); }
 .lectura h2:first-child { margin-top: 8px; padding-top: 0; border-top: 0; }
 .lectura h3 { font-size: 1.25rem; margin: 32px 0 8px; }
@@ -504,7 +504,7 @@ select, .pg-crono select, .ch-fila select, .tj-config select { min-height: 44px;
 .ch-card > p:first-child { margin-top: 0; }
 
 /* Índice del resumen/machete */
-.machete-indice { max-width: 70ch; margin: 1rem 0 1.5rem; padding: 12px 18px; background: var(--sup); border: 1px solid var(--borde); border-left: 4px solid var(--acento); border-radius: var(--r-s); }
+.machete-indice { max-width: 70ch; margin: 1rem 0 1.5rem; padding: 12px 18px; background: var(--sup); border: 1px solid var(--borde); border-radius: var(--r); box-shadow: var(--sombra); }
 .machete-indice-t { margin: 0 0 .4rem; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--suave); font-family: inherit; }
 .machete-indice ol { margin: 0; padding-left: 1.3rem; columns: 2 18rem; column-gap: 2rem; }
 .machete-indice li { padding: 3px 0; break-inside: avoid; }
@@ -570,3 +570,15 @@ input[type=checkbox], input[type=radio] { accent-color: var(--acento); }
   .lectura th, .lectura td, .resp th, .resp td { min-width: 9.5rem; }
 }
 .ia .ia-menu .ia-ops { position: static; margin-top: 6px; } /* se despliega dentro de la tarjeta, empuja el contenido en vez de taparlo */
+
+/* ===== Bordó: tablas compactas y prolijas (sin scroll horizontal en celular) ===== */
+.lectura table, .resp table { display: table; width: 100%; max-width: 100%; margin: 16px 0; border-collapse: separate; border-spacing: 0; border: 1px solid var(--borde); border-radius: var(--r-s); overflow: hidden; font-size: .9rem; line-height: 1.45; background: var(--sup); background-image: none; }
+.lectura th, .lectura td, .resp th, .resp td { min-width: 0; padding: 8px 12px; border: 0; border-bottom: 1px solid var(--borde); vertical-align: top; overflow-wrap: anywhere; background-clip: border-box; }
+.lectura tr > :not(:last-child), .resp tr > :not(:last-child) { border-right: 1px solid var(--borde); }
+.lectura thead th, .resp thead th { background: color-mix(in srgb, var(--acento) 9%, var(--sup)); color: var(--texto); font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; text-align: left; border-bottom: 1px solid color-mix(in srgb, var(--acento) 30%, var(--borde)); }
+.lectura tbody tr:nth-child(even) > *, .resp tbody tr:nth-child(even) > * { background: color-mix(in srgb, var(--sup2) 60%, var(--sup)); }
+.lectura tbody tr:last-child > *, .resp tbody tr:last-child > * { border-bottom: 0; }
+@media (max-width: 520px) { .lectura table, .resp table { font-size: .82rem; } .lectura th, .lectura td, .resp th, .resp td { padding: 6px 8px; } .lectura thead th, .resp thead th { font-size: .7rem; letter-spacing: .02em; } }
+/* Machete: las tarjetas viven directo sobre el fondo, sin caja contenedora */
+.lectura.machete { background: none; border: 0; box-shadow: none; padding: 0; }
+.lectura.machete > :not(.def) { padding-inline: 4px; }

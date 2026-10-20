@@ -1,0 +1,32 @@
+---
+// Tarjeta de definición de machete: <Definicion titulo="Persona" pts={20} art="art. 19" desglose={[["Concepto", 8], ["Clases", 6]]}>…</Definicion>
+const { titulo, pts, art, desglose = [] } = Astro.props;
+const id = titulo.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+---
+<section class="def" id={id}>
+  <header class="def-cab">
+    <h2 class="def-t">{titulo}</h2>
+    {art && <span class="def-art">{art}</span>}
+    <span class="def-pts" aria-label={`Vale ${pts} puntos`}>{pts} pts</span>
+  </header>
+  <div class="def-cuerpo"><slot /></div>
+  {desglose.length > 0 && (
+    <ul class="def-desglose" aria-label="Cómo se reparten los puntos">
+      {desglose.map(([q, p]) => <li><span>{q}</span><b>{p}</b></li>)}
+    </ul>
+  )}
+</section>
+<style is:global>
+  .def { background: var(--sup); border: 0; border-radius: var(--r); box-shadow: 0 1px 2px rgb(60 20 30 / .06), 0 6px 18px rgb(60 20 30 / .07); padding: 1.1rem 1.25rem; margin: 0 0 1.1rem; scroll-margin-top: 5rem; }
+  .def-cab { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem .6rem; margin-bottom: .5rem; }
+  .machete .def-t { margin: 0; font-size: 1.2rem; flex: 1 1 auto; border: 0; padding: 0; }
+  .def-art { font-size: .78rem; font-weight: 600; color: var(--suave); }
+  .def-pts { font-size: .8rem; font-weight: 700; color: var(--acento); background: color-mix(in srgb, var(--acento) 11%, var(--sup)); border-radius: 99px; padding: .2rem .7rem; letter-spacing: .01em; white-space: nowrap; }
+  .def-cuerpo > :first-child { margin-top: 0; }
+  .def-cuerpo > :last-child { margin-bottom: 0; }
+  .def-desglose { list-style: none; display: flex; flex-wrap: wrap; gap: .35rem; margin: .8rem 0 0; padding: .7rem 0 0; border-top: 1px solid var(--borde); }
+  .def-desglose li { display: inline-flex; gap: .4rem; font-size: .8rem; background: var(--sup2); border: 0; border-radius: 99px; padding: .2rem .65rem; margin: 0; }
+  .def-desglose b { color: var(--acento); }
+  .nemo { font-size: .9rem; background: color-mix(in srgb, var(--acento) 7%, var(--sup)); border-radius: var(--r-s); padding: .45rem .75rem; margin: .6rem 0; }
+  .nemo b { color: var(--acento); letter-spacing: .02em; }
+</style>
