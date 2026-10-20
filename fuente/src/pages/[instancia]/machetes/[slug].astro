@@ -49,7 +49,5 @@ const archivos = Object.entries(cfg.archivos ?? {});
   .machete-indice a:hover { background: color-mix(in srgb, var(--acento) 9%, var(--sup)); }
   .machete-indice a small { flex: none; font-weight: 700; font-size: .75rem; color: var(--acento); background: color-mix(in srgb, var(--acento) 11%, var(--sup)); border-radius: 99px; padding: 2px 10px; }
   .machete-arriba { position: fixed; right: 16px; bottom: 16px; z-index: 15; display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: 99px; background: var(--acento); color: var(--sobre-acento); font-weight: 600; font-size: .9rem; text-decoration: none; box-shadow: var(--sombra-h); opacity: .92; }
-  @supports (animation-timeline: scroll()) { .machete-arriba { opacity: 0; animation: arriba-in linear both; animation-timeline: scroll(); animation-range: 500px 800px; } }
-  @keyframes arriba-in { to { opacity: .92; } }
   .machete-arriba:hover { opacity: 1; }
 </style>
